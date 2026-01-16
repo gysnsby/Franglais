@@ -1,0 +1,10 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background: #fff;
+  color: #111;
+}
