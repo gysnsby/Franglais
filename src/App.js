@@ -5967,7 +5967,6 @@ export default function App() {
     setIndex(0);
     setRevealed(false);
   }
-  }
 
   function revealAndSpeak() {
     setRevealed(true);
