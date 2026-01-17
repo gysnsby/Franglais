@@ -4364,6 +4364,30 @@ const PHRASE_CARDS = [
   },
   {
     "type": "phrase",
+    "group": "Greetings & Politeness",
+    "newGroup": false,
+    "en": "Thank you",
+    "fr": "Merci.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Greetings & Politeness",
+    "newGroup": false,
+    "en": "Hello",
+    "fr": "Bonjour.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Greetings & Politeness",
+    "newGroup": false,
+    "en": "Good evening",
+    "fr": "Bonsoir.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
     "group": "Restaurant & Café",
     "newGroup": true,
     "en": "Go ahead / I’m listening",
@@ -4516,6 +4540,22 @@ const PHRASE_CARDS = [
   },
   {
     "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "Have a seat",
+    "fr": "Installez-vous.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "Is everything okay?",
+    "fr": "Tout va bien ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
     "group": "Menu & Ordering",
     "newGroup": true,
     "en": "The menu",
@@ -4592,6 +4632,14 @@ const PHRASE_CARDS = [
     "newGroup": false,
     "en": "Rare",
     "fr": "Saignant.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Menu & Ordering",
+    "newGroup": false,
+    "en": "A beer",
+    "fr": "Une bière.",
     "pos": "phrase"
   },
   {
@@ -4720,6 +4768,38 @@ const PHRASE_CARDS = [
     "newGroup": false,
     "en": "Do you speak English?",
     "fr": "Vous parlez anglais ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Hotels, Shops & Service",
+    "newGroup": false,
+    "en": "Do you have a reservation?",
+    "fr": "Avez-vous une réservation ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Hotels, Shops & Service",
+    "newGroup": false,
+    "en": "At what name, please?",
+    "fr": "Au nom de qui, s'il vous plaît ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Hotels, Shops & Service",
+    "newGroup": false,
+    "en": "One moment, please!",
+    "fr": "Un instant, s'il vous plaît !",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Hotels, Shops & Service",
+    "newGroup": false,
+    "en": "Sorry, I didn’t catch that",
+    "fr": "Je n'ai pas compris.",
     "pos": "phrase"
   },
   {
@@ -4956,82 +5036,754 @@ const PHRASE_CARDS = [
   },
   {
     "type": "phrase",
-    "group": "Menu & Ordering",
+    "group": "Shops & Markets",
     "newGroup": true,
-    "en": "A beer",
-    "fr": "Une bière.",
+    "en": "What is it for?",
+    "fr": "C’est pour quoi ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Hotels, Shops & Service",
+    "group": "Shops & Markets",
+    "newGroup": false,
+    "en": "Can I help you?",
+    "fr": "Je peux vous aider ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Shops & Markets",
+    "newGroup": false,
+    "en": "Are you looking for something?",
+    "fr": "Vous cherchez quelque chose ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Shops & Markets",
+    "newGroup": false,
+    "en": "Here you go (for you)",
+    "fr": "Voilà pour vous.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Shops & Markets",
+    "newGroup": false,
+    "en": "Is that all?",
+    "fr": "C’est tout ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Shops & Markets",
+    "newGroup": false,
+    "en": "Anything else?",
+    "fr": "Autre chose ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Shops & Markets",
+    "newGroup": false,
+    "en": "With this?",
+    "fr": "Avec ceci ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
     "newGroup": true,
-    "en": "Do you have a reservation?",
-    "fr": "Avez-vous une réservation ?",
+    "en": "How much is it?",
+    "fr": "Ça fera combien ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Hotels, Shops & Service",
+    "group": "Payment & Checkout",
     "newGroup": false,
-    "en": "At what name, please?",
-    "fr": "Au nom de qui, s'il vous plaît ?",
+    "en": "How much is it?",
+    "fr": "Ça fait combien ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Hotels, Shops & Service",
+    "group": "Payment & Checkout",
     "newGroup": false,
-    "en": "One moment, please!",
-    "fr": "Un instant, s'il vous plaît !",
+    "en": "It will be…",
+    "fr": "Ça fera…",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Hotels, Shops & Service",
+    "group": "Payment & Checkout",
     "newGroup": false,
-    "en": "Sorry, I didn’t catch that",
-    "fr": "Je n'ai pas compris.",
+    "en": "Cash or card?",
+    "fr": "En espèces ou par carte ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Greetings & Politeness",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "Card or cash?",
+    "fr": "Carte ou liquide ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "With or without a bag?",
+    "fr": "Avec ou sans sac ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "A bag?",
+    "fr": "Un sac ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "Receipt?",
+    "fr": "Ticket de caisse ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "Do you have a loyalty card?",
+    "fr": "Vous avez la carte de fidélité ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "Is that okay for you?",
+    "fr": "C’est bon pour vous ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "Thank you, have a good day",
+    "fr": "Merci, bonne journée.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "By card",
+    "fr": "Par carte.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "In cash",
+    "fr": "En espèces.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "Contactless",
+    "fr": "Sans contact.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "You can enter the code",
+    "fr": "Vous pouvez taper le code.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "It’s not going through",
+    "fr": "Ça ne passe pas.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "Try again, please",
+    "fr": "Recommencez, s’il vous plaît.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "It’s accepted",
+    "fr": "C’est accepté.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "It’s declined",
+    "fr": "C’est refusé.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "Do you have exact change?",
+    "fr": "Vous avez l’appoint ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "I don’t have change",
+    "fr": "Je n’ai pas la monnaie.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "Here’s your change",
+    "fr": "Voilà votre monnaie.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "Keep the change",
+    "fr": "Gardez la monnaie.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "It’s paid",
+    "fr": "C’est payé.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Payment & Checkout",
+    "newGroup": false,
+    "en": "All the best / take care",
+    "fr": "Bonne continuation.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Bakeries & Counters",
     "newGroup": true,
-    "en": "Thank you",
-    "fr": "Merci.",
+    "en": "Is that all?",
+    "fr": "Ce sera tout ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Greetings & Politeness",
+    "group": "Bakeries & Counters",
     "newGroup": false,
-    "en": "Hello",
-    "fr": "Bonjour.",
+    "en": "To go or eat in?",
+    "fr": "À emporter ou sur place ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Greetings & Politeness",
+    "group": "Bakeries & Counters",
     "newGroup": false,
-    "en": "Good evening",
-    "fr": "Bonsoir.",
+    "en": "Eat in",
+    "fr": "Sur place.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Restaurant & Café",
+    "group": "Bakeries & Counters",
+    "newGroup": false,
+    "en": "To go",
+    "fr": "À emporter.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Bakeries & Counters",
+    "newGroup": false,
+    "en": "It’ll be ready in a minute",
+    "fr": "Ce sera prêt dans une minute.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Bakeries & Counters",
+    "newGroup": false,
+    "en": "It’s coming",
+    "fr": "Ça arrive.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Bakeries & Counters",
+    "newGroup": false,
+    "en": "Here’s your order",
+    "fr": "Voilà votre commande.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Bakeries & Counters",
+    "newGroup": false,
+    "en": "It’s hot",
+    "fr": "C’est chaud.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Bakeries & Counters",
+    "newGroup": false,
+    "en": "Careful, it’s hot",
+    "fr": "Attention, c’est chaud.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Bakeries & Counters",
+    "newGroup": false,
+    "en": "Enjoy your meal",
+    "fr": "Bon appétit.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Clothes & Retail",
     "newGroup": true,
-    "en": "Have a seat",
-    "fr": "Installez-vous.",
+    "en": "What size is it?",
+    "fr": "C’est à quelle taille ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Restaurant & Café",
+    "group": "Clothes & Retail",
     "newGroup": false,
-    "en": "Is everything okay?",
-    "fr": "Tout va bien ?",
+    "en": "What size are you?",
+    "fr": "Vous faites quelle taille ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Clothes & Retail",
+    "newGroup": false,
+    "en": "Does it fit you?",
+    "fr": "Ça vous va ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Clothes & Retail",
+    "newGroup": false,
+    "en": "Too big",
+    "fr": "Trop grand.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Clothes & Retail",
+    "newGroup": false,
+    "en": "Too small",
+    "fr": "Trop petit.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Clothes & Retail",
+    "newGroup": false,
+    "en": "It’s too expensive",
+    "fr": "C’est trop cher.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Clothes & Retail",
+    "newGroup": false,
+    "en": "On sale",
+    "fr": "En solde.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Clothes & Retail",
+    "newGroup": false,
+    "en": "On special offer",
+    "fr": "En promotion.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Clothes & Retail",
+    "newGroup": false,
+    "en": "Out of stock",
+    "fr": "En rupture de stock.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Clothes & Retail",
+    "newGroup": false,
+    "en": "There aren’t any left",
+    "fr": "Il n’y en a plus.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Clothes & Retail",
+    "newGroup": false,
+    "en": "There’s one left",
+    "fr": "Il en reste un.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Clothes & Retail",
+    "newGroup": false,
+    "en": "The changing room is over there",
+    "fr": "La cabine est là-bas.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Supermarket & Directions",
+    "newGroup": true,
+    "en": "It’s on the shelf / aisle",
+    "fr": "C’est en rayon.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Supermarket & Directions",
+    "newGroup": false,
+    "en": "It’s at the back on the right",
+    "fr": "C’est au fond à droite.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Supermarket & Directions",
+    "newGroup": false,
+    "en": "Right there",
+    "fr": "Juste là.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Supermarket & Directions",
+    "newGroup": false,
+    "en": "Over there",
+    "fr": "Là-bas.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Supermarket & Directions",
+    "newGroup": false,
+    "en": "Next to",
+    "fr": "À côté.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Supermarket & Directions",
+    "newGroup": false,
+    "en": "Behind you",
+    "fr": "Derrière vous.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Supermarket & Directions",
+    "newGroup": false,
+    "en": "In front",
+    "fr": "Devant.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Supermarket & Directions",
+    "newGroup": false,
+    "en": "Opposite",
+    "fr": "En face.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Queues & Service",
+    "newGroup": true,
+    "en": "Are you waiting?",
+    "fr": "Vous attendez ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Queues & Service",
+    "newGroup": false,
+    "en": "Your turn",
+    "fr": "À vous.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Queues & Service",
+    "newGroup": false,
+    "en": "Next!",
+    "fr": "Suivant !",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Queues & Service",
+    "newGroup": false,
+    "en": "It’s closed",
+    "fr": "C’est fermé.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Queues & Service",
+    "newGroup": false,
+    "en": "It’s open",
+    "fr": "C’est ouvert.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Polite & Clarifying",
+    "newGroup": true,
+    "en": "Just a moment",
+    "fr": "Un petit instant.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Polite & Clarifying",
+    "newGroup": false,
+    "en": "I’m looking",
+    "fr": "Je regarde.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Polite & Clarifying",
+    "newGroup": false,
+    "en": "I’ll check",
+    "fr": "Je vérifie.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Polite & Clarifying",
+    "newGroup": false,
+    "en": "Sorry",
+    "fr": "Désolé(e).",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Polite & Clarifying",
+    "newGroup": false,
+    "en": "No problem",
+    "fr": "Pas de problème.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Polite & Clarifying",
+    "newGroup": false,
+    "en": "That’s not possible",
+    "fr": "C’est pas possible.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Polite & Clarifying",
+    "newGroup": false,
+    "en": "Unfortunately no",
+    "fr": "Malheureusement non.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Polite & Clarifying",
+    "newGroup": false,
+    "en": "Right away",
+    "fr": "Tout de suite.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Polite & Clarifying",
+    "newGroup": false,
+    "en": "As you like",
+    "fr": "Comme vous voulez.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Polite & Clarifying",
+    "newGroup": false,
+    "en": "If you want",
+    "fr": "Si vous voulez.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Market Stall",
+    "newGroup": true,
+    "en": "How much is it?",
+    "fr": "C’est combien ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Market Stall",
+    "newGroup": false,
+    "en": "How much per kilo?",
+    "fr": "C’est combien le kilo ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Market Stall",
+    "newGroup": false,
+    "en": "That one",
+    "fr": "Celui-là.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Market Stall",
+    "newGroup": false,
+    "en": "Those ones",
+    "fr": "Ceux-là.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Market Stall",
+    "newGroup": false,
+    "en": "Like that",
+    "fr": "Comme ça.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Market Stall",
+    "newGroup": false,
+    "en": "A bit more",
+    "fr": "Un peu plus.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Market Stall",
+    "newGroup": false,
+    "en": "A bit less",
+    "fr": "Un peu moins.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Market Stall",
+    "newGroup": false,
+    "en": "That’s enough",
+    "fr": "Ça suffit.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Market Stall",
+    "newGroup": false,
+    "en": "Perfect like that",
+    "fr": "Parfait comme ça.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Market Stall",
+    "newGroup": false,
+    "en": "There you go, thanks",
+    "fr": "Voilà, merci.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Goodbyes",
+    "newGroup": true,
+    "en": "Have a good day (to you)",
+    "fr": "Bonne journée à vous.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Goodbyes",
+    "newGroup": false,
+    "en": "Have a good end of day",
+    "fr": "Bonne fin de journée.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Goodbyes",
+    "newGroup": false,
+    "en": "Have a good evening",
+    "fr": "Bonne soirée.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Goodbyes",
+    "newGroup": false,
+    "en": "See you soon",
+    "fr": "À bientôt.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Goodbyes",
+    "newGroup": false,
+    "en": "Thanks, goodbye",
+    "fr": "Merci, au revoir.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Goodbyes",
+    "newGroup": false,
+    "en": "See you next time",
+    "fr": "À la prochaine.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Goodbyes",
+    "newGroup": false,
+    "en": "Take care",
+    "fr": "Prenez soin de vous.",
     "pos": "phrase"
   }
 ];
@@ -5160,7 +5912,6 @@ export default function App() {
   const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
   const [autoPlay, setAutoPlay] = useState(false);
-  const [speakingTurn, setSpeakingTurn] = useState(false);
 
   const autoTimersRef = useRef([]);
   const total = deck.length;
@@ -5177,7 +5928,6 @@ export default function App() {
     const idx = Number.isFinite(saved) ? clamp(saved, 0, Math.max(0, total - 1)) : 0;
     setIndex(idx);
     setRevealed(false);
-    setSpeakingTurn(false);
   }, [mode, total]);
 
   // Persist mode choice
@@ -5190,6 +5940,7 @@ export default function App() {
     const key = mode === "phrases" ? STORAGE_KEYS.phrasesIndex : STORAGE_KEYS.wordsIndex;
     window.localStorage.setItem(key, String(index));
   }, [index, mode]);
+
 
   const card = deck[index] || null;
 
@@ -5206,7 +5957,6 @@ export default function App() {
   function nextCard() {
     clearAutoTimers();
     setRevealed(false);
-    setSpeakingTurn(false);
     setIndex((i) => clamp(i + 1, 0, total - 1));
   }
 
@@ -5216,24 +5966,10 @@ export default function App() {
     window.localStorage.removeItem(key);
     setIndex(0);
     setRevealed(false);
-    setSpeakingTurn(false);
-  }
-
-  function startTurn() {
-    clearAutoTimers();
-    setSpeakingTurn(true);
-
-    // if autoplay, we will reveal automatically after a short window
-    if (autoPlay) {
-      queueAuto(() => {
-        revealAndSpeak();
-      }, 1600);
-    }
   }
 
   function revealAndSpeak() {
     setRevealed(true);
-    setSpeakingTurn(false);
     if (!card) return;
     safeSpeak(card.fr, "fr-FR");
 
@@ -5241,21 +5977,19 @@ export default function App() {
       // advance after speech starts; conservative delay
       queueAuto(() => {
         if (index < total - 1) nextCard();
-      }, 2200);
+      }, 4200);
     }
   }
 
-  // Auto-flow: if autoplay is turned on and a new card appears, automatically prompt (mic highlight),
-  // then reveal, then move on.
+  // Auto-flow: if autoplay is on, reveal + speak, then advance.
   useEffect(() => {
     clearAutoTimers();
     if (!autoPlay) return;
 
     setRevealed(false);
-    setSpeakingTurn(true);
     queueAuto(() => {
       revealAndSpeak();
-    }, 1600);
+    }, 3600);
 
     return () => clearAutoTimers();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -5307,8 +6041,8 @@ export default function App() {
             <div style={{ fontSize: 22, fontWeight: 800, lineHeight: 1.1 }}>{PRODUCT_NAME}</div>
             <div style={{ marginTop: 4, color: "#555", fontSize: 13 }}>
               {mode === "words"
-                ? "Words grouped by rule (includes identical spelling)."
-                : "France-only phrases you will HEAR in restaurants, shops, hotels and travel."}
+                ? "Franglais words grouped by rule (includes identical spelling)."
+                : "Everyday French phrases you will HEAR in shops, cafés and day-to-day service."}
             </div>
           </div>
 
@@ -5329,8 +6063,8 @@ export default function App() {
                 fontWeight: 700,
               }}
             >
-              <option value="words">Words</option>
-              <option value="phrases">Everyday French (France)</option>
+              <option value="words">Franglish Words</option>
+              <option value="phrases">Everyday Phrases</option>
             </select>
           </div>
         </div>
@@ -5376,8 +6110,7 @@ export default function App() {
             <button
               onClick={() => {
                 if (!revealed) {
-                  if (!speakingTurn) startTurn();
-                  else revealAndSpeak();
+                  revealAndSpeak();
                 } else {
                   safeSpeak(card.fr, "fr-FR");
                 }
@@ -5390,21 +6123,15 @@ export default function App() {
                 gap: 10,
                 padding: 12,
                 borderRadius: 16,
-                border: speakingTurn && !revealed ? "2px solid #111" : "1px solid #ddd",
-                background: speakingTurn && !revealed ? "#111" : "white",
-                color: speakingTurn && !revealed ? "white" : "#111",
+                border: "1px solid #ddd",
+                background: "white",
+                color: "#111",
                 fontWeight: 800,
                 cursor: "pointer",
               }}
-              title={
-                revealed
-                  ? "Replay French audio"
-                  : speakingTurn
-                  ? "Reveal + play French"
-                  : "Start (ready to attempt)"
-              }
+              title={revealed ? "Replay French audio" : "Reveal + play French"}
             >
-              {revealed ? "Replay" : speakingTurn ? "Reveal" : "Mic"}
+              {revealed ? "Replay" : "Reveal"}
             </button>
           </div>
 
@@ -5423,7 +6150,7 @@ export default function App() {
               {revealed ? card.fr : "—"}
             </div>
             <div style={{ marginTop: 6, fontSize: 12, color: "#666" }}>
-              {revealed ? "Tap Replay to hear it again." : "Tap Mic when you're ready."}
+              {revealed ? "Tap Replay to hear it again." : "Tap Reveal to show + hear the French."}
             </div>
           </div>
         </div>
@@ -5454,7 +6181,6 @@ export default function App() {
               onClick={() => {
                 clearAutoTimers();
                 setRevealed(false);
-                setSpeakingTurn(false);
                 setAutoPlay((v) => !v);
               }}
               style={{
@@ -5493,7 +6219,7 @@ export default function App() {
         </div>
 
         <div style={{ marginTop: 10, fontSize: 12, color: "#777" }}>
-          Tip: The mic button is a timing cue. We don’t record your voice. You control the pace — or use Auto Play.
+          Tip: Use Next to move through cards. Tap the bar to hear the French again.
         </div>
       </div>
     </div>
