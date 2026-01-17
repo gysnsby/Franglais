@@ -3685,7 +3685,6 @@ export default function App() {
       if (timerRef.current) clearInterval(timerRef.current);
       clearAutoTimers();
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
 
@@ -3807,7 +3806,6 @@ export default function App() {
         startTurn();
       }, 250);
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [autoPlay, index, revealed, speakingTurn, total]);
 
   useEffect(() => {
@@ -3820,7 +3818,6 @@ export default function App() {
         nextCard();
       }, 1200);
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [autoPlay, revealed]);
 
 
