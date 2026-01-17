@@ -5785,6 +5785,913 @@ const PHRASE_CARDS = [
     "en": "Take care",
     "fr": "Prenez soin de vous.",
     "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Customer requests (structures)",
+    "newGroup": true,
+    "en": "I’d like a coffee",
+    "fr": "Je voudrais un café.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Customer requests (structures)",
+    "newGroup": false,
+    "en": "I want to buy this",
+    "fr": "Je veux acheter ça.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Customer requests (structures)",
+    "newGroup": false,
+    "en": "I’ll take that one",
+    "fr": "Je prends celui-là.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Customer requests (structures)",
+    "newGroup": false,
+    "en": "I’m looking for something simple",
+    "fr": "Je cherche quelque chose de simple.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Customer requests (structures)",
+    "newGroup": false,
+    "en": "I’m looking for a practical option",
+    "fr": "Je cherche une option pratique.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Customer requests (structures)",
+    "newGroup": false,
+    "en": "Do you have a simple model?",
+    "fr": "Vous avez un modèle simple ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Customer requests (structures)",
+    "newGroup": false,
+    "en": "Is there a standard version?",
+    "fr": "Il y a une version standard ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Customer requests (structures)",
+    "newGroup": false,
+    "en": "That’s perfect",
+    "fr": "C’est parfait.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Customer requests (structures)",
+    "newGroup": false,
+    "en": "That’s fine",
+    "fr": "C’est bon.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Customer requests (structures)",
+    "newGroup": false,
+    "en": "One more, please",
+    "fr": "Encore un, s’il vous plaît.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Customer requests (structures)",
+    "newGroup": false,
+    "en": "A bit more, please",
+    "fr": "Un peu plus, s’il vous plaît.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Customer requests (structures)",
+    "newGroup": false,
+    "en": "A bit less, please",
+    "fr": "Un peu moins, s’il vous plaît.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Customer requests (structures)",
+    "newGroup": false,
+    "en": "Like that, please",
+    "fr": "Comme ça, s’il vous plaît.",
+    "pos": "phrase"
+  }
+];
+
+const COMBO_CARDS = [
+  {
+    "type": "combo",
+    "group": "Wanting & choosing (templates)",
+    "newGroup": true,
+    "fr": "Je veux + nom",
+    "en": "I want + noun",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Wanting & choosing (templates)",
+    "newGroup": false,
+    "fr": "Je voudrais + nom",
+    "en": "I’d like + noun",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Wanting & choosing (templates)",
+    "newGroup": false,
+    "fr": "Je prends + nom",
+    "en": "I’ll take + noun",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Wanting & choosing (templates)",
+    "newGroup": false,
+    "fr": "Je cherche + nom",
+    "en": "I’m looking for + noun",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Wanting & choosing (templates)",
+    "newGroup": false,
+    "fr": "Je prends celui-là.",
+    "en": "I’ll take that one.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Wanting & choosing (templates)",
+    "newGroup": false,
+    "fr": "Je prends les deux.",
+    "en": "I’ll take both.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Wanting & choosing (templates)",
+    "newGroup": false,
+    "fr": "Je veux juste ça.",
+    "en": "I just want that.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Wanting & choosing (templates)",
+    "newGroup": false,
+    "fr": "Je veux une option simple.",
+    "en": "I want a simple option.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Wanting & choosing (templates)",
+    "newGroup": false,
+    "fr": "Je prends la version classique.",
+    "en": "I’ll take the classic version.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Wanting & choosing (templates)",
+    "newGroup": false,
+    "fr": "Je cherche quelque chose de pratique.",
+    "en": "I’m looking for something practical.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Quantity & adjustment",
+    "newGroup": true,
+    "fr": "Un peu plus.",
+    "en": "A bit more.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Quantity & adjustment",
+    "newGroup": false,
+    "fr": "Un peu moins.",
+    "en": "A bit less.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Quantity & adjustment",
+    "newGroup": false,
+    "fr": "Comme ça.",
+    "en": "Like that.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Quantity & adjustment",
+    "newGroup": false,
+    "fr": "Ça suffit.",
+    "en": "That’s enough.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Quantity & adjustment",
+    "newGroup": false,
+    "fr": "Parfait comme ça.",
+    "en": "Perfect like that.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Quantity & adjustment",
+    "newGroup": false,
+    "fr": "Encore un.",
+    "en": "One more.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Quantity & adjustment",
+    "newGroup": false,
+    "fr": "Juste un.",
+    "en": "Just one.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Quantity & adjustment",
+    "newGroup": false,
+    "fr": "Les deux.",
+    "en": "Both.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Quantity & adjustment",
+    "newGroup": false,
+    "fr": "Celui-ci.",
+    "en": "This one.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Quantity & adjustment",
+    "newGroup": false,
+    "fr": "Ceux-là.",
+    "en": "Those ones.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Food & drink",
+    "newGroup": true,
+    "fr": "Je prends un café.",
+    "en": "I’ll have a coffee.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Food & drink",
+    "newGroup": false,
+    "fr": "Un café allongé.",
+    "en": "A long coffee (espresso + water).",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Food & drink",
+    "newGroup": false,
+    "fr": "Un dessert aussi.",
+    "en": "A dessert as well.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Food & drink",
+    "newGroup": false,
+    "fr": "Avec de l’eau.",
+    "en": "With water.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Food & drink",
+    "newGroup": false,
+    "fr": "Sans sucre.",
+    "en": "Without sugar.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Food & drink",
+    "newGroup": false,
+    "fr": "Sur place.",
+    "en": "Eat in.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Food & drink",
+    "newGroup": false,
+    "fr": "À emporter.",
+    "en": "To go.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Food & drink",
+    "newGroup": false,
+    "fr": "Pour ici.",
+    "en": "For here.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Food & drink",
+    "newGroup": false,
+    "fr": "Pour plus tard.",
+    "en": "For later.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Food & drink",
+    "newGroup": false,
+    "fr": "Bon appétit !",
+    "en": "Enjoy your meal!",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Opinions",
+    "newGroup": true,
+    "fr": "C’est bon.",
+    "en": "It’s good / OK.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Opinions",
+    "newGroup": false,
+    "fr": "C’est très bon.",
+    "en": "It’s very good.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Opinions",
+    "newGroup": false,
+    "fr": "C’est simple.",
+    "en": "It’s simple.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Opinions",
+    "newGroup": false,
+    "fr": "C’est pratique.",
+    "en": "It’s practical.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Opinions",
+    "newGroup": false,
+    "fr": "C’est possible.",
+    "en": "It’s possible.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Opinions",
+    "newGroup": false,
+    "fr": "C’est correct.",
+    "en": "It’s correct / fine.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Opinions",
+    "newGroup": false,
+    "fr": "C’est parfait.",
+    "en": "It’s perfect.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Opinions",
+    "newGroup": false,
+    "fr": "C’est trop cher.",
+    "en": "It’s too expensive.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Opinions",
+    "newGroup": false,
+    "fr": "C’est une bonne option.",
+    "en": "It’s a good option.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Opinions",
+    "newGroup": false,
+    "fr": "Pas de problème.",
+    "en": "No problem.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Money & transaction",
+    "newGroup": true,
+    "fr": "C’est combien ?",
+    "en": "How much is it?",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Money & transaction",
+    "newGroup": false,
+    "fr": "Le total, s’il vous plaît.",
+    "en": "The total, please.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Money & transaction",
+    "newGroup": false,
+    "fr": "Par carte.",
+    "en": "By card.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Money & transaction",
+    "newGroup": false,
+    "fr": "En espèces.",
+    "en": "In cash.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Money & transaction",
+    "newGroup": false,
+    "fr": "Sans contact.",
+    "en": "Contactless.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Money & transaction",
+    "newGroup": false,
+    "fr": "C’est payé.",
+    "en": "It’s paid.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Money & transaction",
+    "newGroup": false,
+    "fr": "Gardez la monnaie.",
+    "en": "Keep the change.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Money & transaction",
+    "newGroup": false,
+    "fr": "Le prix est correct.",
+    "en": "The price is fair.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Money & transaction",
+    "newGroup": false,
+    "fr": "C’est trop cher pour moi.",
+    "en": "It’s too expensive for me.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Money & transaction",
+    "newGroup": false,
+    "fr": "D’accord.",
+    "en": "OK / agreed.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Clarifying yourself",
+    "newGroup": true,
+    "fr": "Un instant.",
+    "en": "One moment.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Clarifying yourself",
+    "newGroup": false,
+    "fr": "Je regarde.",
+    "en": "I’m looking.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Clarifying yourself",
+    "newGroup": false,
+    "fr": "Je vérifie.",
+    "en": "I’m checking.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Clarifying yourself",
+    "newGroup": false,
+    "fr": "Je ne comprends pas.",
+    "en": "I don’t understand.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Clarifying yourself",
+    "newGroup": false,
+    "fr": "Pardon ?",
+    "en": "Sorry? / Pardon?",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Clarifying yourself",
+    "newGroup": false,
+    "fr": "Vous pouvez répéter ?",
+    "en": "Can you repeat?",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Clarifying yourself",
+    "newGroup": false,
+    "fr": "Comme vous voulez.",
+    "en": "As you like.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Clarifying yourself",
+    "newGroup": false,
+    "fr": "Si vous voulez.",
+    "en": "If you want.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Clarifying yourself",
+    "newGroup": false,
+    "fr": "Bien sûr.",
+    "en": "Of course.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Clarifying yourself",
+    "newGroup": false,
+    "fr": "Voilà.",
+    "en": "There you go.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Reusable frames",
+    "newGroup": true,
+    "fr": "Je veux + nom + simple.",
+    "en": "I want + simple + noun.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Reusable frames",
+    "newGroup": false,
+    "fr": "Je prends + nom + classique.",
+    "en": "I’ll take + classic + noun.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Reusable frames",
+    "newGroup": false,
+    "fr": "Je cherche + nom + pratique.",
+    "en": "I’m looking for + practical + noun.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Reusable frames",
+    "newGroup": false,
+    "fr": "C’est + adjectif.",
+    "en": "It’s + adjective.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Reusable frames",
+    "newGroup": false,
+    "fr": "C’est trop + adjectif.",
+    "en": "It’s too + adjective.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Reusable frames",
+    "newGroup": false,
+    "fr": "Très + adjectif.",
+    "en": "Very + adjective.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Reusable frames",
+    "newGroup": false,
+    "fr": "Un peu + adjectif.",
+    "en": "A bit + adjective.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Reusable frames",
+    "newGroup": false,
+    "fr": "Avec + nom.",
+    "en": "With + noun.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Reusable frames",
+    "newGroup": false,
+    "fr": "Sans + nom.",
+    "en": "Without + noun.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Reusable frames",
+    "newGroup": false,
+    "fr": "Pour + nom.",
+    "en": "For + noun.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Movement & closings",
+    "newGroup": true,
+    "fr": "Je reste ici.",
+    "en": "I’m staying here.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Movement & closings",
+    "newGroup": false,
+    "fr": "Je pars maintenant.",
+    "en": "I’m leaving now.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Movement & closings",
+    "newGroup": false,
+    "fr": "À bientôt.",
+    "en": "See you soon.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Movement & closings",
+    "newGroup": false,
+    "fr": "Bonne journée.",
+    "en": "Have a good day.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Movement & closings",
+    "newGroup": false,
+    "fr": "Bonne soirée.",
+    "en": "Have a good evening.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Movement & closings",
+    "newGroup": false,
+    "fr": "À la prochaine.",
+    "en": "See you next time.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Movement & closings",
+    "newGroup": false,
+    "fr": "Merci beaucoup.",
+    "en": "Thanks a lot.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Movement & closings",
+    "newGroup": false,
+    "fr": "Merci bien.",
+    "en": "Thanks very much.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Movement & closings",
+    "newGroup": false,
+    "fr": "Merci, au revoir.",
+    "en": "Thanks, goodbye.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Movement & closings",
+    "newGroup": false,
+    "fr": "Bonne continuation.",
+    "en": "All the best / take care.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Confidence builders",
+    "newGroup": true,
+    "fr": "Je veux acheter un melon.",
+    "en": "I want to buy a melon.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Confidence builders",
+    "newGroup": false,
+    "fr": "Je voudrais un café.",
+    "en": "I’d like a coffee.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Confidence builders",
+    "newGroup": false,
+    "fr": "Je prends une banane.",
+    "en": "I’ll take a banana.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Confidence builders",
+    "newGroup": false,
+    "fr": "Je cherche un produit simple.",
+    "en": "I’m looking for a simple product.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Confidence builders",
+    "newGroup": false,
+    "fr": "C’est une option pratique.",
+    "en": "It’s a practical option.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Confidence builders",
+    "newGroup": false,
+    "fr": "Un modèle classique.",
+    "en": "A classic model.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Confidence builders",
+    "newGroup": false,
+    "fr": "Une solution simple.",
+    "en": "A simple solution.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Confidence builders",
+    "newGroup": false,
+    "fr": "Une version standard.",
+    "en": "A standard version.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Confidence builders",
+    "newGroup": false,
+    "fr": "Parfait comme ça.",
+    "en": "Perfect like that.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Confidence builders",
+    "newGroup": false,
+    "fr": "Voilà, merci.",
+    "en": "There you go, thanks.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Polite power words",
+    "newGroup": true,
+    "fr": "S’il vous plaît.",
+    "en": "Please.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Polite power words",
+    "newGroup": false,
+    "fr": "Merci.",
+    "en": "Thanks.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Polite power words",
+    "newGroup": false,
+    "fr": "Merci beaucoup.",
+    "en": "Thanks a lot.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Polite power words",
+    "newGroup": false,
+    "fr": "Pas de problème.",
+    "en": "No problem.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Polite power words",
+    "newGroup": false,
+    "fr": "D’accord.",
+    "en": "OK.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Polite power words",
+    "newGroup": false,
+    "fr": "Bien sûr.",
+    "en": "Of course.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Polite power words",
+    "newGroup": false,
+    "fr": "Comme ça.",
+    "en": "Like that.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Polite power words",
+    "newGroup": false,
+    "fr": "Voilà.",
+    "en": "There you go.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Polite power words",
+    "newGroup": false,
+    "fr": "Très bien.",
+    "en": "Very good.",
+    "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "Polite power words",
+    "newGroup": false,
+    "fr": "C’est bon.",
+    "en": "That’s fine.",
+    "pos": "combo"
   }
 ];
 
@@ -5792,6 +6699,7 @@ const STORAGE_KEYS = {
   mode: "df_mode_v1",
   wordsIndex: "df_words_index_v1",
   phrasesIndex: "df_phrases_index_v1",
+  combosIndex: "df_combos_index_v1",
 };
 
 // --- TTS: force a real French voice when available (iOS-friendly) ---
@@ -5904,10 +6812,10 @@ function clamp(n, min, max) {
 export default function App() {
   const [mode, setMode] = useState(() => {
     const saved = window.localStorage.getItem(STORAGE_KEYS.mode);
-    return saved === "phrases" ? "phrases" : "words";
+    return saved === "phrases" ? "phrases" : saved === "combos" ? "combos" : "words";
   });
 
-  const deck = useMemo(() => (mode === "phrases" ? PHRASE_CARDS : WORD_CARDS), [mode]);
+  const deck = useMemo(() => (mode === "phrases" ? PHRASE_CARDS : mode === "combos" ? COMBO_CARDS : WORD_CARDS), [mode]);
 
   const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
@@ -5923,7 +6831,7 @@ export default function App() {
 
   // Load per-mode progress on mode change
   useEffect(() => {
-    const key = mode === "phrases" ? STORAGE_KEYS.phrasesIndex : STORAGE_KEYS.wordsIndex;
+    const key = mode === "phrases" ? STORAGE_KEYS.phrasesIndex : mode === "combos" ? STORAGE_KEYS.combosIndex : STORAGE_KEYS.wordsIndex;
     const saved = parseInt(window.localStorage.getItem(key) || "0", 10);
     const idx = Number.isFinite(saved) ? clamp(saved, 0, Math.max(0, total - 1)) : 0;
     setIndex(idx);
@@ -5937,7 +6845,7 @@ export default function App() {
 
   // Persist index per mode
   useEffect(() => {
-    const key = mode === "phrases" ? STORAGE_KEYS.phrasesIndex : STORAGE_KEYS.wordsIndex;
+    const key = mode === "phrases" ? STORAGE_KEYS.phrasesIndex : mode === "combos" ? STORAGE_KEYS.combosIndex : STORAGE_KEYS.wordsIndex;
     window.localStorage.setItem(key, String(index));
   }, [index, mode]);
 
@@ -5962,7 +6870,7 @@ export default function App() {
 
   function resetProgress() {
     clearAutoTimers();
-    const key = mode === "phrases" ? STORAGE_KEYS.phrasesIndex : STORAGE_KEYS.wordsIndex;
+    const key = mode === "phrases" ? STORAGE_KEYS.phrasesIndex : mode === "combos" ? STORAGE_KEYS.combosIndex : STORAGE_KEYS.wordsIndex;
     window.localStorage.removeItem(key);
     setIndex(0);
     setRevealed(false);
@@ -6000,6 +6908,9 @@ export default function App() {
     if (!card) return "";
     if (card.type === "phrase") {
       return "Listen for the French phrase (try to repeat it).";
+    }
+    if (card.type === "combo") {
+      return "Say the French sentence (or pattern).";
     }
     const pos = card.pos === "verb" ? "verb" : "word";
     return pos === "verb" ? "Say the French verb." : "Say the French word.";
@@ -6042,7 +6953,9 @@ export default function App() {
             <div style={{ marginTop: 4, color: "#555", fontSize: 13 }}>
               {mode === "words"
                 ? "Franglais words grouped by rule (includes identical spelling)."
-                : "Everyday French phrases you will HEAR in shops, cafés and day-to-day service."}
+                : mode === "phrases"
+                ? "Everyday French you will HEAR in shops, cafés and day-to-day service."
+                : "High-leverage sentence patterns you can reuse to SPEAK."}
             </div>
           </div>
 
@@ -6065,6 +6978,7 @@ export default function App() {
             >
               <option value="words">Franglish Words</option>
               <option value="phrases">Everyday Phrases</option>
+              <option value="combos">Crucial Combos</option>
             </select>
           </div>
         </div>
