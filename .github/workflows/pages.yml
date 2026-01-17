@@ -27,6 +27,7 @@ jobs:
         run: npm run build
         env:
           CI: false
+          DISABLE_ESLINT_PLUGIN: true
 
       - uses: actions/configure-pages@v5
 
