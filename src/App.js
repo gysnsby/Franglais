@@ -3672,9 +3672,22 @@ export default function App() {
   const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
 
+  const [autoPlay, setAutoPlay] = useState(false); // toggle
+
   const [speakingTurn, setSpeakingTurn] = useState(false);
   const [turnMsLeft, setTurnMsLeft] = useState(0);
   const timerRef = useRef(null);
+  const autoStartRef = useRef(null);
+  const autoNextRef = useRef(null);
+
+  useEffect(() => {
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+      clearAutoTimers();
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
 
   useEffect(() => {
     if (!("speechSynthesis" in window)) return;
@@ -3701,11 +3714,23 @@ export default function App() {
     saveProgress(tier, index);
   }, [tier, index]);
 
+  function clearAutoTimers() {
+    if (autoStartRef.current) {
+      clearTimeout(autoStartRef.current);
+      autoStartRef.current = null;
+    }
+    if (autoNextRef.current) {
+      clearTimeout(autoNextRef.current);
+      autoNextRef.current = null;
+    }
+  }
+
   function stopTurnAndReveal() {
     if (timerRef.current) {
       clearInterval(timerRef.current);
       timerRef.current = null;
     }
+    clearAutoTimers();
     setSpeakingTurn(false);
     setTurnMsLeft(0);
     setRevealed(true);
@@ -3738,6 +3763,7 @@ export default function App() {
       clearInterval(timerRef.current);
       timerRef.current = null;
     }
+    clearAutoTimers();
     setSpeakingTurn(false);
     setTurnMsLeft(0);
 
@@ -3748,6 +3774,8 @@ export default function App() {
 
   function resetProgress() {
     if (!window.confirm("Reset your progress to the beginning?")) return;
+    clearAutoTimers();
+    setAutoPlay(false);
     setIndex(0);
     setRevealed(false);
     setSpeakingTurn(false);
@@ -3758,6 +3786,43 @@ export default function App() {
   function replayFrench() {
     speakFrench(card?.fr || "");
   }
+
+
+  // Auto Play behaviour:
+  // - automatically starts the "your turn" phase on each new card
+  // - after reveal + TTS, advances to the next card after a short pause
+  useEffect(() => {
+    if (!autoPlay) return;
+
+    // Stop at end of list
+    if (index >= total - 1) {
+      setAutoPlay(false);
+      return;
+    }
+
+    // Start a turn automatically if we're idle on a fresh card
+    if (!speakingTurn && !revealed) {
+      clearAutoTimers();
+      autoStartRef.current = setTimeout(() => {
+        startTurn();
+      }, 250);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [autoPlay, index, revealed, speakingTurn, total]);
+
+  useEffect(() => {
+    if (!autoPlay) return;
+
+    // After reveal, wait a moment, then go to next card
+    if (revealed) {
+      clearAutoTimers();
+      autoNextRef.current = setTimeout(() => {
+        nextCard();
+      }, 1200);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [autoPlay, revealed]);
+
 
   const progressPct = total ? Math.round(((index + 1) / total) * 100) : 0;
   const turnPct = speakingTurn ? Math.round((turnMsLeft / 3500) * 100) : 0;
@@ -3887,6 +3952,7 @@ export default function App() {
         </div>
       </main>
 
+      
       <div style={{ display: "flex", gap: 10 }}>
         <button
           onClick={nextCard}
@@ -3906,9 +3972,36 @@ export default function App() {
         >
           Next
         </button>
+
+        <button
+          onClick={() => {
+            clearAutoTimers();
+            setRevealed(false);
+            setSpeakingTurn(false);
+            setTurnMsLeft(0);
+            setAutoPlay((v) => !v);
+          }}
+          style={{
+            padding: 14,
+            borderRadius: 14,
+            border: "1px solid #111",
+            background: "white",
+            color: "#111",
+            cursor: "pointer",
+            fontWeight: 700,
+            minWidth: 130
+          }}
+          title="Toggle Auto Play"
+        >
+          {autoPlay ? "Manual Play" : "Auto Play"}
+        </button>
+      </div>
+
+      <div style={{ display: "flex", gap: 10 }}>
         <button
           onClick={resetProgress}
           style={{
+            flex: 1,
             padding: 14,
             borderRadius: 14,
             border: "1px solid #ddd",
@@ -3921,6 +4014,7 @@ export default function App() {
           Reset
         </button>
       </div>
+
 
       <footer style={{ fontSize: 12, color: "#777", paddingBottom: 8, textAlign: "center" }}>
         Your progress is saved on this device.
