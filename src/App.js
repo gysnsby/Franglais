@@ -3829,7 +3829,7 @@ export default function App() {
   const pos = tier === "2" ? (card?.pos || "noun/adjective") : "noun/adjective";
 
   const prompt = tier === "2"
-    ? ("Say the French " + posLabel(pos) + ".")
+    ? ("Click Microphone then say the French " + posLabel(pos) + ".")
     : "Say the French word.";
 
   return (
