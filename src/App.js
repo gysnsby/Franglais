@@ -5042,19 +5042,108 @@ const STORAGE_KEYS = {
   phrasesIndex: "df_phrases_index_v1",
 };
 
+// --- TTS: force a real French voice when available (iOS-friendly) ---
+let __cachedVoices = null;
+let __cachedFrenchVoice = null;
+
+function getVoicesSafe() {
+  if (!("speechSynthesis" in window)) return [];
+  try {
+    const v = window.speechSynthesis.getVoices();
+    return Array.isArray(v) ? v : [];
+  } catch {
+    return [];
+  }
+}
+
+// Heuristic: try to pick a French *female* voice first (names vary by OS)
+function pickFrenchVoicePreferFemale(voices) {
+  const fr = voices.filter((v) => (v.lang || "").toLowerCase().startsWith("fr"));
+  if (!fr.length) return null;
+
+  // Common female indicators across Apple/Microsoft/Google voice names
+  const femaleHints = [
+    "amelie",
+    "amélie",
+    "marie",
+    "julie",
+    "audrey",
+    "celine",
+    "céline",
+    "lea",
+    "léa",
+    "sophie",
+    "camille",
+    "helene",
+    "hélène",
+    "female",
+    "woman",
+    "femme",
+  ];
+
+  const score = (v) => {
+    const name = `${v.name || ""} ${v.voiceURI || ""}`.toLowerCase();
+    let s = 0;
+    for (const h of femaleHints) if (name.includes(h)) s += 5;
+    // Prefer local/system voices slightly on iOS
+    if (v.localService) s += 1;
+    // Prefer exact fr-FR over fr-CA etc (France-first)
+    if ((v.lang || "").toLowerCase() === "fr-fr") s += 2;
+    return s;
+  };
+
+  fr.sort((a, b) => score(b) - score(a));
+  return fr[0] || null;
+}
+
+// Call once to populate the voice cache; voices may load asynchronously on iOS.
+function initVoiceCache() {
+  if (!("speechSynthesis" in window)) return;
+
+  const voicesNow = getVoicesSafe();
+  if (voicesNow.length) {
+    __cachedVoices = voicesNow;
+    __cachedFrenchVoice = pickFrenchVoicePreferFemale(voicesNow);
+  }
+
+  window.speechSynthesis.onvoiceschanged = () => {
+    const v = getVoicesSafe();
+    if (v.length) {
+      __cachedVoices = v;
+      __cachedFrenchVoice = pickFrenchVoicePreferFemale(v);
+    }
+  };
+}
+
 function safeSpeak(text, lang = "fr-FR") {
   if (!("speechSynthesis" in window)) return false;
+
   try {
+    // Ensure voices are initialized
+    if (!__cachedVoices) {
+      __cachedVoices = getVoicesSafe();
+      __cachedFrenchVoice = pickFrenchVoicePreferFemale(__cachedVoices);
+    }
+
     window.speechSynthesis.cancel();
+
     const u = new SpeechSynthesisUtterance(text);
     u.lang = lang;
     u.rate = 0.95;
+
+    // If we have a real French voice, force it (prevents iOS English fallback)
+    if (__cachedFrenchVoice) {
+      u.voice = __cachedFrenchVoice;
+      if (__cachedFrenchVoice.lang) u.lang = __cachedFrenchVoice.lang;
+    }
+
     window.speechSynthesis.speak(u);
     return true;
   } catch {
     return false;
   }
 }
+
 
 function clamp(n, min, max) {
   return Math.max(min, Math.min(max, n));
@@ -5075,6 +5164,11 @@ export default function App() {
 
   const autoTimersRef = useRef([]);
   const total = deck.length;
+
+  // Prime voice list on mount (important on iOS)
+  useEffect(() => {
+    initVoiceCache();
+  }, []);
 
   // Load per-mode progress on mode change
   useEffect(() => {
