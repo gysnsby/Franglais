@@ -10,7 +10,7 @@ const PRODUCT_NAME = "Dictionnaire Franglais";
 const WORD_CARDS = [
   {
     "type": "word",
-    "group": "Identical spelling",
+    "group": "Exact matches",
     "newGroup": true,
     "en": "art",
     "fr": "art",
@@ -18,23 +18,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Identical spelling",
-    "newGroup": false,
-    "en": "internet",
-    "fr": "internet",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Identical spelling",
-    "newGroup": false,
-    "en": "restaurant",
-    "fr": "restaurant",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Identical spelling",
+    "group": "Exact matches",
     "newGroup": false,
     "en": "ballet",
     "fr": "ballet",
@@ -42,23 +26,15 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Identical spelling",
+    "group": "Exact matches",
     "newGroup": false,
-    "en": "magazine",
-    "fr": "magazine",
+    "en": "brilliant",
+    "fr": "brilliant",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Identical spelling",
-    "newGroup": false,
-    "en": "robot",
-    "fr": "robot",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Identical spelling",
+    "group": "Exact matches",
     "newGroup": false,
     "en": "bus",
     "fr": "bus",
@@ -66,23 +42,23 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Identical spelling",
+    "group": "Exact matches",
     "newGroup": false,
-    "en": "menu",
-    "fr": "menu",
+    "en": "central",
+    "fr": "central",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Identical spelling",
+    "group": "Exact matches",
     "newGroup": false,
-    "en": "sandwich",
-    "fr": "sandwich",
+    "en": "centre",
+    "fr": "centre",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Identical spelling",
+    "group": "Exact matches",
     "newGroup": false,
     "en": "concert",
     "fr": "concert",
@@ -90,23 +66,23 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Identical spelling",
+    "group": "Exact matches",
     "newGroup": false,
-    "en": "moment",
-    "fr": "moment",
+    "en": "different",
+    "fr": "Different",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Identical spelling",
+    "group": "Exact matches",
     "newGroup": false,
-    "en": "spaghetti",
-    "fr": "spaghetti",
+    "en": "direction",
+    "fr": "direction",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Identical spelling",
+    "group": "Exact matches",
     "newGroup": false,
     "en": "film",
     "fr": "film",
@@ -114,23 +90,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Identical spelling",
-    "newGroup": false,
-    "en": "normal",
-    "fr": "normal",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Identical spelling",
-    "newGroup": false,
-    "en": "steak",
-    "fr": "steak",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Identical spelling",
+    "group": "Exact matches",
     "newGroup": false,
     "en": "final",
     "fr": "final",
@@ -138,23 +98,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Identical spelling",
-    "newGroup": false,
-    "en": "pizza",
-    "fr": "pizza",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Identical spelling",
-    "newGroup": false,
-    "en": "taxi",
-    "fr": "taxi",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Identical spelling",
+    "group": "Exact matches",
     "newGroup": false,
     "en": "garage",
     "fr": "garage",
@@ -162,23 +106,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Identical spelling",
-    "newGroup": false,
-    "en": "port",
-    "fr": "port",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Identical spelling",
-    "newGroup": false,
-    "en": "tunnel",
-    "fr": "tunnel",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Identical spelling",
+    "group": "Exact matches",
     "newGroup": false,
     "en": "hamburger",
     "fr": "hamburger",
@@ -186,23 +114,15 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Identical spelling",
+    "group": "Exact matches",
     "newGroup": false,
-    "en": "possible",
-    "fr": "possible",
+    "en": "ignorant",
+    "fr": "ignorant",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Identical spelling",
-    "newGroup": false,
-    "en": "type",
-    "fr": "type",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Identical spelling",
+    "group": "Exact matches",
     "newGroup": false,
     "en": "important",
     "fr": "important",
@@ -210,7 +130,151 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Identical spelling",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "impossible",
+    "fr": "impossible",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "internet",
+    "fr": "internet",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "local",
+    "fr": "local",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "magazine",
+    "fr": "magazine",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "menu",
+    "fr": "menu",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "minute",
+    "fr": "minute",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "moment",
+    "fr": "moment",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "moral",
+    "fr": "moral",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "national",
+    "fr": "national",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "normal",
+    "fr": "normal",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "option",
+    "fr": "option",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "permanent",
+    "fr": "permanent",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "photo",
+    "fr": "photo",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "pizza",
+    "fr": "pizza",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "plan",
+    "fr": "plan",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "port",
+    "fr": "port",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "possible",
+    "fr": "possible",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "prudent",
+    "fr": "prudent",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
     "newGroup": false,
     "en": "public",
     "fr": "public",
@@ -218,7 +282,143 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Identical spelling",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "question",
+    "fr": "question",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "restaurant",
+    "fr": "restaurant",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "robot",
+    "fr": "robot",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "sandwich",
+    "fr": "sandwich",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "service",
+    "fr": "service",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "simple",
+    "fr": "simple",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "solution",
+    "fr": "solution",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "spaghetti",
+    "fr": "spaghetti",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "special",
+    "fr": "special",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "station",
+    "fr": "station",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "steak",
+    "fr": "steak",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "taxi",
+    "fr": "taxi",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "ticket",
+    "fr": "ticket",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "train",
+    "fr": "train",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "triumphant",
+    "fr": "triumphant",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "tunnel",
+    "fr": "tunnel",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "type",
+    "fr": "type",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
     "newGroup": false,
     "en": "virus",
     "fr": "virus",
@@ -226,2175 +426,39 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Accent added",
+    "group": "Add final r",
     "newGroup": true,
-    "en": "atmosphere",
-    "fr": "atmosphère",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "cable",
-    "fr": "câble",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "cafe",
-    "fr": "café",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "cafeteria",
-    "fr": "cafétéria",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "cholera",
-    "fr": "choléra",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "cinema",
-    "fr": "cinéma",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "Decision",
-    "fr": "Décision",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "decisive",
-    "fr": "décisive",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "decoration",
-    "fr": "décoration",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "delicate",
-    "fr": "délicat-e",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "Difference",
-    "fr": "Différence",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "disgrace",
-    "fr": "disgrâce",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "Edition",
-    "fr": "Édition",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "elephant",
-    "fr": "éléphant",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "Emotion",
-    "fr": "Émotion",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "experience",
-    "fr": "expérience",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "facade",
-    "fr": "façade",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "Frequent",
-    "fr": "Fréquent",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "Generation",
-    "fr": "Génération",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "Grace",
-    "fr": "Grâce",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "hotel",
-    "fr": "hôtel",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "Illegal",
-    "fr": "Illégal",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "incredible",
-    "fr": "incrédible",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "incredible",
-    "fr": "incrédíble",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "inseparable",
-    "fr": "inséparable",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "juvenile",
-    "fr": "juvénile",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "Legal",
-    "fr": "Légal",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "leopard",
-    "fr": "léopard",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "metal",
-    "fr": "métal",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "metro",
-    "fr": "métro",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "nectar",
-    "fr": "néctar",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "obedience",
-    "fr": "obédience",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "ocean",
-    "fr": "océan",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "Opera",
-    "fr": "Opéra",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "operation",
-    "fr": "opération",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "planetarium",
-    "fr": "planétarium",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "present",
-    "fr": "présent",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "presentation",
-    "fr": "présentation",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "region",
-    "fr": "région",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "reunion",
-    "fr": "réunion",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "Revolution",
-    "fr": "Révolution",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "Sincere",
-    "fr": "Sincère",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "special",
-    "fr": "spécial",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "telephone",
-    "fr": "téléphone",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "telescope",
-    "fr": "télescope",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Accent added",
-    "newGroup": false,
-    "en": "television",
-    "fr": "télévision",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": true,
-    "en": "adult",
-    "fr": "adulte",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "adverb",
-    "fr": "adverbe",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "alarm",
-    "fr": "alarme",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "artist",
-    "fr": "artiste",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "autograph",
-    "fr": "autographe",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "brilliant",
-    "fr": "brilliant-e",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "cabin",
-    "fr": "cabine",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "candid",
-    "fr": "candide",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "cereal",
-    "fr": "céréale",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "class",
-    "fr": "classe",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "control",
-    "fr": "contrôle",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "despotism",
-    "fr": "despotisme",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "different",
-    "fr": "différent-e",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "different",
-    "fr": "Different-e",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "dinosaur",
-    "fr": "dinosaure",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "egoist",
-    "fr": "égoïste",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "egoist",
-    "fr": "egoïste",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "firm",
-    "fr": "firme",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "general",
-    "fr": "général-e",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "group",
-    "fr": "groupe",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "Guitar",
-    "fr": "Guitare",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "helicopter",
-    "fr": "hélicoptère",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "idealism",
-    "fr": "idéalisme",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "ignorant",
-    "fr": "ignorant-e",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "important",
-    "fr": "important-e",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "insect",
-    "fr": "insecte",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "list",
-    "fr": "liste",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "local",
-    "fr": "local-e",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "lucid",
-    "fr": "lucide",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "meteor",
-    "fr": "météore",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "moral",
-    "fr": "moral-e",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "optimism",
-    "fr": "optimisme",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "organism",
-    "fr": "organisme",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "permanent",
-    "fr": "permanent-e",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "planet",
-    "fr": "planète",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "plant",
-    "fr": "plante",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "problem",
-    "fr": "problème",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "prudent",
-    "fr": "prudent-e",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "rich",
-    "fr": "riche",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "salad",
-    "fr": "salade",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "socialist",
-    "fr": "socialiste",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "solid",
-    "fr": "solide",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "soup",
-    "fr": "soupe",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "special",
-    "fr": "spécial-e",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "special",
-    "fr": "special-e",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "splendid",
-    "fr": "splendide",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "stupid",
-    "fr": "stupide",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "tourist",
-    "fr": "touriste",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "triumphant",
-    "fr": "triumphant-e",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Final -e added",
-    "newGroup": false,
-    "en": "uniform",
-    "fr": "uniforme",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": true,
-    "en": "abandon",
-    "fr": "Abandonner",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Absolute",
-    "fr": "Absolu",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "absolutely",
-    "fr": "absolument",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "abundance",
-    "fr": "abondance",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "abuse",
-    "fr": "abuser",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "accept",
-    "fr": "Accepter",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "acrobatic",
-    "fr": "acrobatique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "activities",
-    "fr": "activités",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "activity",
-    "fr": "activité",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "actor",
-    "fr": "acteur",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "actuary",
-    "fr": "actuaire",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "address",
-    "fr": "adresse",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "adore",
-    "fr": "adorer",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "adventure",
-    "fr": "aventure",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "agency",
-    "fr": "agence",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "aggregate",
-    "fr": "agrégat",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "aggregate",
-    "fr": "aggrégat",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "aggression",
-    "fr": "agression",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "agony",
-    "fr": "agonie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "allergic",
-    "fr": "allergique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "anxious",
-    "fr": "anxieux",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "appetite",
-    "fr": "appétit",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "arbitrary",
-    "fr": "arbitraire",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "area",
-    "fr": "aire",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "aristocracy",
-    "fr": "aristocratie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "arithmetic",
-    "fr": "arithmétique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "artistic",
-    "fr": "artistique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "artistic",
-    "fr": "artístique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "astronomer",
-    "fr": "astronome",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "August",
-    "fr": "août",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "automatic",
-    "fr": "automatique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "banana",
-    "fr": "banane",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Basic",
-    "fr": "Basique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "battery",
-    "fr": "batterie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "bicycle",
-    "fr": "bicyclette",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "biography",
-    "fr": "biographie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "biology",
-    "fr": "biologie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "block",
-    "fr": "Bloquer",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "British",
-    "fr": "Britannique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "bureaucracy",
-    "fr": "bureaucratie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Calculator",
-    "fr": "Calculatrice",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "captain",
-    "fr": "capitaine",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "capture",
-    "fr": "Capturer",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "category",
-    "fr": "catégorie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Catholic",
-    "fr": "Catholique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "celebrate",
-    "fr": "Célébrer",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "cement",
-    "fr": "ciment",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "center",
-    "fr": "centre",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "ceramic",
-    "fr": "céramique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "ceremony",
-    "fr": "cérémonie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "change",
-    "fr": "Changer",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "chimney",
-    "fr": "cheminée",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "chimpanzee",
-    "fr": "chimpanzé",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "chocolate",
-    "fr": "chocolat",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "circle",
-    "fr": "cercle",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "circular",
-    "fr": "circulaire",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "civilize",
+    "en": "To civilise",
     "fr": "civiliser",
-    "pos": "noun/adjective"
+    "pos": "verb"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "Add final r",
     "newGroup": false,
-    "en": "classic",
-    "fr": "classique",
-    "pos": "noun/adjective"
+    "en": "To organise",
+    "fr": "organiser",
+    "pos": "verb"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "Add final r",
     "newGroup": false,
-    "en": "coast",
-    "fr": "côte",
-    "pos": "noun/adjective"
+    "en": "To utilise",
+    "fr": "utiliser",
+    "pos": "verb"
   },
   {
     "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "colony",
-    "fr": "colonie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "color",
-    "fr": "couleur",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "combination",
-    "fr": "combinaison",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "comment",
-    "fr": "commentaire",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "comment",
-    "fr": "comentaire",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "committee",
-    "fr": "comité",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "common",
-    "fr": "commun",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "communicate",
-    "fr": "Communiquer",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "company",
-    "fr": "compagnie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "comport",
-    "fr": "comporter",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "confusing",
-    "fr": "confus",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "consult",
-    "fr": "consulter",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "contract",
-    "fr": "contracter",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "correctly",
-    "fr": "correctement",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "creativity",
-    "fr": "créativité",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "criminal",
-    "fr": "criminel",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
+    "group": "cal → que",
+    "newGroup": true,
     "en": "critical",
     "fr": "critique",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "curiosity",
-    "fr": "curiosité",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "curious",
-    "fr": "curieux",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Dangerous",
-    "fr": "Dangereux",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Debate",
-    "fr": "Débat",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "December",
-    "fr": "décembre",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "decide",
-    "fr": "Décider",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "democracy",
-    "fr": "démocratie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "demonstrate(to)",
-    "fr": "démontrer",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "destroy",
-    "fr": "Détruire",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "diamond",
-    "fr": "diamant",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "dictator",
-    "fr": "dictateur",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "dictionary",
-    "fr": "dictionnaire",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "difficultly",
-    "fr": "difficulté",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "directly",
-    "fr": "directement",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "director",
-    "fr": "directeur",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "disaster",
-    "fr": "désastre",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "doctor",
-    "fr": "docteur",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "drama",
-    "fr": "drame",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Dramatic",
-    "fr": "Dramatique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "ecology",
-    "fr": "écologie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "economic",
-    "fr": "économique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "economy",
-    "fr": "économie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "edit",
-    "fr": "Éditer",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "effect",
-    "fr": "effet",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "effective",
-    "fr": "efective",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "electric",
-    "fr": "électrique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "electricity",
-    "fr": "électricité",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "encourage",
-    "fr": "Encourager",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "energy",
-    "fr": "énergie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "enormous",
-    "fr": "énorme",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "equality",
-    "fr": "égalité",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "especially",
-    "fr": "spécialement",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "establish",
-    "fr": "Établir",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "evidently",
-    "fr": "évidemment",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "exactly",
-    "fr": "exactement",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "exaggerate",
-    "fr": "exagérer",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "exalt",
-    "fr": "exalter",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "example",
-    "fr": "exemple",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "exclaim",
-    "fr": "exclamer",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "excuse",
-    "fr": "excuser",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "exercise",
-    "fr": "exercice",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "exotic",
-    "fr": "exotique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "extraordinary",
-    "fr": "extraordinaire",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Fabulous",
-    "fr": "Fabuleux",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "family",
-    "fr": "famille",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "famous",
-    "fr": "fameux",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "fantastic",
-    "fr": "fantastique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "fantastic",
-    "fr": "fantstique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "fascinate",
-    "fr": "Fasciner",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "ferocious",
-    "fr": "féroce",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "finally",
-    "fr": "finalement",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "finish",
-    "fr": "Finir",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "flexibility",
-    "fr": "flexibilité",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "flower",
-    "fr": "fleur",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "function",
-    "fr": "fonction",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "funeral",
-    "fr": "funérailles",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "galaxy",
-    "fr": "galaxie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "garden",
-    "fr": "jardin",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "gas",
-    "fr": "gaz",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Generous",
-    "fr": "Généreux",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "geography",
-    "fr": "géographie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "geology",
-    "fr": "géologie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "giraffe",
-    "fr": "girafe",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "glorious",
-    "fr": "glorieux",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "gorilla",
-    "fr": "gorille",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "govern",
-    "fr": "Gouverner",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "harass",
-    "fr": "Harceler",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "hippopotamus",
-    "fr": "hippopotame",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "history",
-    "fr": "histoire",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "honor",
-    "fr": "honneur",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "honor",
-    "fr": "honnneur",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "horror",
-    "fr": "horreur",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "hospital",
-    "fr": "hôpital",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "hour",
-    "fr": "heure",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "human",
-    "fr": "humain",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "idea",
-    "fr": "Idée",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "idea",
-    "fr": "idèe",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "identify",
-    "fr": "Identifier",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "identity",
-    "fr": "identité",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "ignore",
-    "fr": "Ignorer",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "imaginary",
-    "fr": "imaginaire",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "immediately",
-    "fr": "immédiatement",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "immediately",
-    "fr": "inmédiatement",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "independence",
-    "fr": "indépendance",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "industry",
-    "fr": "industrie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "interest",
-    "fr": "intérêt",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "island",
-    "fr": "île",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "June",
-    "fr": "Juin",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "justify",
-    "fr": "Justifier",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Kilogram",
-    "fr": "Kilogramme",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Kilometer",
-    "fr": "Kilomètre",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Language",
-    "fr": "Langue",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "legality",
-    "fr": "légalité",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "lens",
-    "fr": "lentille",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "lesson",
-    "fr": "leçon",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Liberty",
-    "fr": "Liberté",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "limit",
-    "fr": "Limiter",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "line",
-    "fr": "ligne",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "line",
-    "fr": "lígne",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
+    "group": "cal → que",
     "newGroup": false,
     "en": "Logical",
     "fr": "Logique",
@@ -2402,439 +466,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "magic",
-    "fr": "magique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "magician",
-    "fr": "magicien",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "magnetic",
-    "fr": "magnétique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "magnificent",
-    "fr": "magnifique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "manner",
-    "fr": "manière",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "March",
-    "fr": "mars",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "marionette",
-    "fr": "marionnette",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "market",
-    "fr": "marché",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Material",
-    "fr": "Matériel",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "mechanism",
-    "fr": "mécanisme",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "medal",
-    "fr": "médaille",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "medal",
-    "fr": "medaille",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "memory",
-    "fr": "mémoire",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "mention",
-    "fr": "Mentionner",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "meteorology",
-    "fr": "météorologie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "modify",
-    "fr": "Modifier",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "music",
-    "fr": "musique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "mysterious",
-    "fr": "mystérieux",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "nationality",
-    "fr": "nationalité",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Natural",
-    "fr": "Naturel",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "naturally",
-    "fr": "naturellement",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "navigate",
-    "fr": "Naviguer",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "necessity",
-    "fr": "nécessité",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Nervous",
-    "fr": "Nerveux",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "normally",
-    "fr": "normalement",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "note",
-    "fr": "Noter",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "object",
-    "fr": "objet",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "object",
-    "fr": "objèt",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "observatory",
-    "fr": "observatoire",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "observe",
-    "fr": "Observer",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "obtain",
-    "fr": "Obtenir",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "October",
-    "fr": "octobre",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "operate",
-    "fr": "opérer",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "ordinary",
-    "fr": "ordinaire",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Painter",
-    "fr": "Peintre",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "palace",
-    "fr": "palais",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "panic",
-    "fr": "panique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "paper",
-    "fr": "papier",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "park",
-    "fr": "parc",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Parliamentary",
-    "fr": "Parlementaire",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Particular",
-    "fr": "Particulier",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "partner",
-    "fr": "partenaire",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "penguin",
-    "fr": "pingouin",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "perfect",
-    "fr": "parfait",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "perfume",
-    "fr": "parfum",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "personality",
-    "fr": "personnalité",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "pharmacy",
-    "fr": "pharmacie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "philosophy",
-    "fr": "philosophie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "photocopy",
-    "fr": "photocopie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "photograph",
-    "fr": "photographie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "photographer",
-    "fr": "photographe",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "pioneer",
-    "fr": "pionnier",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "plastic",
-    "fr": "plastique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "plate",
-    "fr": "plat",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
+    "group": "cal → que",
     "newGroup": false,
     "en": "political",
     "fr": "politique",
@@ -2842,71 +474,23 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "positive",
-    "fr": "positif",
+    "group": "ct → t",
+    "newGroup": true,
+    "en": "effect",
+    "fr": "effet",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "ct → t",
     "newGroup": false,
-    "en": "possess",
-    "fr": "Posséder",
+    "en": "object",
+    "fr": "objet",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "possibility",
-    "fr": "possibilité",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "practice",
-    "fr": "pratique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "present",
-    "fr": "Présenter",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "priority",
-    "fr": "priorité",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "productivity",
-    "fr": "productivité",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "professional",
-    "fr": "professionnel",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
+    "group": "ct → t",
     "newGroup": false,
     "en": "project",
     "fr": "projet",
@@ -2914,175 +498,135 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "psychology",
-    "fr": "psychologie",
+    "group": "cy → tie",
+    "newGroup": true,
+    "en": "aristocracy",
+    "fr": "aristocratie",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "cy → tie",
     "newGroup": false,
-    "en": "publicity",
-    "fr": "publicité",
+    "en": "bureaucracy",
+    "fr": "bureaucratie",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "cy → tie",
     "newGroup": false,
-    "en": "qualify",
-    "fr": "Qualifier",
+    "en": "democracy",
+    "fr": "démocratie",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Quality",
-    "fr": "Qualité",
+    "group": "a → e",
+    "newGroup": true,
+    "en": "banana",
+    "fr": "banane",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "a → e",
     "newGroup": false,
-    "en": "real",
-    "fr": "réel",
+    "en": "drama",
+    "fr": "drame",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "a → e",
     "newGroup": false,
-    "en": "reality",
-    "fr": "réalité",
+    "en": "gorilla",
+    "fr": "gorille",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "a → e",
     "newGroup": false,
-    "en": "really",
-    "fr": "réalité",
+    "en": "idea",
+    "fr": "Idée",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Regular",
-    "fr": "Régulier",
+    "group": "al → el",
+    "newGroup": true,
+    "en": "criminal",
+    "fr": "criminel",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "al → el",
     "newGroup": false,
-    "en": "remedy",
-    "fr": "remède",
+    "en": "manual",
+    "fr": "manuel",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "al → el",
     "newGroup": false,
-    "en": "remedy",
-    "fr": "reméde",
+    "en": "Material",
+    "fr": "Matériel",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "al → el",
     "newGroup": false,
-    "en": "reserve",
-    "fr": "Réserver",
+    "en": "Natural",
+    "fr": "Naturel",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "al → el",
     "newGroup": false,
-    "en": "resist",
-    "fr": "Résister",
+    "en": "usual",
+    "fr": "usuel",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "respond",
-    "fr": "Répondre",
+    "group": "er → re",
+    "newGroup": true,
+    "en": "center",
+    "fr": "centre",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "er → re",
     "newGroup": false,
-    "en": "responsibility",
-    "fr": "responsabilité",
+    "en": "December",
+    "fr": "décembre",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "er → re",
     "newGroup": false,
-    "en": "result",
-    "fr": "résultat",
+    "en": "Kilometer",
+    "fr": "Kilomètre",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "er → re",
     "newGroup": false,
-    "en": "rock",
-    "fr": "roche",
+    "en": "October",
+    "fr": "octobre",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "Romantic",
-    "fr": "Romantique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "salary",
-    "fr": "salaire",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "scientific",
-    "fr": "scientifique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "security",
-    "fr": "sécurité",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "sensitivity",
-    "fr": "sensibilité",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
+    "group": "er → re",
     "newGroup": false,
     "en": "September",
     "fr": "septembre",
@@ -3090,127 +634,87 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "series",
-    "fr": "série",
+    "group": "or → eur",
+    "newGroup": true,
+    "en": "actor",
+    "fr": "acteur",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "or → eur",
     "newGroup": false,
-    "en": "serious",
-    "fr": "sérieux",
+    "en": "dictator",
+    "fr": "dictateur",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "or → eur",
     "newGroup": false,
-    "en": "sociology",
-    "fr": "sociologie",
+    "en": "director",
+    "fr": "directeur",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "or → eur",
     "newGroup": false,
-    "en": "solidify",
-    "fr": "solidifier",
+    "en": "doctor",
+    "fr": "docteur",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "or → eur",
     "newGroup": false,
-    "en": "stability",
-    "fr": "stabilité",
+    "en": "horror",
+    "fr": "horreur",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "statistic",
-    "fr": "statistique",
+    "group": "ly → ement",
+    "newGroup": true,
+    "en": "correctly",
+    "fr": "correctement",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "ly → ement",
     "newGroup": false,
-    "en": "statistics",
-    "fr": "statistique",
+    "en": "directly",
+    "fr": "directement",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "ly → ement",
     "newGroup": false,
-    "en": "stomach",
-    "fr": "estomac",
+    "en": "exactly",
+    "fr": "exactement",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "ly → ement",
     "newGroup": false,
-    "en": "strategy",
-    "fr": "stratégie",
+    "en": "finally",
+    "fr": "finalement",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "ly → ement",
     "newGroup": false,
-    "en": "study",
-    "fr": "Étudier",
+    "en": "normally",
+    "fr": "normalement",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "supermarket",
-    "fr": "supermarché",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "systematic",
-    "fr": "systématique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "testimony",
-    "fr": "témoignage",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "theory",
-    "fr": "théorie",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "tomato",
-    "fr": "tomate",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
+    "group": "ly → ement",
     "newGroup": false,
     "en": "totally",
     "fr": "totalement",
@@ -3218,55 +722,63 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "touch",
-    "fr": "Toucher",
+    "group": "Drop: e",
+    "newGroup": true,
+    "en": "aggregate",
+    "fr": "aggrégat",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "Drop: e",
     "newGroup": false,
-    "en": "Traditional",
-    "fr": "Traditionnel",
+    "en": "appetite",
+    "fr": "appétit",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "Drop: e",
     "newGroup": false,
-    "en": "traffic",
-    "fr": "trafic",
+    "en": "chimpanzee",
+    "fr": "chimpanzé",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "Drop: e",
     "newGroup": false,
-    "en": "transform",
-    "fr": "Transformer",
+    "en": "chocolate",
+    "fr": "chocolat",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "Drop: e",
     "newGroup": false,
-    "en": "trumpet",
-    "fr": "trompette",
+    "en": "Debate",
+    "fr": "Débat",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "Drop: e",
     "newGroup": false,
-    "en": "unite",
-    "fr": "Unir",
+    "en": "delicate",
+    "fr": "délicat",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "Drop: e",
+    "newGroup": false,
+    "en": "plate",
+    "fr": "plat",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Drop: e",
     "newGroup": false,
     "en": "Universe",
     "fr": "Univers",
@@ -3274,7 +786,511 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "ate → er",
+    "newGroup": true,
+    "en": "celebrate",
+    "fr": "Célébrer",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ate → er",
+    "newGroup": false,
+    "en": "fascinate",
+    "fr": "Fasciner",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ate → er",
+    "newGroup": false,
+    "en": "operate",
+    "fr": "opérer",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ate → er",
+    "newGroup": false,
+    "en": "To accelerate",
+    "fr": "accélérer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "ate → er",
+    "newGroup": false,
+    "en": "To accentuate",
+    "fr": "accentuer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "ate → er",
+    "newGroup": false,
+    "en": "To associate",
+    "fr": "associer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "ate → er",
+    "newGroup": false,
+    "en": "To estimate",
+    "fr": "estimer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "ate → er",
+    "newGroup": false,
+    "en": "To participate",
+    "fr": "participer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "ate → er",
+    "newGroup": false,
+    "en": "To terminate",
+    "fr": "terminer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "ry → ire",
+    "newGroup": true,
+    "en": "actuary",
+    "fr": "actuaire",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ry → ire",
+    "newGroup": false,
+    "en": "arbitrary",
+    "fr": "arbitraire",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ry → ire",
+    "newGroup": false,
+    "en": "extraordinary",
+    "fr": "extraordinaire",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ry → ire",
+    "newGroup": false,
+    "en": "history",
+    "fr": "histoire",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ry → ire",
+    "newGroup": false,
+    "en": "imaginary",
+    "fr": "imaginaire",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ry → ire",
+    "newGroup": false,
+    "en": "memory",
+    "fr": "mémoire",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ry → ire",
+    "newGroup": false,
+    "en": "observatory",
+    "fr": "observatoire",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ry → ire",
+    "newGroup": false,
+    "en": "ordinary",
+    "fr": "ordinaire",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ry → ire",
+    "newGroup": false,
+    "en": "salary",
+    "fr": "salaire",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → ier",
+    "newGroup": true,
+    "en": "identify",
+    "fr": "Identifier",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → ier",
+    "newGroup": false,
+    "en": "justify",
+    "fr": "Justifier",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → ier",
+    "newGroup": false,
+    "en": "modify",
+    "fr": "Modifier",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → ier",
+    "newGroup": false,
+    "en": "qualify",
+    "fr": "Qualifier",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → ier",
+    "newGroup": false,
+    "en": "solidify",
+    "fr": "solidifier",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → ier",
+    "newGroup": false,
+    "en": "To classify",
+    "fr": "classifier",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "y → ier",
+    "newGroup": false,
+    "en": "To gratify",
+    "fr": "gratifier",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "y → ier",
+    "newGroup": false,
+    "en": "To notify",
+    "fr": "notifier",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "y → ier",
+    "newGroup": false,
+    "en": "To pacify",
+    "fr": "pacifier",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "y → ier",
+    "newGroup": false,
+    "en": "To simplify",
+    "fr": "simplifier",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "y → ier",
+    "newGroup": false,
+    "en": "To unify",
+    "fr": "unifier",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "ous → eux",
+    "newGroup": true,
+    "en": "ambitious",
+    "fr": "ambitieux",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ous → eux",
+    "newGroup": false,
+    "en": "anxious",
+    "fr": "anxieux",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ous → eux",
+    "newGroup": false,
+    "en": "contagious",
+    "fr": "contagieux",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ous → eux",
+    "newGroup": false,
+    "en": "curious",
+    "fr": "curieux",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ous → eux",
+    "newGroup": false,
+    "en": "Dangerous",
+    "fr": "Dangereux",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ous → eux",
+    "newGroup": false,
+    "en": "delicious",
+    "fr": "délicieux",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ous → eux",
+    "newGroup": false,
+    "en": "Fabulous",
+    "fr": "Fabuleux",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ous → eux",
+    "newGroup": false,
+    "en": "famous",
+    "fr": "fameux",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ous → eux",
+    "newGroup": false,
+    "en": "furious",
+    "fr": "furieux",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ous → eux",
+    "newGroup": false,
+    "en": "Generous",
+    "fr": "Généreux",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ous → eux",
+    "newGroup": false,
+    "en": "glorious",
+    "fr": "glorieux",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ous → eux",
+    "newGroup": false,
+    "en": "gracious",
+    "fr": "gracieux",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ous → eux",
+    "newGroup": false,
+    "en": "mysterious",
+    "fr": "mystérieux",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ous → eux",
+    "newGroup": false,
+    "en": "Nervous",
+    "fr": "Nerveux",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ous → eux",
+    "newGroup": false,
+    "en": "serious",
+    "fr": "sérieux",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
+    "newGroup": true,
+    "en": "activity",
+    "fr": "activité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
+    "newGroup": false,
+    "en": "agency",
+    "fr": "agence",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
+    "newGroup": false,
+    "en": "creativity",
+    "fr": "créativité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
+    "newGroup": false,
+    "en": "curiosity",
+    "fr": "curiosité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
+    "newGroup": false,
+    "en": "electricity",
+    "fr": "électricité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
+    "newGroup": false,
+    "en": "flexibility",
+    "fr": "flexibilité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
+    "newGroup": false,
+    "en": "legality",
+    "fr": "légalité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
+    "newGroup": false,
+    "en": "Liberty",
+    "fr": "Liberté",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
+    "newGroup": false,
+    "en": "nationality",
+    "fr": "nationalité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
+    "newGroup": false,
+    "en": "necessity",
+    "fr": "nécessité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
+    "newGroup": false,
+    "en": "possibility",
+    "fr": "possibilité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
+    "newGroup": false,
+    "en": "priority",
+    "fr": "priorité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
+    "newGroup": false,
+    "en": "productivity",
+    "fr": "productivité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
+    "newGroup": false,
+    "en": "publicity",
+    "fr": "publicité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
+    "newGroup": false,
+    "en": "Quality",
+    "fr": "Qualité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
+    "newGroup": false,
+    "en": "reality",
+    "fr": "réalité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
+    "newGroup": false,
+    "en": "remedy",
+    "fr": "remède",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
+    "newGroup": false,
+    "en": "security",
+    "fr": "sécurité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
+    "newGroup": false,
+    "en": "stability",
+    "fr": "stabilité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → e",
     "newGroup": false,
     "en": "university",
     "fr": "université",
@@ -3282,7 +1298,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Consonant change",
+    "group": "y → e",
     "newGroup": false,
     "en": "urgency",
     "fr": "urgence",
@@ -3290,23 +1306,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "use",
-    "fr": "Utiliser",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
-    "newGroup": false,
-    "en": "useful",
-    "fr": "utile",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Consonant change",
+    "group": "y → e",
     "newGroup": false,
     "en": "utility",
     "fr": "utilité",
@@ -3314,287 +1314,1471 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "y → ie",
     "newGroup": true,
-    "en": "abuse",
-    "fr": "(to) abuser",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "accelerate",
-    "fr": "(to) accélérer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "accentuate",
-    "fr": "(to) accentuer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "accompany",
-    "fr": "(to) accompagner",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "accuse",
-    "fr": "(to) accuser",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "admire",
-    "fr": "(to) admirer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "admit",
-    "fr": "(to) admettre",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "adopt",
-    "fr": "(to) adopter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "adore",
-    "fr": "(to) adorer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "African",
-    "fr": "Africain-e",
+    "en": "agony",
+    "fr": "agonie",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "y → ie",
     "newGroup": false,
-    "en": "ambitious",
-    "fr": "ambitieux-euse",
+    "en": "battery",
+    "fr": "batterie",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "y → ie",
     "newGroup": false,
-    "en": "analyze",
-    "fr": "(to) analyser",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "announce",
-    "fr": "(to) annoncer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "appear",
-    "fr": "(to) apparaître",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "associate",
-    "fr": "(to) associer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "authorize",
-    "fr": "(to) autoriser",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "brilliant",
-    "fr": "brilliant-te",
+    "en": "biography",
+    "fr": "biographie",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "y → ie",
     "newGroup": false,
-    "en": "capture",
-    "fr": "(to) capturer",
-    "pos": "verb"
+    "en": "biology",
+    "fr": "biologie",
+    "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "y → ie",
     "newGroup": false,
-    "en": "celebrate",
-    "fr": "(to) célébrer",
-    "pos": "verb"
+    "en": "category",
+    "fr": "catégorie",
+    "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "y → ie",
     "newGroup": false,
-    "en": "classify",
-    "fr": "(to) classifier",
-    "pos": "verb"
+    "en": "ceremony",
+    "fr": "cérémonie",
+    "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "y → ie",
     "newGroup": false,
-    "en": "compare",
-    "fr": "(to) comparer",
-    "pos": "verb"
+    "en": "colony",
+    "fr": "colonie",
+    "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "y → ie",
     "newGroup": false,
-    "en": "complete",
-    "fr": "(to) compléter",
-    "pos": "verb"
+    "en": "ecology",
+    "fr": "écologie",
+    "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "y → ie",
+    "newGroup": false,
+    "en": "economy",
+    "fr": "économie",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → ie",
+    "newGroup": false,
+    "en": "energy",
+    "fr": "énergie",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → ie",
+    "newGroup": false,
+    "en": "galaxy",
+    "fr": "galaxie",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → ie",
+    "newGroup": false,
+    "en": "geography",
+    "fr": "géographie",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → ie",
+    "newGroup": false,
+    "en": "geology",
+    "fr": "géologie",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → ie",
+    "newGroup": false,
+    "en": "industry",
+    "fr": "industrie",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → ie",
+    "newGroup": false,
+    "en": "meteorology",
+    "fr": "météorologie",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → ie",
+    "newGroup": false,
+    "en": "pharmacy",
+    "fr": "pharmacie",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → ie",
+    "newGroup": false,
+    "en": "philosophy",
+    "fr": "philosophie",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → ie",
+    "newGroup": false,
+    "en": "photocopy",
+    "fr": "photocopie",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → ie",
+    "newGroup": false,
+    "en": "psychology",
+    "fr": "psychologie",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → ie",
+    "newGroup": false,
+    "en": "sociology",
+    "fr": "sociologie",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → ie",
+    "newGroup": false,
+    "en": "strategy",
+    "fr": "stratégie",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → ie",
+    "newGroup": false,
+    "en": "theory",
+    "fr": "théorie",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": true,
+    "en": "acrobatic",
+    "fr": "acrobatique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "allergic",
+    "fr": "allergique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "arithmetic",
+    "fr": "arithmétique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "artistic",
+    "fr": "artistique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "automatic",
+    "fr": "automatique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "Basic",
+    "fr": "Basique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "Catholic",
+    "fr": "Catholique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "ceramic",
+    "fr": "céramique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "classic",
+    "fr": "classique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "Dramatic",
+    "fr": "Dramatique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "economic",
+    "fr": "économique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "electric",
+    "fr": "électrique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "exotic",
+    "fr": "exotique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "fantastic",
+    "fr": "fantastique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "magic",
+    "fr": "magique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "magnetic",
+    "fr": "magnétique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "music",
+    "fr": "musique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "panic",
+    "fr": "panique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "plastic",
+    "fr": "plastique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "Romantic",
+    "fr": "Romantique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "scientific",
+    "fr": "scientifique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "statistic",
+    "fr": "statistique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ic → ique",
+    "newGroup": false,
+    "en": "systematic",
+    "fr": "systématique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": true,
+    "en": "accept",
+    "fr": "Accepter",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "comport",
+    "fr": "comporter",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
     "newGroup": false,
     "en": "consult",
-    "fr": "(to) consulter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "contagious",
-    "fr": "contagieux-euse",
+    "fr": "consulter",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "continue",
-    "fr": "(to) continuer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Add: er",
     "newGroup": false,
     "en": "contract",
-    "fr": "(to) contracter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "converse",
-    "fr": "(to) converser",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "convert",
-    "fr": "(to) convertir",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "curious",
-    "fr": "curieux-euse",
+    "fr": "contracter",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "edit",
+    "fr": "Éditer",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "exalt",
+    "fr": "exalter",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "limit",
+    "fr": "Limiter",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "present",
+    "fr": "Présenter",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "resist",
+    "fr": "Résister",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To adopt",
+    "fr": "adopter",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To confirm",
+    "fr": "confirmer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To deport",
+    "fr": "déporter",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To desert",
+    "fr": "déserter",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To export",
+    "fr": "exporter",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To ferment",
+    "fr": "fermenter",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To import",
+    "fr": "importer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To insist",
+    "fr": "insister",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To insult",
+    "fr": "insulter",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To invent",
+    "fr": "inventer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To lament",
+    "fr": "lamenter",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To march",
+    "fr": "marcher",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To pay",
+    "fr": "payer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To represent",
+    "fr": "représenter",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To touch",
+    "fr": "Toucher",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To transform",
+    "fr": "Transformer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": true,
+    "en": "abuse",
+    "fr": "abuser",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "adore",
+    "fr": "adorer",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "capture",
+    "fr": "Capturer",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "change",
+    "fr": "Changer",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
     "newGroup": false,
     "en": "decide",
-    "fr": "(to) décider",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "declare",
-    "fr": "(to) déclarer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "delicious",
-    "fr": "délicieux-euse",
+    "fr": "Décider",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Add: r",
     "newGroup": false,
-    "en": "demonstrate",
-    "fr": "(to) démontrer",
+    "en": "encourage",
+    "fr": "Encourager",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "excuse",
+    "fr": "excuser",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "ignore",
+    "fr": "Ignorer",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "note",
+    "fr": "Noter",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "observe",
+    "fr": "Observer",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "reserve",
+    "fr": "Réserver",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "To accuse",
+    "fr": "accuser",
     "pos": "verb"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Add: r",
     "newGroup": false,
-    "en": "depend",
-    "fr": "(to) dépendre",
+    "en": "To admire",
+    "fr": "admirer",
     "pos": "verb"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Add: r",
     "newGroup": false,
-    "en": "deport",
-    "fr": "(to) déporter",
+    "en": "To compare",
+    "fr": "comparer",
     "pos": "verb"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "To complete",
+    "fr": "compléter",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "To continue",
+    "fr": "continuer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "To converse",
+    "fr": "converser",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "To declare",
+    "fr": "déclarer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "To determine",
+    "fr": "déterminer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "To examine",
+    "fr": "examiner",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "To imagine",
+    "fr": "imaginer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "To implore",
+    "fr": "implorer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "To invite",
+    "fr": "inviter",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "To prepare",
+    "fr": "préparer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "To refuse",
+    "fr": "refuser",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": true,
+    "en": "cafe",
+    "fr": "café",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "cafeteria",
+    "fr": "cafétéria",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "cholera",
+    "fr": "choléra",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "cinema",
+    "fr": "cinéma",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "Decision",
+    "fr": "Décision",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "decisive",
+    "fr": "décisive",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "decoration",
+    "fr": "décoration",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "Difference",
+    "fr": "Différence",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "Edition",
+    "fr": "Édition",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "elephant",
+    "fr": "éléphant",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "Emotion",
+    "fr": "Émotion",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "experience",
+    "fr": "expérience",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "Frequent",
+    "fr": "Fréquent",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "general",
+    "fr": "général",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "Generation",
+    "fr": "Génération",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "Illegal",
+    "fr": "Illégal",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "inseparable",
+    "fr": "inséparable",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "juvenile",
+    "fr": "juvénile",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "Legal",
+    "fr": "Légal",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "leopard",
+    "fr": "léopard",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "metal",
+    "fr": "métal",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "metro",
+    "fr": "métro",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "nectar",
+    "fr": "néctar",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "obedience",
+    "fr": "obédience",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "ocean",
+    "fr": "océan",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "Opera",
+    "fr": "Opéra",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "operation",
+    "fr": "opération",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "planetarium",
+    "fr": "planétarium",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "presentation",
+    "fr": "présentation",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "region",
+    "fr": "région",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "reservation",
+    "fr": "réservation",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "reunion",
+    "fr": "réunion",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "Revolution",
+    "fr": "Révolution",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "telephone",
+    "fr": "téléphone",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "telescope",
+    "fr": "télescope",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "television",
+    "fr": "télévision",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "video",
+    "fr": "vidéo",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": true,
+    "en": "adult",
+    "fr": "adulte",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "adverb",
+    "fr": "adverbe",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "alarm",
+    "fr": "alarme",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "artist",
+    "fr": "artiste",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "autograph",
+    "fr": "autographe",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "cabin",
+    "fr": "cabine",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "candid",
+    "fr": "candide",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "cereal",
+    "fr": "céréale",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "class",
+    "fr": "classe",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "control",
+    "fr": "contrôle",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "despotism",
+    "fr": "despotisme",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "dinosaur",
+    "fr": "dinosaure",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "egoist",
+    "fr": "egoïste",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "firm",
+    "fr": "firme",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "group",
+    "fr": "groupe",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "Guitar",
+    "fr": "Guitare",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "helicopter",
+    "fr": "hélicoptère",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "idealism",
+    "fr": "idéalisme",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "insect",
+    "fr": "insecte",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "list",
+    "fr": "liste",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "lucid",
+    "fr": "lucide",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "meteor",
+    "fr": "météore",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "optimism",
+    "fr": "optimisme",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "organism",
+    "fr": "organisme",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "planet",
+    "fr": "planète",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "plant",
+    "fr": "plante",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "problem",
+    "fr": "problème",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "rich",
+    "fr": "riche",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "salad",
+    "fr": "salade",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "second",
+    "fr": "seconde",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "socialist",
+    "fr": "socialiste",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "solid",
+    "fr": "solide",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "soup",
+    "fr": "soupe",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "splendid",
+    "fr": "splendide",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "stupid",
+    "fr": "stupide",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "tourist",
+    "fr": "touriste",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "uniform",
+    "fr": "uniforme",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": true,
+    "en": "abundance",
+    "fr": "abondance",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "address",
+    "fr": "adresse",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "adventure",
+    "fr": "aventure",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "aggression",
+    "fr": "agression",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "area",
+    "fr": "aire",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "August",
+    "fr": "août",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "British",
+    "fr": "Britannique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "cement",
+    "fr": "ciment",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "chimney",
+    "fr": "cheminée",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "circle",
+    "fr": "cercle",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "coast",
+    "fr": "côte",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "color",
+    "fr": "couleur",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "comment",
+    "fr": "comentaire",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "demonstrate(to)",
+    "fr": "démontrer",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
     "newGroup": false,
     "en": "des",
     "fr": "ert déserter",
@@ -3602,595 +2786,1227 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "describe",
-    "fr": "(to) décrire",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "describe",
-    "fr": "(to) déc rire",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "desert",
-    "fr": "(to) déserter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
     "en": "destroy",
-    "fr": "(to) détruire",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "detain",
-    "fr": "(to) détenir",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "determine",
-    "fr": "(to) déterminer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "disappear",
-    "fr": "(to) disparaître",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "discuss",
-    "fr": "(to) discuter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "distribute",
-    "fr": "(to) distribuer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "email",
-    "fr": "e-mail",
+    "fr": "Détruire",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "enter",
-    "fr": "(to) entrer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "escape",
-    "fr": "(to) échapper",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "estimate",
-    "fr": "(to) estimer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "exalt",
-    "fr": "(to) exalter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "examine",
-    "fr": "(to) examiner",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "exclaim",
-    "fr": "(to) exclamer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "export",
-    "fr": "(to) exporter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "famous",
-    "fr": "fameux-euse",
+    "en": "disaster",
+    "fr": "désastre",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "fascinate",
-    "fr": "(to) fasciner",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "favorite",
-    "fr": "favori-te",
+    "en": "effective",
+    "fr": "efective",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "ferment",
-    "fr": "(to) fermenter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "furious",
-    "fr": "furieux-euse",
+    "en": "equality",
+    "fr": "égalité",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "generous",
-    "fr": "généreux-euse",
+    "en": "especially",
+    "fr": "spécialement",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "glorious",
-    "fr": "glorieux-euse",
+    "en": "establish",
+    "fr": "Établir",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "gracious",
-    "fr": "gracieux-euse",
+    "en": "example",
+    "fr": "exemple",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "gracious",
-    "fr": "gracieux-eu se",
+    "en": "flower",
+    "fr": "fleur",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "gratify",
-    "fr": "(to) gratifier",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "human",
-    "fr": "humain-e",
+    "en": "function",
+    "fr": "fonction",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "identity",
-    "fr": "(to) identifier",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "ignore",
-    "fr": "(to) ignorer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "imagine",
-    "fr": "(to) imaginer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "imp",
-    "fr": "lore (to) implorer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "implore",
-    "fr": "(to) implorer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "import",
-    "fr": "(to) importer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "import",
-    "fr": "(to) imp orter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "insert",
-    "fr": "(to) insérer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "insist",
-    "fr": "(to) insister",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "insult",
-    "fr": "(to) insulter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "interesting",
-    "fr": "intéressant-e",
+    "en": "garden",
+    "fr": "jardin",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "interrupt",
-    "fr": "(to) interrompre",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "introduce",
-    "fr": "(to) introduire",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "invent",
-    "fr": "(to) inventer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "investigate",
-    "fr": "(to) investiguer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "invite",
-    "fr": "(to) inviter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "justify",
-    "fr": "(to) justifier",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "lament",
-    "fr": "(to) lamenter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "locate",
-    "fr": "(to) localiser",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "manual",
-    "fr": "manuel-elle",
+    "en": "gas",
+    "fr": "gaz",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "march",
-    "fr": "(to) marcher",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "modify",
-    "fr": "(to) modifier",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "natural",
-    "fr": "naturel-le",
+    "en": "govern",
+    "fr": "Gouverner",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "negotiate",
-    "fr": "(to) négocier",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "nervous",
-    "fr": "nerveux-euse",
+    "en": "hospital",
+    "fr": "hôpital",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "notify",
-    "fr": "(to) notifier",
-    "pos": "verb"
+    "en": "hour",
+    "fr": "heure",
+    "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "operate",
-    "fr": "(to) opèrer",
-    "pos": "verb"
+    "en": "immediately",
+    "fr": "inmédiatement",
+    "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "organize",
-    "fr": "(to) organiser",
-    "pos": "verb"
+    "en": "island",
+    "fr": "île",
+    "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "pacify",
-    "fr": "(to) pacifier",
-    "pos": "verb"
+    "en": "June",
+    "fr": "Juin",
+    "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "paralyze",
-    "fr": "(to) paraliser",
-    "pos": "verb"
+    "en": "lesson",
+    "fr": "leçon",
+    "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "participate",
-    "fr": "(to) participer",
-    "pos": "verb"
+    "en": "line",
+    "fr": "ligne",
+    "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "name",
+    "fr": "nom",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "naturally",
+    "fr": "naturellement",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "Painter",
+    "fr": "Peintre",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "Parliamentary",
+    "fr": "Parlementaire",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "penguin",
+    "fr": "pingouin",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "perfect",
+    "fr": "parfait",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "perfume",
+    "fr": "parfum",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
     "newGroup": false,
     "en": "picnic",
-    "fr": "pique-nique",
+    "fr": "pique",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "practice",
-    "fr": "(to) pratiquer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "prepare",
-    "fr": "(to) préparer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "present",
-    "fr": "(to) présenter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "professional",
-    "fr": "professionnel-lle",
+    "en": "real",
+    "fr": "réel",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "professional",
-    "fr": "professionnel-le",
+    "en": "respond",
+    "fr": "Répondre",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "represent",
-    "fr": "(to) représenter",
-    "pos": "verb"
+    "en": "responsibility",
+    "fr": "responsabilité",
+    "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "retire",
-    "fr": "(to) (se) retirer",
-    "pos": "verb"
+    "en": "stomach",
+    "fr": "estomac",
+    "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "simplify",
-    "fr": "(to) simplifier",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
     "en": "study",
-    "fr": "(to) étudier",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "terminate",
-    "fr": "(to) terminer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "trap",
-    "fr": "(to) attraper",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "unify",
-    "fr": "(to) unifier",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Hyphenation / spacing",
-    "newGroup": false,
-    "en": "usual",
-    "fr": "usuel-le",
+    "fr": "Étudier",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
-    "group": "Hyphenation / spacing",
+    "group": "Small spelling change",
     "newGroup": false,
-    "en": "utilize",
-    "fr": "(to) utiliser",
+    "en": "testimony",
+    "fr": "témoignage",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "To appear",
+    "fr": "apparaître",
     "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "To describe",
+    "fr": "décrire",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "To disappear",
+    "fr": "disparaître",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "To escape",
+    "fr": "échapper",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "To imp",
+    "fr": "lore implorer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "To retire",
+    "fr": "(se) retirer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "To trap",
+    "fr": "attraper",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "trumpet",
+    "fr": "trompette",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "use",
+    "fr": "Utiliser",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
+    "en": "useful",
+    "fr": "utile",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: ner",
+    "newGroup": true,
+    "en": "abandon",
+    "fr": "Abandonner",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Drop: te",
+    "newGroup": false,
+    "en": "Absolute",
+    "fr": "Absolu",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "tely → ment",
+    "newGroup": false,
+    "en": "absolutely",
+    "fr": "absolument",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ies → es",
+    "newGroup": false,
+    "en": "activities",
+    "fr": "activités",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "n → in",
+    "newGroup": false,
+    "en": "African",
+    "fr": "Africain",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Drop: r",
+    "newGroup": false,
+    "en": "astronomer",
+    "fr": "astronome",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: è",
+    "newGroup": false,
+    "en": "atmosphere",
+    "fr": "atmosphère",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "k → que",
+    "newGroup": false,
+    "en": "bank",
+    "fr": "banque",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: tte",
+    "newGroup": false,
+    "en": "bicycle",
+    "fr": "bicyclette",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ck → quer",
+    "newGroup": false,
+    "en": "block",
+    "fr": "Bloquer",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: â",
+    "newGroup": false,
+    "en": "cable",
+    "fr": "câble",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "or → rice",
+    "newGroup": false,
+    "en": "Calculator",
+    "fr": "Calculatrice",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "tain → itaine",
+    "newGroup": false,
+    "en": "captain",
+    "fr": "capitaine",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "d → te",
+    "newGroup": false,
+    "en": "card",
+    "fr": "carte",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "r → ire",
+    "newGroup": false,
+    "en": "circular",
+    "fr": "circulaire",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "tion → ison",
+    "newGroup": false,
+    "en": "combination",
+    "fr": "combinaison",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "mittee → ite",
+    "newGroup": false,
+    "en": "committee",
+    "fr": "comité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "on → un",
+    "newGroup": false,
+    "en": "common",
+    "fr": "commun",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "cate → quer",
+    "newGroup": false,
+    "en": "communicate",
+    "fr": "Communiquer",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ny → gnie",
+    "newGroup": false,
+    "en": "company",
+    "fr": "compagnie",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Drop: ing",
+    "newGroup": false,
+    "en": "confusing",
+    "fr": "confus",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ond → ant",
+    "newGroup": false,
+    "en": "diamond",
+    "fr": "diamant",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ary → naire",
+    "newGroup": false,
+    "en": "dictionary",
+    "fr": "dictionnaire",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ly → e",
+    "newGroup": false,
+    "en": "difficultly",
+    "fr": "difficulté",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Drop: mail",
+    "newGroup": false,
+    "en": "email",
+    "fr": "e",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ous → e",
+    "newGroup": false,
+    "en": "enormous",
+    "fr": "énorme",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ance → ee",
+    "newGroup": false,
+    "en": "entrance",
+    "fr": "entrée",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ntly → mment",
+    "newGroup": false,
+    "en": "evidently",
+    "fr": "évidemment",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "gerate → erer",
+    "newGroup": false,
+    "en": "exaggerate",
+    "fr": "exagérer",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "im → mer",
+    "newGroup": false,
+    "en": "exclaim",
+    "fr": "exclamer",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "se → ce",
+    "newGroup": false,
+    "en": "exercise",
+    "fr": "exercice",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: ç",
+    "newGroup": false,
+    "en": "facade",
+    "fr": "façade",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "y → le",
+    "newGroup": false,
+    "en": "family",
+    "fr": "famille",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Drop: te",
+    "newGroup": false,
+    "en": "favorite",
+    "fr": "favori",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ious → e",
+    "newGroup": false,
+    "en": "ferocious",
+    "fr": "féroce",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "sh → r",
+    "newGroup": false,
+    "en": "finish",
+    "fr": "Finir",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "l → illes",
+    "newGroup": false,
+    "en": "funeral",
+    "fr": "funérailles",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "fe → e",
+    "newGroup": false,
+    "en": "giraffe",
+    "fr": "girafe",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: â",
+    "newGroup": false,
+    "en": "Grace",
+    "fr": "Grâce",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ass → celer",
+    "newGroup": false,
+    "en": "harass",
+    "fr": "Harceler",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "us → e",
+    "newGroup": false,
+    "en": "hippopotamus",
+    "fr": "hippopotame",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "or → neur",
+    "newGroup": false,
+    "en": "honor",
+    "fr": "honneur",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: ô",
+    "newGroup": false,
+    "en": "hotel",
+    "fr": "hôtel",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "n → in",
+    "newGroup": false,
+    "en": "human",
+    "fr": "humain",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ence → ance",
+    "newGroup": false,
+    "en": "independence",
+    "fr": "indépendance",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "st → t",
+    "newGroup": false,
+    "en": "interest",
+    "fr": "intérêt",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ting → sant",
+    "newGroup": false,
+    "en": "interesting",
+    "fr": "intéressant",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: me",
+    "newGroup": false,
+    "en": "Kilogram",
+    "fr": "Kilogramme",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "age → e",
+    "newGroup": false,
+    "en": "Language",
+    "fr": "Langue",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "s → tille",
+    "newGroup": false,
+    "en": "lens",
+    "fr": "lentille",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "an → en",
+    "newGroup": false,
+    "en": "magician",
+    "fr": "magicien",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "cent → que",
+    "newGroup": false,
+    "en": "magnificent",
+    "fr": "magnifique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ner → iere",
+    "newGroup": false,
+    "en": "manner",
+    "fr": "manière",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ette → nette",
+    "newGroup": false,
+    "en": "marionette",
+    "fr": "marionnette",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ket → che",
+    "newGroup": false,
+    "en": "market",
+    "fr": "marché",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "hanism → anisme",
+    "newGroup": false,
+    "en": "mechanism",
+    "fr": "mécanisme",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "l → ille",
+    "newGroup": false,
+    "en": "medal",
+    "fr": "medaille",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: ner",
+    "newGroup": false,
+    "en": "mention",
+    "fr": "Mentionner",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ate → uer",
+    "newGroup": false,
+    "en": "navigate",
+    "fr": "Naviguer",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ber → ero",
+    "newGroup": false,
+    "en": "number",
+    "fr": "numéro",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ain → enir",
+    "newGroup": false,
+    "en": "obtain",
+    "fr": "Obtenir",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ce → is",
+    "newGroup": false,
+    "en": "palace",
+    "fr": "palais",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "er → ier",
+    "newGroup": false,
+    "en": "paper",
+    "fr": "papier",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "k → c",
+    "newGroup": false,
+    "en": "park",
+    "fr": "parc",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ar → ier",
+    "newGroup": false,
+    "en": "Particular",
+    "fr": "Particulier",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ner → enaire",
+    "newGroup": false,
+    "en": "partner",
+    "fr": "partenaire",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "port → eport",
+    "newGroup": false,
+    "en": "passport",
+    "fr": "passeport",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ality → nalite",
+    "newGroup": false,
+    "en": "personality",
+    "fr": "personnalité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: ie",
+    "newGroup": false,
+    "en": "photograph",
+    "fr": "photographie",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Drop: r",
+    "newGroup": false,
+    "en": "photographer",
+    "fr": "photographe",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "eer → nier",
+    "newGroup": false,
+    "en": "pioneer",
+    "fr": "pionnier",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ve → f",
+    "newGroup": false,
+    "en": "positive",
+    "fr": "positif",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ss → der",
+    "newGroup": false,
+    "en": "possess",
+    "fr": "Posséder",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ce → x",
+    "newGroup": false,
+    "en": "price",
+    "fr": "prix",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ct → it",
+    "newGroup": false,
+    "en": "product",
+    "fr": "produit",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "al → nel",
+    "newGroup": false,
+    "en": "professional",
+    "fr": "professionnel",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ly → ite",
+    "newGroup": false,
+    "en": "really",
+    "fr": "réalité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ar → ier",
+    "newGroup": false,
+    "en": "Regular",
+    "fr": "Régulier",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: at",
+    "newGroup": false,
+    "en": "result",
+    "fr": "résultat",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "k → he",
+    "newGroup": false,
+    "en": "rock",
+    "fr": "roche",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "tivity → bilite",
+    "newGroup": false,
+    "en": "sensitivity",
+    "fr": "sensibilité",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Drop: s",
+    "newGroup": false,
+    "en": "series",
+    "fr": "série",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: è",
+    "newGroup": false,
+    "en": "Sincere",
+    "fr": "Sincère",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "cs → que",
+    "newGroup": false,
+    "en": "statistics",
+    "fr": "statistique",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ket → che",
+    "newGroup": false,
+    "en": "supermarket",
+    "fr": "supermarché",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ny → gner",
+    "newGroup": false,
+    "en": "To accompany",
+    "fr": "accompagner",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "it → ettre",
+    "newGroup": false,
+    "en": "To admit",
+    "fr": "admettre",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "ze → ser",
+    "newGroup": false,
+    "en": "To analyze",
+    "fr": "analyser",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "unce → ncer",
+    "newGroup": false,
+    "en": "To announce",
+    "fr": "annoncer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "horise → oriser",
+    "newGroup": false,
+    "en": "To authorise",
+    "fr": "autoriser",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: ir",
+    "newGroup": false,
+    "en": "To convert",
+    "fr": "convertir",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "strate → trer",
+    "newGroup": false,
+    "en": "To demonstrate",
+    "fr": "démontrer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: re",
+    "newGroup": false,
+    "en": "To depend",
+    "fr": "dépendre",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "ain → enir",
+    "newGroup": false,
+    "en": "To detain",
+    "fr": "détenir",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "ss → ter",
+    "newGroup": false,
+    "en": "To discuss",
+    "fr": "discuter",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "te → er",
+    "newGroup": false,
+    "en": "To distribute",
+    "fr": "distribuer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "er → rer",
+    "newGroup": false,
+    "en": "To enter",
+    "fr": "entrer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "ty → fier",
+    "newGroup": false,
+    "en": "To identity",
+    "fr": "identifier",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "t → er",
+    "newGroup": false,
+    "en": "To insert",
+    "fr": "insérer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "upt → ompre",
+    "newGroup": false,
+    "en": "To interrupt",
+    "fr": "interrompre",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "ce → ire",
+    "newGroup": false,
+    "en": "To introduce",
+    "fr": "introduire",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "ate → uer",
+    "newGroup": false,
+    "en": "To investigate",
+    "fr": "investiguer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "te → liser",
+    "newGroup": false,
+    "en": "To locate",
+    "fr": "localiser",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "tiate → cier",
+    "newGroup": false,
+    "en": "To negotiate",
+    "fr": "négocier",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "yze → iser",
+    "newGroup": false,
+    "en": "To paralyze",
+    "fr": "paraliser",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "ctice → tiquer",
+    "newGroup": false,
+    "en": "To practice",
+    "fr": "pratiquer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "o → e",
+    "newGroup": false,
+    "en": "tomato",
+    "fr": "tomate",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "al → nel",
+    "newGroup": false,
+    "en": "Traditional",
+    "fr": "Traditionnel",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "fic → ic",
+    "newGroup": false,
+    "en": "traffic",
+    "fr": "trafic",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "te → r",
+    "newGroup": false,
+    "en": "unite",
+    "fr": "Unir",
+    "pos": "noun/adjective"
   }
 ];
 const PHRASE_CARDS = [
@@ -6812,10 +6628,64 @@ function clamp(n, min, max) {
 export default function App() {
   const [mode, setMode] = useState(() => {
     const saved = window.localStorage.getItem(STORAGE_KEYS.mode);
-    return saved === "phrases" ? "phrases" : saved === "combos" ? "combos" : "words";
+    return saved === "phrases" ? "phrases" : saved === "combos" ? "combos" : saved === "repeat" ? "repeat" : "words";
   });
 
-  const deck = useMemo(() => (mode === "phrases" ? PHRASE_CARDS : mode === "combos" ? COMBO_CARDS : WORD_CARDS), [mode]);
+  const [repeatSet, setRepeatSet] = useState(() => {
+    try {
+      const raw = window.localStorage.getItem(STORAGE_KEYS.repeatSet);
+      const arr = raw ? JSON.parse(raw) : [];
+      return new Set(Array.isArray(arr) ? arr : []);
+    } catch {
+      return new Set();
+    }
+  });
+  const [replayedThisCard, setReplayedThisCard] = useState(false);
+
+  const cardKey = (c) => {
+    const t = c?.type || (mode === "phrases" ? "phrase" : mode === "combos" ? "combo" : "word");
+    return `${t}::${String(c?.en || "").trim()}::${String(c?.fr || "").trim()}`;
+  };
+
+  const persistRepeatSet = (nextSet) => {
+    try {
+      window.localStorage.setItem(STORAGE_KEYS.repeatSet, JSON.stringify(Array.from(nextSet)));
+    } catch {}
+  };
+
+  const addToRepeat = (c) => {
+    const k = cardKey(c);
+    setRepeatSet((prev) => {
+      const next = new Set(prev);
+      next.add(k);
+      persistRepeatSet(next);
+      return next;
+    });
+  };
+
+  const removeFromRepeat = (c) => {
+    const k = cardKey(c);
+    setRepeatSet((prev) => {
+      if (!prev.has(k)) return prev;
+      const next = new Set(prev);
+      next.delete(k);
+      persistRepeatSet(next);
+      return next;
+    });
+  };
+
+
+
+  const deck = useMemo(() => {
+    if (mode === "phrases") return PHRASE_CARDS;
+    if (mode === "combos") return COMBO_CARDS;
+    if (mode === "repeat") {
+      const all = [...WORD_CARDS, ...PHRASE_CARDS, ...COMBO_CARDS];
+      const keep = new Set(repeatSet);
+      return all.filter((c) => keep.has(cardKey(c)));
+    }
+    return WORD_CARDS;
+  }, [mode, repeatSet]);
 
   const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
@@ -6831,11 +6701,12 @@ export default function App() {
 
   // Load per-mode progress on mode change
   useEffect(() => {
-    const key = mode === "phrases" ? STORAGE_KEYS.phrasesIndex : mode === "combos" ? STORAGE_KEYS.combosIndex : STORAGE_KEYS.wordsIndex;
+    const key = mode === "phrases" ? STORAGE_KEYS.phrasesIndex : mode === "combos" ? STORAGE_KEYS.combosIndex : mode === "repeat" ? STORAGE_KEYS.repeatIndex : STORAGE_KEYS.wordsIndex;
     const saved = parseInt(window.localStorage.getItem(key) || "0", 10);
     const idx = Number.isFinite(saved) ? clamp(saved, 0, Math.max(0, total - 1)) : 0;
     setIndex(idx);
     setRevealed(false);
+    setReplayedThisCard(false);
   }, [mode, total]);
 
   // Persist mode choice
@@ -6863,6 +6734,9 @@ export default function App() {
   }
 
   function nextCard() {
+    if (mode === "repeat" && card && !replayedThisCard) {
+      removeFromRepeat(card);
+    }
     clearAutoTimers();
     setRevealed(false);
     setIndex((i) => clamp(i + 1, 0, total - 1));
@@ -6928,6 +6802,9 @@ export default function App() {
         }}
       >
         <h1 style={{ margin: "10px 0 6px" }}>{PRODUCT_NAME}</h1>
+            <div style={{ marginTop: 0, opacity: 0.8, fontSize: 14 }}>
+              Words you replay will be added to your repeat list.
+            </div>
         <p>No cards found.</p>
       </div>
     );
@@ -6979,6 +6856,7 @@ export default function App() {
               <option value="words">Franglish Words</option>
               <option value="phrases">Everyday Phrases</option>
               <option value="combos">Crucial Combos</option>
+              <option value="repeat">Repeat List</option>
             </select>
           </div>
         </div>
@@ -7026,6 +6904,9 @@ export default function App() {
                 if (!revealed) {
                   revealAndSpeak();
                 } else {
+                  // Replay => add to Repeat List
+                  addToRepeat(card);
+                  setReplayedThisCard(true);
                   safeSpeak(card.fr, "fr-FR");
                 }
               }}
@@ -7038,8 +6919,8 @@ export default function App() {
                 padding: 12,
                 borderRadius: 16,
                 border: "1px solid #ddd",
-                background: "white",
-                color: "#111",
+                background: revealed ? "white" : "black",
+                color: revealed ? "#111" : "white",
                 fontWeight: 800,
                 cursor: "pointer",
               }}
@@ -7072,6 +6953,27 @@ export default function App() {
         {/* Controls */}
         <div style={{ marginTop: 12 }}>
           <div style={{ display: "flex", gap: 10 }}>
+            <button
+              onClick={prevCard}
+              style={{
+                padding: 12,
+                borderRadius: 14,
+                border: "1px solid #111",
+                background: "white",
+                color: "#111",
+                fontSize: 16,
+                fontWeight: 700,
+                cursor: "pointer",
+                minWidth: 90,
+                whiteSpace: "nowrap",
+                opacity: index <= 0 ? 0.5 : 1,
+              }}
+              disabled={index <= 0}
+              title="Back"
+            >
+              Back
+            </button>
+
             <button
               onClick={nextCard}
               style={{
@@ -7139,3 +7041,12 @@ export default function App() {
     </div>
   );
 }
+
+  function prevCard() {
+    if (mode === "repeat" && card && !replayedThisCard) {
+      removeFromRepeat(card);
+    }
+    setAutoPlay(false);
+    setRevealed(false);
+    setIndex((i) => Math.max(0, i - 1));
+  }
