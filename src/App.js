@@ -6628,6 +6628,12 @@ function clamp(n, min, max) {
 export default function App() {
   const [mode, setMode] = useState(() => {
     const saved = window.localStorage.getItem(STORAGE_KEYS.mode);
+
+  useEffect(() => {
+    if (mode === "repeat" && repeatSet.size === 0) {
+      setMode("words");
+    }
+  }, [mode, repeatSet]);
     return saved === "phrases" ? "phrases" : saved === "combos" ? "combos" : saved === "repeat" ? "repeat" : "words";
   });
 
@@ -6855,8 +6861,7 @@ export default function App() {
             >
               <option value="words">Franglish Words</option>
               <option value="phrases">Everyday Phrases</option>
-              <option value="combos">Crucial Combos</option>
-              <option value="repeat">Repeat List</option>
+              <option value="combos">Crucial Combos</option>              {repeatSet.size > 0 ? <option value="repeat">Repeat List</option> : null}
             </select>
           </div>
         </div>
