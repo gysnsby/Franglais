@@ -44,6 +44,22 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Exact matches",
     "newGroup": false,
+    "en": "central",
+    "fr": "central",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "centre",
+    "fr": "centre",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
     "en": "concert",
     "fr": "concert",
     "pos": "noun/adjective"
@@ -54,6 +70,14 @@ const WORD_CARDS = [
     "newGroup": false,
     "en": "different",
     "fr": "Different",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "direction",
+    "fr": "direction",
     "pos": "noun/adjective"
   },
   {
@@ -108,6 +132,14 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Exact matches",
     "newGroup": false,
+    "en": "impossible",
+    "fr": "impossible",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
     "en": "internet",
     "fr": "internet",
     "pos": "noun/adjective"
@@ -140,6 +172,14 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Exact matches",
     "newGroup": false,
+    "en": "minute",
+    "fr": "minute",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
     "en": "moment",
     "fr": "moment",
     "pos": "noun/adjective"
@@ -156,8 +196,24 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Exact matches",
     "newGroup": false,
+    "en": "national",
+    "fr": "national",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
     "en": "normal",
     "fr": "normal",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "option",
+    "fr": "option",
     "pos": "noun/adjective"
   },
   {
@@ -172,8 +228,24 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Exact matches",
     "newGroup": false,
+    "en": "photo",
+    "fr": "photo",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
     "en": "pizza",
     "fr": "pizza",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "plan",
+    "fr": "plan",
     "pos": "noun/adjective"
   },
   {
@@ -212,6 +284,14 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Exact matches",
     "newGroup": false,
+    "en": "question",
+    "fr": "question",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
     "en": "restaurant",
     "fr": "restaurant",
     "pos": "noun/adjective"
@@ -236,6 +316,30 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Exact matches",
     "newGroup": false,
+    "en": "service",
+    "fr": "service",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "simple",
+    "fr": "simple",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "solution",
+    "fr": "solution",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
     "en": "spaghetti",
     "fr": "spaghetti",
     "pos": "noun/adjective"
@@ -252,6 +356,14 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Exact matches",
     "newGroup": false,
+    "en": "station",
+    "fr": "station",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
     "en": "steak",
     "fr": "steak",
     "pos": "noun/adjective"
@@ -262,6 +374,22 @@ const WORD_CARDS = [
     "newGroup": false,
     "en": "taxi",
     "fr": "taxi",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "ticket",
+    "fr": "ticket",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Exact matches",
+    "newGroup": false,
+    "en": "train",
+    "fr": "train",
     "pos": "noun/adjective"
   },
   {
@@ -1362,190 +1490,6 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Add: er",
-    "newGroup": true,
-    "en": "accept",
-    "fr": "Accepter",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "comport",
-    "fr": "comporter",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "consult",
-    "fr": "consulter",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "contract",
-    "fr": "contracter",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "edit",
-    "fr": "Éditer",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "exalt",
-    "fr": "exalter",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "limit",
-    "fr": "Limiter",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "present",
-    "fr": "Présenter",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "resist",
-    "fr": "Résister",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "To adopt",
-    "fr": "adopter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "To deport",
-    "fr": "déporter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "To desert",
-    "fr": "déserter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "To export",
-    "fr": "exporter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "To ferment",
-    "fr": "fermenter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "To import",
-    "fr": "importer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "To insist",
-    "fr": "insister",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "To insult",
-    "fr": "insulter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "To invent",
-    "fr": "inventer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "To lament",
-    "fr": "lamenter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "To march",
-    "fr": "marcher",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "To represent",
-    "fr": "représenter",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "To touch",
-    "fr": "Toucher",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
-    "group": "Add: er",
-    "newGroup": false,
-    "en": "To transform",
-    "fr": "Transformer",
-    "pos": "verb"
-  },
-  {
-    "type": "word",
     "group": "ic → ique",
     "newGroup": true,
     "en": "acrobatic",
@@ -1727,6 +1671,206 @@ const WORD_CARDS = [
     "en": "systematic",
     "fr": "systématique",
     "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": true,
+    "en": "accept",
+    "fr": "Accepter",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "comport",
+    "fr": "comporter",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "consult",
+    "fr": "consulter",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "contract",
+    "fr": "contracter",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "edit",
+    "fr": "Éditer",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "exalt",
+    "fr": "exalter",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "limit",
+    "fr": "Limiter",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "present",
+    "fr": "Présenter",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "resist",
+    "fr": "Résister",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To adopt",
+    "fr": "adopter",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To confirm",
+    "fr": "confirmer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To deport",
+    "fr": "déporter",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To desert",
+    "fr": "déserter",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To export",
+    "fr": "exporter",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To ferment",
+    "fr": "fermenter",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To import",
+    "fr": "importer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To insist",
+    "fr": "insister",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To insult",
+    "fr": "insulter",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To invent",
+    "fr": "inventer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To lament",
+    "fr": "lamenter",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To march",
+    "fr": "marcher",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To pay",
+    "fr": "payer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To represent",
+    "fr": "représenter",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To touch",
+    "fr": "Toucher",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: er",
+    "newGroup": false,
+    "en": "To transform",
+    "fr": "Transformer",
+    "pos": "verb"
   },
   {
     "type": "word",
@@ -1918,6 +2062,14 @@ const WORD_CARDS = [
     "newGroup": false,
     "en": "To prepare",
     "fr": "préparer",
+    "pos": "verb"
+  },
+  {
+    "type": "word",
+    "group": "Add: r",
+    "newGroup": false,
+    "en": "To refuse",
+    "fr": "refuser",
     "pos": "verb"
   },
   {
@@ -2164,6 +2316,14 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Accent: é",
     "newGroup": false,
+    "en": "reservation",
+    "fr": "réservation",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
     "en": "reunion",
     "fr": "réunion",
     "pos": "noun/adjective"
@@ -2198,6 +2358,14 @@ const WORD_CARDS = [
     "newGroup": false,
     "en": "television",
     "fr": "télévision",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Accent: é",
+    "newGroup": false,
+    "en": "video",
+    "fr": "vidéo",
     "pos": "noun/adjective"
   },
   {
@@ -2430,6 +2598,14 @@ const WORD_CARDS = [
     "newGroup": false,
     "en": "salad",
     "fr": "salade",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add final e",
+    "newGroup": false,
+    "en": "second",
+    "fr": "seconde",
     "pos": "noun/adjective"
   },
   {
@@ -2764,6 +2940,14 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Small spelling change",
     "newGroup": false,
+    "en": "name",
+    "fr": "nom",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Small spelling change",
+    "newGroup": false,
     "en": "naturally",
     "fr": "naturellement",
     "pos": "noun/adjective"
@@ -2946,7 +3130,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Add: ner",
     "newGroup": true,
     "en": "abandon",
     "fr": "Abandonner",
@@ -2954,7 +3138,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Drop: te",
     "newGroup": false,
     "en": "Absolute",
     "fr": "Absolu",
@@ -2962,7 +3146,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "tely → ment",
     "newGroup": false,
     "en": "absolutely",
     "fr": "absolument",
@@ -2970,7 +3154,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ies → es",
     "newGroup": false,
     "en": "activities",
     "fr": "activités",
@@ -2978,7 +3162,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "n → in",
     "newGroup": false,
     "en": "African",
     "fr": "Africain",
@@ -2986,7 +3170,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Drop: r",
     "newGroup": false,
     "en": "astronomer",
     "fr": "astronome",
@@ -2994,7 +3178,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Accent: è",
     "newGroup": false,
     "en": "atmosphere",
     "fr": "atmosphère",
@@ -3002,7 +3186,15 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "k → que",
+    "newGroup": false,
+    "en": "bank",
+    "fr": "banque",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "Add: tte",
     "newGroup": false,
     "en": "bicycle",
     "fr": "bicyclette",
@@ -3010,7 +3202,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ck → quer",
     "newGroup": false,
     "en": "block",
     "fr": "Bloquer",
@@ -3018,7 +3210,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Accent: â",
     "newGroup": false,
     "en": "cable",
     "fr": "câble",
@@ -3026,7 +3218,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "or → rice",
     "newGroup": false,
     "en": "Calculator",
     "fr": "Calculatrice",
@@ -3034,7 +3226,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "tain → itaine",
     "newGroup": false,
     "en": "captain",
     "fr": "capitaine",
@@ -3042,7 +3234,15 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "d → te",
+    "newGroup": false,
+    "en": "card",
+    "fr": "carte",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "r → ire",
     "newGroup": false,
     "en": "circular",
     "fr": "circulaire",
@@ -3050,7 +3250,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "tion → ison",
     "newGroup": false,
     "en": "combination",
     "fr": "combinaison",
@@ -3058,7 +3258,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "mittee → ite",
     "newGroup": false,
     "en": "committee",
     "fr": "comité",
@@ -3066,7 +3266,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "on → un",
     "newGroup": false,
     "en": "common",
     "fr": "commun",
@@ -3074,7 +3274,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "cate → quer",
     "newGroup": false,
     "en": "communicate",
     "fr": "Communiquer",
@@ -3082,7 +3282,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ny → gnie",
     "newGroup": false,
     "en": "company",
     "fr": "compagnie",
@@ -3090,7 +3290,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Drop: ing",
     "newGroup": false,
     "en": "confusing",
     "fr": "confus",
@@ -3098,7 +3298,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ond → ant",
     "newGroup": false,
     "en": "diamond",
     "fr": "diamant",
@@ -3106,7 +3306,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ary → naire",
     "newGroup": false,
     "en": "dictionary",
     "fr": "dictionnaire",
@@ -3114,7 +3314,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ly → e",
     "newGroup": false,
     "en": "difficultly",
     "fr": "difficulté",
@@ -3122,7 +3322,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Drop: mail",
     "newGroup": false,
     "en": "email",
     "fr": "e",
@@ -3130,7 +3330,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ous → e",
     "newGroup": false,
     "en": "enormous",
     "fr": "énorme",
@@ -3138,7 +3338,15 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ance → ee",
+    "newGroup": false,
+    "en": "entrance",
+    "fr": "entrée",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ntly → mment",
     "newGroup": false,
     "en": "evidently",
     "fr": "évidemment",
@@ -3146,7 +3354,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "gerate → erer",
     "newGroup": false,
     "en": "exaggerate",
     "fr": "exagérer",
@@ -3154,7 +3362,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "im → mer",
     "newGroup": false,
     "en": "exclaim",
     "fr": "exclamer",
@@ -3162,7 +3370,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "se → ce",
     "newGroup": false,
     "en": "exercise",
     "fr": "exercice",
@@ -3170,7 +3378,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Accent: ç",
     "newGroup": false,
     "en": "facade",
     "fr": "façade",
@@ -3178,7 +3386,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "y → le",
     "newGroup": false,
     "en": "family",
     "fr": "famille",
@@ -3186,7 +3394,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Drop: te",
     "newGroup": false,
     "en": "favorite",
     "fr": "favori",
@@ -3194,7 +3402,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ious → e",
     "newGroup": false,
     "en": "ferocious",
     "fr": "féroce",
@@ -3202,7 +3410,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "sh → r",
     "newGroup": false,
     "en": "finish",
     "fr": "Finir",
@@ -3210,7 +3418,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "l → illes",
     "newGroup": false,
     "en": "funeral",
     "fr": "funérailles",
@@ -3218,7 +3426,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "fe → e",
     "newGroup": false,
     "en": "giraffe",
     "fr": "girafe",
@@ -3226,7 +3434,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Accent: â",
     "newGroup": false,
     "en": "Grace",
     "fr": "Grâce",
@@ -3234,7 +3442,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ass → celer",
     "newGroup": false,
     "en": "harass",
     "fr": "Harceler",
@@ -3242,7 +3450,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "us → e",
     "newGroup": false,
     "en": "hippopotamus",
     "fr": "hippopotame",
@@ -3250,7 +3458,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "or → neur",
     "newGroup": false,
     "en": "honor",
     "fr": "honneur",
@@ -3258,7 +3466,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Accent: ô",
     "newGroup": false,
     "en": "hotel",
     "fr": "hôtel",
@@ -3266,7 +3474,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "n → in",
     "newGroup": false,
     "en": "human",
     "fr": "humain",
@@ -3274,7 +3482,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ence → ance",
     "newGroup": false,
     "en": "independence",
     "fr": "indépendance",
@@ -3282,7 +3490,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "st → t",
     "newGroup": false,
     "en": "interest",
     "fr": "intérêt",
@@ -3290,7 +3498,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ting → sant",
     "newGroup": false,
     "en": "interesting",
     "fr": "intéressant",
@@ -3298,7 +3506,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Add: me",
     "newGroup": false,
     "en": "Kilogram",
     "fr": "Kilogramme",
@@ -3306,7 +3514,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "age → e",
     "newGroup": false,
     "en": "Language",
     "fr": "Langue",
@@ -3314,7 +3522,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "s → tille",
     "newGroup": false,
     "en": "lens",
     "fr": "lentille",
@@ -3322,7 +3530,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "an → en",
     "newGroup": false,
     "en": "magician",
     "fr": "magicien",
@@ -3330,7 +3538,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "cent → que",
     "newGroup": false,
     "en": "magnificent",
     "fr": "magnifique",
@@ -3338,7 +3546,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ner → iere",
     "newGroup": false,
     "en": "manner",
     "fr": "manière",
@@ -3346,7 +3554,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ette → nette",
     "newGroup": false,
     "en": "marionette",
     "fr": "marionnette",
@@ -3354,7 +3562,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ket → che",
     "newGroup": false,
     "en": "market",
     "fr": "marché",
@@ -3362,7 +3570,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "hanism → anisme",
     "newGroup": false,
     "en": "mechanism",
     "fr": "mécanisme",
@@ -3370,7 +3578,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "l → ille",
     "newGroup": false,
     "en": "medal",
     "fr": "medaille",
@@ -3378,7 +3586,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Add: ner",
     "newGroup": false,
     "en": "mention",
     "fr": "Mentionner",
@@ -3386,7 +3594,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ate → uer",
     "newGroup": false,
     "en": "navigate",
     "fr": "Naviguer",
@@ -3394,7 +3602,15 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ber → ero",
+    "newGroup": false,
+    "en": "number",
+    "fr": "numéro",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ain → enir",
     "newGroup": false,
     "en": "obtain",
     "fr": "Obtenir",
@@ -3402,7 +3618,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ce → is",
     "newGroup": false,
     "en": "palace",
     "fr": "palais",
@@ -3410,7 +3626,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "er → ier",
     "newGroup": false,
     "en": "paper",
     "fr": "papier",
@@ -3418,7 +3634,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "k → c",
     "newGroup": false,
     "en": "park",
     "fr": "parc",
@@ -3426,7 +3642,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ar → ier",
     "newGroup": false,
     "en": "Particular",
     "fr": "Particulier",
@@ -3434,7 +3650,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ner → enaire",
     "newGroup": false,
     "en": "partner",
     "fr": "partenaire",
@@ -3442,7 +3658,15 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "port → eport",
+    "newGroup": false,
+    "en": "passport",
+    "fr": "passeport",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ality → nalite",
     "newGroup": false,
     "en": "personality",
     "fr": "personnalité",
@@ -3450,7 +3674,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Add: ie",
     "newGroup": false,
     "en": "photograph",
     "fr": "photographie",
@@ -3458,7 +3682,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Drop: r",
     "newGroup": false,
     "en": "photographer",
     "fr": "photographe",
@@ -3466,7 +3690,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "eer → nier",
     "newGroup": false,
     "en": "pioneer",
     "fr": "pionnier",
@@ -3474,7 +3698,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ve → f",
     "newGroup": false,
     "en": "positive",
     "fr": "positif",
@@ -3482,7 +3706,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ss → der",
     "newGroup": false,
     "en": "possess",
     "fr": "Posséder",
@@ -3490,7 +3714,23 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ce → x",
+    "newGroup": false,
+    "en": "price",
+    "fr": "prix",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "ct → it",
+    "newGroup": false,
+    "en": "product",
+    "fr": "produit",
+    "pos": "noun/adjective"
+  },
+  {
+    "type": "word",
+    "group": "al → nel",
     "newGroup": false,
     "en": "professional",
     "fr": "professionnel",
@@ -3498,7 +3738,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ly → ite",
     "newGroup": false,
     "en": "really",
     "fr": "réalité",
@@ -3506,7 +3746,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ar → ier",
     "newGroup": false,
     "en": "Regular",
     "fr": "Régulier",
@@ -3514,7 +3754,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Add: at",
     "newGroup": false,
     "en": "result",
     "fr": "résultat",
@@ -3522,7 +3762,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "k → he",
     "newGroup": false,
     "en": "rock",
     "fr": "roche",
@@ -3530,7 +3770,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "tivity → bilite",
     "newGroup": false,
     "en": "sensitivity",
     "fr": "sensibilité",
@@ -3538,7 +3778,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Drop: s",
     "newGroup": false,
     "en": "series",
     "fr": "série",
@@ -3546,7 +3786,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Accent: è",
     "newGroup": false,
     "en": "Sincere",
     "fr": "Sincère",
@@ -3554,7 +3794,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "cs → que",
     "newGroup": false,
     "en": "statistics",
     "fr": "statistique",
@@ -3562,7 +3802,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ket → che",
     "newGroup": false,
     "en": "supermarket",
     "fr": "supermarché",
@@ -3570,7 +3810,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ny → gner",
     "newGroup": false,
     "en": "To accompany",
     "fr": "accompagner",
@@ -3578,7 +3818,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "it → ettre",
     "newGroup": false,
     "en": "To admit",
     "fr": "admettre",
@@ -3586,7 +3826,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ze → ser",
     "newGroup": false,
     "en": "To analyze",
     "fr": "analyser",
@@ -3594,7 +3834,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "unce → ncer",
     "newGroup": false,
     "en": "To announce",
     "fr": "annoncer",
@@ -3602,7 +3842,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "horise → oriser",
     "newGroup": false,
     "en": "To authorise",
     "fr": "autoriser",
@@ -3610,7 +3850,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Add: ir",
     "newGroup": false,
     "en": "To convert",
     "fr": "convertir",
@@ -3618,7 +3858,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "strate → trer",
     "newGroup": false,
     "en": "To demonstrate",
     "fr": "démontrer",
@@ -3626,7 +3866,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "Add: re",
     "newGroup": false,
     "en": "To depend",
     "fr": "dépendre",
@@ -3634,7 +3874,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ain → enir",
     "newGroup": false,
     "en": "To detain",
     "fr": "détenir",
@@ -3642,7 +3882,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ss → ter",
     "newGroup": false,
     "en": "To discuss",
     "fr": "discuter",
@@ -3650,7 +3890,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "te → er",
     "newGroup": false,
     "en": "To distribute",
     "fr": "distribuer",
@@ -3658,7 +3898,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "er → rer",
     "newGroup": false,
     "en": "To enter",
     "fr": "entrer",
@@ -3666,7 +3906,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ty → fier",
     "newGroup": false,
     "en": "To identity",
     "fr": "identifier",
@@ -3674,7 +3914,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "t → er",
     "newGroup": false,
     "en": "To insert",
     "fr": "insérer",
@@ -3682,7 +3922,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "upt → ompre",
     "newGroup": false,
     "en": "To interrupt",
     "fr": "interrompre",
@@ -3690,7 +3930,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ce → ire",
     "newGroup": false,
     "en": "To introduce",
     "fr": "introduire",
@@ -3698,7 +3938,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ate → uer",
     "newGroup": false,
     "en": "To investigate",
     "fr": "investiguer",
@@ -3706,7 +3946,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "te → liser",
     "newGroup": false,
     "en": "To locate",
     "fr": "localiser",
@@ -3714,7 +3954,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "tiate → cier",
     "newGroup": false,
     "en": "To negotiate",
     "fr": "négocier",
@@ -3722,7 +3962,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "yze → iser",
     "newGroup": false,
     "en": "To paralyze",
     "fr": "paraliser",
@@ -3730,7 +3970,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "ctice → tiquer",
     "newGroup": false,
     "en": "To practice",
     "fr": "pratiquer",
@@ -3738,7 +3978,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "o → e",
     "newGroup": false,
     "en": "tomato",
     "fr": "tomate",
@@ -3746,7 +3986,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "al → nel",
     "newGroup": false,
     "en": "Traditional",
     "fr": "Traditionnel",
@@ -3754,7 +3994,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "fic → ic",
     "newGroup": false,
     "en": "traffic",
     "fr": "trafic",
@@ -3762,7 +4002,7 @@ const WORD_CARDS = [
   },
   {
     "type": "word",
-    "group": "Miscellaneous (1–2 items)",
+    "group": "te → r",
     "newGroup": false,
     "en": "unite",
     "fr": "Unir",
@@ -6388,14 +6628,66 @@ function clamp(n, min, max) {
 export default function App() {
   const [mode, setMode] = useState(() => {
     const saved = window.localStorage.getItem(STORAGE_KEYS.mode);
-    return saved === "phrases" ? "phrases" : saved === "combos" ? "combos" : "words";
+    return saved === "phrases" ? "phrases" : saved === "combos" ? "combos" : saved === "repeat" ? "repeat" : "words";
   });
 
-  const deck = useMemo(() => (mode === "phrases" ? PHRASE_CARDS : mode === "combos" ? COMBO_CARDS : WORD_CARDS), [mode]);
+  const deck = useMemo(() => {
+    if (mode === "phrases") return PHRASE_CARDS;
+    if (mode === "combos") return COMBO_CARDS;
+    if (mode === "repeat") {
+      const all = [...WORD_CARDS, ...PHRASE_CARDS, ...COMBO_CARDS];
+      const keep = new Set(repeatSet);
+      return all.filter((c) => keep.has(cardKey(c)));
+    }
+    return WORD_CARDS;
+  }, [mode, repeatSet]);
 
   const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
   const [autoPlay, setAutoPlay] = useState(false);
+
+  const [repeatSet, setRepeatSet] = useState(() => {
+    try {
+      const raw = window.localStorage.getItem(STORAGE_KEYS.repeatSet);
+      const arr = raw ? JSON.parse(raw) : [];
+      return new Set(Array.isArray(arr) ? arr : []);
+    } catch {
+      return new Set();
+    }
+  });
+  const [replayedThisCard, setReplayedThisCard] = useState(false);
+
+  const cardKey = (c) => {
+    const t = c?.type || (mode === "phrases" ? "phrase" : mode === "combos" ? "combo" : "word");
+    return `${t}::${String(c?.en || "").trim()}::${String(c?.fr || "").trim()}`;
+  };
+
+  const persistRepeatSet = (nextSet) => {
+    try {
+      window.localStorage.setItem(STORAGE_KEYS.repeatSet, JSON.stringify(Array.from(nextSet)));
+    } catch {}
+  };
+
+  const addToRepeat = (c) => {
+    const k = cardKey(c);
+    setRepeatSet((prev) => {
+      const next = new Set(prev);
+      next.add(k);
+      persistRepeatSet(next);
+      return next;
+    });
+  };
+
+  const removeFromRepeat = (c) => {
+    const k = cardKey(c);
+    setRepeatSet((prev) => {
+      if (!prev.has(k)) return prev;
+      const next = new Set(prev);
+      next.delete(k);
+      persistRepeatSet(next);
+      return next;
+    });
+  };
 
   const autoTimersRef = useRef([]);
   const total = deck.length;
@@ -6407,11 +6699,12 @@ export default function App() {
 
   // Load per-mode progress on mode change
   useEffect(() => {
-    const key = mode === "phrases" ? STORAGE_KEYS.phrasesIndex : mode === "combos" ? STORAGE_KEYS.combosIndex : STORAGE_KEYS.wordsIndex;
+    const key = mode === "phrases" ? STORAGE_KEYS.phrasesIndex : mode === "combos" ? STORAGE_KEYS.combosIndex : mode === "repeat" ? STORAGE_KEYS.repeatIndex : STORAGE_KEYS.wordsIndex;
     const saved = parseInt(window.localStorage.getItem(key) || "0", 10);
     const idx = Number.isFinite(saved) ? clamp(saved, 0, Math.max(0, total - 1)) : 0;
     setIndex(idx);
     setRevealed(false);
+    setReplayedThisCard(false);
   }, [mode, total]);
 
   // Persist mode choice
@@ -6439,6 +6732,9 @@ export default function App() {
   }
 
   function nextCard() {
+    if (mode === "repeat" && card && !replayedThisCard) {
+      removeFromRepeat(card);
+    }
     clearAutoTimers();
     setRevealed(false);
     setIndex((i) => clamp(i + 1, 0, total - 1));
@@ -6504,6 +6800,9 @@ export default function App() {
         }}
       >
         <h1 style={{ margin: "10px 0 6px" }}>{PRODUCT_NAME}</h1>
+            <div style={{ marginTop: 0, opacity: 0.8, fontSize: 14 }}>
+              Words you replay will be added to your repeat list.
+            </div>
         <p>No cards found.</p>
       </div>
     );
@@ -6555,6 +6854,7 @@ export default function App() {
               <option value="words">Franglish Words</option>
               <option value="phrases">Everyday Phrases</option>
               <option value="combos">Crucial Combos</option>
+              <option value="repeat">Repeat List</option>
             </select>
           </div>
         </div>
@@ -6565,7 +6865,7 @@ export default function App() {
             {index + 1} / {total}
           </div>
           <div style={{ fontSize: 13, color: "#555" }}>
-            {card.newGroup ? <strong>NEW RULE:</strong> : "Rule:"}{" "}
+            {card.newGroup ? <strong>NEW GROUP:</strong> : "Group:"}{" "}
             <span style={{ fontWeight: 700 }}>{card.group}</span>
           </div>
         </div>
@@ -6602,6 +6902,9 @@ export default function App() {
                 if (!revealed) {
                   revealAndSpeak();
                 } else {
+                  // Replay => add to Repeat List
+                  addToRepeat(card);
+                  setReplayedThisCard(true);
                   safeSpeak(card.fr, "fr-FR");
                 }
               }}
@@ -6738,6 +7041,9 @@ export default function App() {
 }
 
   function prevCard() {
+    if (mode === "repeat" && card && !replayedThisCard) {
+      removeFromRepeat(card);
+    }
     setAutoPlay(false);
     setRevealed(false);
     setIndex((i) => Math.max(0, i - 1));
