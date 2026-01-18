@@ -6628,12 +6628,6 @@ function clamp(n, min, max) {
 export default function App() {
   const [mode, setMode] = useState(() => {
     const saved = window.localStorage.getItem(STORAGE_KEYS.mode);
-
-  useEffect(() => {
-    if (mode === "repeat" && repeatSet.size === 0) {
-      setMode("words");
-    }
-  }, [mode, repeatSet]);
     return saved === "phrases" ? "phrases" : saved === "combos" ? "combos" : saved === "repeat" ? "repeat" : "words";
   });
 
@@ -6647,6 +6641,12 @@ export default function App() {
     }
   });
   const [replayedThisCard, setReplayedThisCard] = useState(false);
+
+  useEffect(() => {
+    if (mode === "repeat" && repeatSet.size === 0) {
+      setMode("words");
+    }
+  }, [mode, repeatSet]);
 
   const cardKey = (c) => {
     const t = c?.type || (mode === "phrases" ? "phrase" : mode === "combos" ? "combo" : "word");
