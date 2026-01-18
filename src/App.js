@@ -6631,21 +6631,6 @@ export default function App() {
     return saved === "phrases" ? "phrases" : saved === "combos" ? "combos" : saved === "repeat" ? "repeat" : "words";
   });
 
-  const deck = useMemo(() => {
-    if (mode === "phrases") return PHRASE_CARDS;
-    if (mode === "combos") return COMBO_CARDS;
-    if (mode === "repeat") {
-      const all = [...WORD_CARDS, ...PHRASE_CARDS, ...COMBO_CARDS];
-      const keep = new Set(repeatSet);
-      return all.filter((c) => keep.has(cardKey(c)));
-    }
-    return WORD_CARDS;
-  }, [mode, repeatSet]);
-
-  const [index, setIndex] = useState(0);
-  const [revealed, setRevealed] = useState(false);
-  const [autoPlay, setAutoPlay] = useState(false);
-
   const [repeatSet, setRepeatSet] = useState(() => {
     try {
       const raw = window.localStorage.getItem(STORAGE_KEYS.repeatSet);
@@ -6688,6 +6673,23 @@ export default function App() {
       return next;
     });
   };
+
+
+
+  const deck = useMemo(() => {
+    if (mode === "phrases") return PHRASE_CARDS;
+    if (mode === "combos") return COMBO_CARDS;
+    if (mode === "repeat") {
+      const all = [...WORD_CARDS, ...PHRASE_CARDS, ...COMBO_CARDS];
+      const keep = new Set(repeatSet);
+      return all.filter((c) => keep.has(cardKey(c)));
+    }
+    return WORD_CARDS;
+  }, [mode, repeatSet]);
+
+  const [index, setIndex] = useState(0);
+  const [revealed, setRevealed] = useState(false);
+  const [autoPlay, setAutoPlay] = useState(false);
 
   const autoTimersRef = useRef([]);
   const total = deck.length;
