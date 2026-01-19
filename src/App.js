@@ -6626,8 +6626,7 @@ function clamp(n, min, max) {
 }
 
 export default function App() {
-  const [mode, setMode] = useState(() => {
-    const saved = window.localStorage.getItem(STORAGE_KEYS.mode);
+  const [mode, setMode] = useState("words120");
     return saved === "words120" ? "words120" : saved === "phrases100" ? "phrases100" : saved === "combos" ? "combos" : saved === "words400" ? "words400" : saved === "repeat" ? "repeat" : "words120";
   });
 
@@ -6695,6 +6694,18 @@ export default function App() {
       return all.filter((c) => keep.has(cardKey(c)));
     }
     if (mode === "words400") return WORD_CARDS.slice(120);
+    return WORD_CARDS.slice(0, 120);
+    if (mode === "combos") return COMBO_CARDS;
+    if (mode === "repeat") {
+      const all = [
+        ...WORD_CARDS.map((c, i) => ({ ...c, __deck: i < 120 ? "words120" : "words400" })),
+        ...PHRASE_CARDS.slice(0, 100).map((c) => ({ ...c, __deck: "phrases100" })),
+        ...COMBO_CARDS.map((c) => ({ ...c, __deck: "combos" })),
+      ];
+      const keep = new Set(repeatSet);
+      return all.filter((c) => keep.has(cardKey(c)));
+    }
+    if (mode === "words400") return WORD_CARDS.slice(120);
     // default: first-pass words
     return WORD_CARDS.slice(0, 120);
   }, [mode, repeatSet]);
@@ -6715,14 +6726,12 @@ export default function App() {
   useEffect(() => {
     const key =
       mode === "phrases100"
-        ? STORAGE_KEYS.phrases100Index
+        ? STORAGE_KEYS.phrasesIndex
         : mode === "combos"
         ? STORAGE_KEYS.combosIndex
-        : mode === "words400"
-        ? STORAGE_KEYS.words400Index
         : mode === "repeat"
         ? STORAGE_KEYS.repeatIndex
-        : STORAGE_KEYS.words120Index;
+        : STORAGE_KEYS.wordsIndex;
     const saved = parseInt(window.localStorage.getItem(key) || "0", 10);
     const idx = Number.isFinite(saved) ? clamp(saved, 0, Math.max(0, total - 1)) : 0;
     setIndex(idx);
@@ -6758,6 +6767,18 @@ export default function App() {
     if (mode === "repeat" && card && !replayedThisCard) {
       removeFromRepeat(card);
     }
+
+  function prevCard() {
+    if (mode === "repeat" && card && !replayedThisCard) {
+      removeFromRepeat(card);
+    }
+
+    clearAutoTimers();
+    setAutoPlay(false);
+    setRevealed(false);
+    setReplayedThisCard(false);
+    setIndex((i) => clamp(i - 1, 0, total - 1));
+  }
     clearAutoTimers();
     setRevealed(false);
     setIndex((i) => clamp(i + 1, 0, total - 1));
@@ -7064,12 +7085,3 @@ export default function App() {
     </div>
   );
 }
-
-  function prevCard() {
-    if (mode === "repeat" && card && !replayedThisCard) {
-      removeFromRepeat(card);
-    }
-    setAutoPlay(false);
-    setRevealed(false);
-    setIndex((i) => Math.max(0, i - 1));
-  }
