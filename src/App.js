@@ -6698,10 +6698,6 @@ export default function App() {
     // default: first-pass words
     return WORD_CARDS.slice(0, 120);
   }, [mode, repeatSet]);
-      return all.filter((c) => keep.has(cardKey(c)));
-    }
-    return WORD_CARDS;
-  }, [mode, repeatSet]);
 
   const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
