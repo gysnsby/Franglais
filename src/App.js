@@ -6695,7 +6695,6 @@ export default function App() {
     }
     if (mode === "words400") return WORD_CARDS.slice(120);
     return WORD_CARDS.slice(0, 120);
-  }, [mode, repeatSet]);
     if (mode === "combos") return COMBO_CARDS;
     if (mode === "repeat") {
       const all = [
