@@ -6860,7 +6860,6 @@ export default function App() {
     }, 3600);
 
     return () => clearAutoTimers();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [autoPlay, index, mode]);
 
   // Build the prompt line
