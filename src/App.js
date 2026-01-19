@@ -2,6 +2,39 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 
 const PRODUCT_NAME = "Dictionnaire Franglais";
 
+class ErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false, error: null };
+  }
+  static getDerivedStateFromError(error) {
+    return { hasError: true, error };
+  }
+  componentDidCatch(error, info) {
+    // eslint is intentionally not configured for react-hooks in this project; avoid eslint directives.
+    // Log for debugging in browser console.
+    console.error("App crashed:", error, info);
+  }
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div style={{ maxWidth: 760, margin: "0 auto", padding: 14, fontFamily: "system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif", color: "#111" }}>
+          <h1 style={{ margin: "10px 0 6px" }}>Dictionnaire Franglais</h1>
+          <p style={{ marginTop: 10 }}>Something went wrong loading the app.</p>
+          <pre style={{ whiteSpace: "pre-wrap", fontSize: 12, background: "#f3f3f3", padding: 12, borderRadius: 12 }}>
+{String(this.state.error)}
+          </pre>
+          <p style={{ fontSize: 12, opacity: 0.8 }}>
+If you keep seeing this, try clearing site data for this domain (localStorage) and reloading.
+          </p>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
+
+
 /**
  * Decks
  * - Words: Tier A (identical) + Tier 2 (rule groups)
@@ -6641,6 +6674,13 @@ export default function App() {
     }
   });
   const [replayedThisCard, setReplayedThisCard] = useState(false);
+  // Safety: if Repeat List is selected but empty (e.g. from saved mode), fall back to words120
+  useEffect(() => {
+    if (mode === "repeat" && repeatSet.size === 0) {
+      setMode("words120");
+    }
+  }, [mode, repeatSet]);
+
 
   useEffect(() => {
     if (mode === "repeat" && repeatSet.size === 0) {
@@ -6844,6 +6884,7 @@ export default function App() {
   }
 
   return (
+    <ErrorBoundary>
     <div style={{ background: "#f5f6f7", minHeight: "100vh" }}>
       <div
         style={{
@@ -7074,5 +7115,7 @@ export default function App() {
         </div>
       </div>
     </div>
+    </ErrorBoundary>
+
   );
 }
