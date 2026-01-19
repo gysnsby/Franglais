@@ -6628,13 +6628,7 @@ function clamp(n, min, max) {
 export default function App() {
   const [mode, setMode] = useState(() => {
     const saved = window.localStorage.getItem(STORAGE_KEYS.mode);
-
-  useEffect(() => {
-    if (mode === "repeat" && repeatSet.size === 0) {
-      setMode("words");
-    }
-  }, [mode, repeatSet]);
-    return saved === "phrases" ? "phrases" : saved === "combos" ? "combos" : saved === "repeat" ? "repeat" : "words";
+    return saved === "words120" ? "words120" : saved === "phrases100" ? "phrases100" : saved === "combos" ? "combos" : saved === "words400" ? "words400" : saved === "repeat" ? "repeat" : "words120";
   });
 
   const [repeatSet, setRepeatSet] = useState(() => {
@@ -6648,8 +6642,14 @@ export default function App() {
   });
   const [replayedThisCard, setReplayedThisCard] = useState(false);
 
+  useEffect(() => {
+    if (mode === "repeat" && repeatSet.size === 0) {
+      setMode("words120");
+    }
+  }, [mode, repeatSet]);
+
   const cardKey = (c) => {
-    const t = c?.type || (mode === "phrases" ? "phrase" : mode === "combos" ? "combo" : "word");
+    const t = c?.type || (mode === "phrases100" ? "phrase" : mode === "combos" ? "combo" : "word");
     return `${t}::${String(c?.en || "").trim()}::${String(c?.fr || "").trim()}`;
   };
 
@@ -6683,14 +6683,20 @@ export default function App() {
 
 
   const deck = useMemo(() => {
-    if (mode === "phrases") return PHRASE_CARDS;
+    if (mode === "phrases100") return PHRASE_CARDS.slice(0, 100);
     if (mode === "combos") return COMBO_CARDS;
     if (mode === "repeat") {
-      const all = [...WORD_CARDS, ...PHRASE_CARDS, ...COMBO_CARDS];
+      const all = [
+        ...WORD_CARDS.map((c, i) => ({ ...c, __deck: i < 120 ? "words120" : "words400" })),
+        ...PHRASE_CARDS.slice(0, 100).map((c) => ({ ...c, __deck: "phrases100" })),
+        ...COMBO_CARDS.map((c) => ({ ...c, __deck: "combos" })),
+      ];
       const keep = new Set(repeatSet);
       return all.filter((c) => keep.has(cardKey(c)));
     }
-    return WORD_CARDS;
+    if (mode === "words400") return WORD_CARDS.slice(120);
+    // default: first-pass words
+    return WORD_CARDS.slice(0, 120);
   }, [mode, repeatSet]);
 
   const [index, setIndex] = useState(0);
@@ -6707,7 +6713,16 @@ export default function App() {
 
   // Load per-mode progress on mode change
   useEffect(() => {
-    const key = mode === "phrases" ? STORAGE_KEYS.phrasesIndex : mode === "combos" ? STORAGE_KEYS.combosIndex : mode === "repeat" ? STORAGE_KEYS.repeatIndex : STORAGE_KEYS.wordsIndex;
+    const key =
+      mode === "phrases100"
+        ? STORAGE_KEYS.phrases100Index
+        : mode === "combos"
+        ? STORAGE_KEYS.combosIndex
+        : mode === "words400"
+        ? STORAGE_KEYS.words400Index
+        : mode === "repeat"
+        ? STORAGE_KEYS.repeatIndex
+        : STORAGE_KEYS.words120Index;
     const saved = parseInt(window.localStorage.getItem(key) || "0", 10);
     const idx = Number.isFinite(saved) ? clamp(saved, 0, Math.max(0, total - 1)) : 0;
     setIndex(idx);
@@ -6722,7 +6737,7 @@ export default function App() {
 
   // Persist index per mode
   useEffect(() => {
-    const key = mode === "phrases" ? STORAGE_KEYS.phrasesIndex : mode === "combos" ? STORAGE_KEYS.combosIndex : STORAGE_KEYS.wordsIndex;
+    const key = mode === "phrases100" ? STORAGE_KEYS.phrasesIndex : mode === "combos" ? STORAGE_KEYS.combosIndex : STORAGE_KEYS.wordsIndex;
     window.localStorage.setItem(key, String(index));
   }, [index, mode]);
 
@@ -6750,7 +6765,7 @@ export default function App() {
 
   function resetProgress() {
     clearAutoTimers();
-    const key = mode === "phrases" ? STORAGE_KEYS.phrasesIndex : mode === "combos" ? STORAGE_KEYS.combosIndex : STORAGE_KEYS.wordsIndex;
+    const key = mode === "phrases100" ? STORAGE_KEYS.phrasesIndex : mode === "combos" ? STORAGE_KEYS.combosIndex : STORAGE_KEYS.wordsIndex;
     window.localStorage.removeItem(key);
     setIndex(0);
     setRevealed(false);
@@ -6836,7 +6851,7 @@ export default function App() {
             <div style={{ marginTop: 4, color: "#555", fontSize: 13 }}>
               {mode === "words"
                 ? "Franglais words grouped by rule (includes identical spelling)."
-                : mode === "phrases"
+                : mode === "phrases100"
                 ? "Everyday French you will HEAR in shops, cafés and day-to-day service."
                 : "High-leverage sentence patterns you can reuse to SPEAK."}
             </div>
@@ -6846,22 +6861,25 @@ export default function App() {
             <div style={{ fontSize: 12, color: "#555" }}>Mode</div>
             <select
               value={mode}
-              onChange={(e) => {
-                clearAutoTimers();
-                setAutoPlay(false); // avoid surprise when switching decks
-                setMode(e.target.value);
-              }}
+              onChange={(e) => setMode(e.target.value)}
               style={{
-                padding: "10px 12px",
+                padding: 10,
                 borderRadius: 12,
-                border: "1px solid #ddd",
+                border: "1px solid #111",
                 background: "white",
+                color: "#111",
+                fontSize: 14,
                 fontWeight: 700,
+                cursor: "pointer",
+                maxWidth: "100%",
               }}
+              aria-label="Mode"
             >
-              <option value="words">Franglish Words</option>
-              <option value="phrases">Everyday Phrases</option>
-              <option value="combos">Crucial Combos</option>              {repeatSet.size > 0 ? <option value="repeat">Repeat List</option> : null}
+              <option value="words120">120 Franglais Words</option>
+              <option value="phrases100">100 Essential Phrases</option>
+              <option value="combos">Infinite Combos</option>
+              <option value="words400">400+ Easy Words</option>
+              {repeatSet.size > 0 ? <option value="repeat">Words to Repeat</option> : null}
             </select>
           </div>
         </div>
