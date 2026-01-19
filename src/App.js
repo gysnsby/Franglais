@@ -6518,9 +6518,6 @@ const STORAGE_KEYS = {
   combosIndex: "df_combos_index_v1",
 };
 
-const getHistoryStorageKey = (mode) => `${STORAGE_KEYS.history}::${mode}`;
-
-
 // --- TTS: force a real French voice when available (iOS-friendly) ---
 let __cachedVoices = null;
 let __cachedFrenchVoice = null;
@@ -6703,32 +6700,20 @@ export default function App() {
   }, [mode, repeatSet]);
 
   const [index, setIndex] = useState(0);
-  const [history, setHistory] = useState([0]);
   const [revealed, setRevealed] = useState(false);
   const [autoPlay, setAutoPlay] = useState(false);
 
   const autoTimersRef = useRef([]);
   const total = deck.length;
 
-  // Clamp index/history when deck changes
-  useEffect(() => {
-    if (total <= 0) {
-      setIndex(0);
-      setHistory([0]);
-      return;
-    }
-    setHistory((prev) => prev.map((n) => clamp(n, 0, total - 1)));
-    setIndex((i) => clamp(i, 0, total - 1));
-  }, [total]);
-
   // Prime voice list on mount (important on iOS)
   useEffect(() => {
     initVoiceCache();
   }, []);
 
-  // Load per-mode progress (index + history)
+  // Load per-mode progress on mode change
   useEffect(() => {
-    const indexKey =
+    const key =
       mode === "phrases100"
         ? STORAGE_KEYS.phrases100Index
         : mode === "combos"
@@ -6738,30 +6723,9 @@ export default function App() {
         : mode === "repeat"
         ? STORAGE_KEYS.repeatIndex
         : STORAGE_KEYS.words120Index;
-
-    // Load saved index
-    let savedIndex = 0;
-    try {
-      const raw = window.localStorage.getItem(indexKey);
-      const parsed = raw ? Number(raw) : 0;
-      savedIndex = Number.isFinite(parsed) ? parsed : 0;
-    } catch {}
-
-    // Load history
-    let savedHistory = [savedIndex];
-    try {
-      const rawH = window.localStorage.getItem(getHistoryStorageKey(mode));
-      const arr = rawH ? JSON.parse(rawH) : null;
-      if (Array.isArray(arr) && arr.length > 0) savedHistory = arr;
-    } catch {}
-
-    const clampIdx = (n) => clamp(n, 0, Math.max(0, total - 1));
-    savedHistory = savedHistory.map(clampIdx);
-
-    const current = savedHistory[savedHistory.length - 1] ?? 0;
-
-    setHistory(savedHistory.length ? savedHistory : [0]);
-    setIndex(clampIdx(current));
+    const saved = parseInt(window.localStorage.getItem(key) || "0", 10);
+    const idx = Number.isFinite(saved) ? clamp(saved, 0, Math.max(0, total - 1)) : 0;
+    setIndex(idx);
     setRevealed(false);
     setReplayedThisCard(false);
   }, [mode, total]);
@@ -6771,27 +6735,11 @@ export default function App() {
     window.localStorage.setItem(STORAGE_KEYS.mode, mode);
   }, [mode]);
 
-  // Persist progress (index + history)
+  // Persist index per mode
   useEffect(() => {
-    const indexKey =
-      mode === "phrases100"
-        ? STORAGE_KEYS.phrases100Index
-        : mode === "combos"
-        ? STORAGE_KEYS.combosIndex
-        : mode === "words400"
-        ? STORAGE_KEYS.words400Index
-        : mode === "repeat"
-        ? STORAGE_KEYS.repeatIndex
-        : STORAGE_KEYS.words120Index;
-
-    try {
-      window.localStorage.setItem(indexKey, String(index));
-    } catch {}
-
-    try {
-      window.localStorage.setItem(getHistoryStorageKey(mode), JSON.stringify(history));
-    } catch {}
-  }, [index, mode, history]);
+    const key = mode === "phrases100" ? STORAGE_KEYS.phrasesIndex : mode === "combos" ? STORAGE_KEYS.combosIndex : STORAGE_KEYS.wordsIndex;
+    window.localStorage.setItem(key, String(index));
+  }, [index, mode]);
 
 
   const card = deck[index] || null;
@@ -6810,19 +6758,6 @@ export default function App() {
     if (mode === "repeat" && card && !replayedThisCard) {
       removeFromRepeat(card);
     }
-
-    setAutoPlay(false);
-    setRevealed(false);
-    setReplayedThisCard(false);
-
-    setHistory((prev) => {
-      const last = prev[prev.length - 1] ?? 0;
-      const nextIdx = clamp(last + 1, 0, Math.max(0, total - 1));
-      setIndex(nextIdx);
-      return [...prev, nextIdx];
-    });
-  }
-
     clearAutoTimers();
     setRevealed(false);
     setIndex((i) => clamp(i + 1, 0, total - 1));
@@ -7054,9 +6989,9 @@ export default function App() {
                 cursor: "pointer",
                 minWidth: 90,
                 whiteSpace: "nowrap",
-                opacity: history.length <= 1 ? 0.5 : 1,
+                opacity: index <= 0 ? 0.5 : 1,
               }}
-              disabled={history.length <= 1}
+              disabled={index <= 0}
               title="Back"
             >
               Back
@@ -7134,23 +7069,6 @@ export default function App() {
     if (mode === "repeat" && card && !replayedThisCard) {
       removeFromRepeat(card);
     }
-
-    setAutoPlay(false);
-    setRevealed(false);
-    setReplayedThisCard(false);
-
-    setHistory((prev) => {
-      if (!prev || prev.length <= 1) {
-        setIndex(0);
-        return [0];
-      }
-      const nextHist = prev.slice(0, -1);
-      const prevIdx = nextHist[nextHist.length - 1] ?? 0;
-      setIndex(prevIdx);
-      return nextHist;
-    });
-  }
-
     setAutoPlay(false);
     setRevealed(false);
     setIndex((i) => Math.max(0, i - 1));
