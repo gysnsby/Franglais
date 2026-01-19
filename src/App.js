@@ -2,39 +2,6 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 
 const PRODUCT_NAME = "Dictionnaire Franglais";
 
-class ErrorBoundary extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { hasError: false, error: null };
-  }
-  static getDerivedStateFromError(error) {
-    return { hasError: true, error };
-  }
-  componentDidCatch(error, info) {
-    // eslint is intentionally not configured for react-hooks in this project; avoid eslint directives.
-    // Log for debugging in browser console.
-    console.error("App crashed:", error, info);
-  }
-  render() {
-    if (this.state.hasError) {
-      return (
-        <div style={{ maxWidth: 760, margin: "0 auto", padding: 14, fontFamily: "system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif", color: "#111" }}>
-          <h1 style={{ margin: "10px 0 6px" }}>Dictionnaire Franglais</h1>
-          <p style={{ marginTop: 10 }}>Something went wrong loading the app.</p>
-          <pre style={{ whiteSpace: "pre-wrap", fontSize: 12, background: "#f3f3f3", padding: 12, borderRadius: 12 }}>
-{String(this.state.error)}
-          </pre>
-          <p style={{ fontSize: 12, opacity: 0.8 }}>
-If you keep seeing this, try clearing site data for this domain (localStorage) and reloading.
-          </p>
-        </div>
-      );
-    }
-    return this.props.children;
-  }
-}
-
-
 /**
  * Decks
  * - Words: Tier A (identical) + Tier 2 (rule groups)
@@ -6659,8 +6626,7 @@ function clamp(n, min, max) {
 }
 
 export default function App() {
-  const [mode, setMode] = useState(() => {
-    const saved = window.localStorage.getItem(STORAGE_KEYS.mode);
+  const [mode, setMode] = useState("words120");
     return saved === "words120" ? "words120" : saved === "phrases100" ? "phrases100" : saved === "combos" ? "combos" : saved === "words400" ? "words400" : saved === "repeat" ? "repeat" : "words120";
   });
 
@@ -6674,13 +6640,6 @@ export default function App() {
     }
   });
   const [replayedThisCard, setReplayedThisCard] = useState(false);
-  // Safety: if Repeat List is selected but empty (e.g. from saved mode), fall back to words120
-  useEffect(() => {
-    if (mode === "repeat" && repeatSet.size === 0) {
-      setMode("words120");
-    }
-  }, [mode, repeatSet]);
-
 
   useEffect(() => {
     if (mode === "repeat" && repeatSet.size === 0) {
@@ -6735,6 +6694,19 @@ export default function App() {
       return all.filter((c) => keep.has(cardKey(c)));
     }
     if (mode === "words400") return WORD_CARDS.slice(120);
+    return WORD_CARDS.slice(0, 120);
+  }, [mode, repeatSet]);
+    if (mode === "combos") return COMBO_CARDS;
+    if (mode === "repeat") {
+      const all = [
+        ...WORD_CARDS.map((c, i) => ({ ...c, __deck: i < 120 ? "words120" : "words400" })),
+        ...PHRASE_CARDS.slice(0, 100).map((c) => ({ ...c, __deck: "phrases100" })),
+        ...COMBO_CARDS.map((c) => ({ ...c, __deck: "combos" })),
+      ];
+      const keep = new Set(repeatSet);
+      return all.filter((c) => keep.has(cardKey(c)));
+    }
+    if (mode === "words400") return WORD_CARDS.slice(120);
     // default: first-pass words
     return WORD_CARDS.slice(0, 120);
   }, [mode, repeatSet]);
@@ -6755,14 +6727,12 @@ export default function App() {
   useEffect(() => {
     const key =
       mode === "phrases100"
-        ? STORAGE_KEYS.phrases100Index
+        ? STORAGE_KEYS.phrasesIndex
         : mode === "combos"
         ? STORAGE_KEYS.combosIndex
-        : mode === "words400"
-        ? STORAGE_KEYS.words400Index
         : mode === "repeat"
         ? STORAGE_KEYS.repeatIndex
-        : STORAGE_KEYS.words120Index;
+        : STORAGE_KEYS.wordsIndex;
     const saved = parseInt(window.localStorage.getItem(key) || "0", 10);
     const idx = Number.isFinite(saved) ? clamp(saved, 0, Math.max(0, total - 1)) : 0;
     setIndex(idx);
@@ -6800,7 +6770,6 @@ export default function App() {
     }
 
   function prevCard() {
-    // In Repeat List mode, if you move without replaying, remove the item
     if (mode === "repeat" && card && !replayedThisCard) {
       removeFromRepeat(card);
     }
@@ -6848,6 +6817,7 @@ export default function App() {
     }, 3600);
 
     return () => clearAutoTimers();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [autoPlay, index, mode]);
 
   // Build the prompt line
@@ -6884,7 +6854,6 @@ export default function App() {
   }
 
   return (
-    <ErrorBoundary>
     <div style={{ background: "#f5f6f7", minHeight: "100vh" }}>
       <div
         style={{
@@ -7115,7 +7084,5 @@ export default function App() {
         </div>
       </div>
     </div>
-    </ErrorBoundary>
-
   );
 }
