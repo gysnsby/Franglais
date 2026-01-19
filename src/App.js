@@ -6726,7 +6726,7 @@ export default function App() {
     initVoiceCache();
   }, []);
 
-  // Load per-mode progress (index + history)
+  // Load per-mode progress (index + history) on mode change
   useEffect(() => {
     const indexKey =
       mode === "phrases100"
@@ -6739,7 +6739,6 @@ export default function App() {
         ? STORAGE_KEYS.repeatIndex
         : STORAGE_KEYS.words120Index;
 
-    // Load saved index
     let savedIndex = 0;
     try {
       const raw = window.localStorage.getItem(indexKey);
@@ -6747,7 +6746,6 @@ export default function App() {
       savedIndex = Number.isFinite(parsed) ? parsed : 0;
     } catch {}
 
-    // Load history
     let savedHistory = [savedIndex];
     try {
       const rawH = window.localStorage.getItem(getHistoryStorageKey(mode));
@@ -6823,6 +6821,33 @@ export default function App() {
     });
   }
 
+
+
+function prevCard() {
+    if (mode === "repeat" && card && !replayedThisCard) {
+      removeFromRepeat(card);
+    }
+
+    setAutoPlay(false);
+    setRevealed(false);
+    setReplayedThisCard(false);
+
+    setHistory((prev) => {
+      if (!prev || prev.length <= 1) {
+        setIndex(0);
+        return [0];
+      }
+      const nextHist = prev.slice(0, -1);
+      const prevIdx = nextHist[nextHist.length - 1] ?? 0;
+      setIndex(prevIdx);
+      return nextHist;
+    });
+  }
+
+    setAutoPlay(false);
+    setRevealed(false);
+    setIndex((i) => Math.max(0, i - 1));
+  }
     clearAutoTimers();
     setRevealed(false);
     setIndex((i) => clamp(i + 1, 0, total - 1));
@@ -6860,6 +6885,7 @@ export default function App() {
     }, 3600);
 
     return () => clearAutoTimers();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [autoPlay, index, mode]);
 
   // Build the prompt line
@@ -7128,29 +7154,3 @@ export default function App() {
     </div>
   );
 }
-
-  function prevCard() {
-    if (mode === "repeat" && card && !replayedThisCard) {
-      removeFromRepeat(card);
-    }
-
-    setAutoPlay(false);
-    setRevealed(false);
-    setReplayedThisCard(false);
-
-    setHistory((prev) => {
-      if (!prev || prev.length <= 1) {
-        setIndex(0);
-        return [0];
-      }
-      const nextHist = prev.slice(0, -1);
-      const prevIdx = nextHist[nextHist.length - 1] ?? 0;
-      setIndex(prevIdx);
-      return nextHist;
-    });
-  }
-
-    setAutoPlay(false);
-    setRevealed(false);
-    setIndex((i) => Math.max(0, i - 1));
-  }
