@@ -6586,14 +6586,6 @@ function pickFrenchVoicePreferFemale(voices) {
     if ((v.lang || "").toLowerCase() === "fr-fr") s += 2;
     return s;
   };
-
-  // Persist progress (all menus) under one key
-  useEffect(() => {
-    try {
-      window.localStorage.setItem(STORAGE_KEYS.progress, JSON.stringify(progress));
-    } catch {}
-  }, [progress]);
-
   fr.sort((a, b) => score(b) - score(a));
   return fr[0] || null;
 }
@@ -6657,6 +6649,14 @@ export default function App() {
   const setMode = (nextMode) => {
     setProgress((p) => ({ ...p, mode: nextMode }));
   };
+
+  // Persist progress (all menus) under one key
+  useEffect(() => {
+    try {
+      window.localStorage.setItem(STORAGE_KEYS.progress, JSON.stringify(progress));
+    } catch {}
+  }, [progress]);
+
 
   const [repeatSet, setRepeatSet] = useState(() => {
     try {
