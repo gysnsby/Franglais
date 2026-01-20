@@ -4815,1502 +4815,1410 @@ const PHRASE_CARDS = [
 const COMBO_CARDS = [
   {
     "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": true,
-    "fr": "Je veux + nom",
-    "en": "I want + noun",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": false,
-    "fr": "Je voudrais + nom",
-    "en": "I’d like + noun",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": false,
-    "fr": "Je prends + nom",
-    "en": "I’ll take + noun",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": false,
-    "fr": "Je cherche + nom",
-    "en": "I’m looking for + noun",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": false,
-    "fr": "Je prends celui-là.",
-    "en": "I’ll take that one.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": false,
-    "fr": "Je prends les deux.",
-    "en": "I’ll take both.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": false,
-    "fr": "Je veux juste ça.",
-    "en": "I just want that.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": false,
-    "fr": "Je veux une option simple.",
-    "en": "I want a simple option.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": false,
-    "fr": "Je prends la version classique.",
-    "en": "I’ll take the classic version.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": false,
-    "fr": "Je cherche quelque chose de pratique.",
-    "en": "I’m looking for something practical.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": true,
-    "fr": "Un peu plus.",
-    "en": "A bit more.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": false,
-    "fr": "Un peu moins.",
-    "en": "A bit less.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": false,
-    "fr": "Comme ça.",
-    "en": "Like that.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": false,
-    "fr": "Ça suffit.",
-    "en": "That’s enough.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": false,
-    "fr": "Parfait comme ça.",
-    "en": "Perfect like that.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": false,
-    "fr": "Encore un.",
-    "en": "One more.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": false,
-    "fr": "Juste un.",
-    "en": "Just one.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": false,
-    "fr": "Les deux.",
-    "en": "Both.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": false,
-    "fr": "Celui-ci.",
-    "en": "This one.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": false,
-    "fr": "Ceux-là.",
-    "en": "Those ones.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Food & drink",
-    "newGroup": true,
-    "fr": "Je prends un café.",
-    "en": "I’ll have a coffee.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Food & drink",
-    "newGroup": false,
-    "fr": "Un café allongé.",
-    "en": "A long coffee (espresso + water).",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Food & drink",
-    "newGroup": false,
-    "fr": "Un dessert aussi.",
-    "en": "A dessert as well.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Food & drink",
-    "newGroup": false,
-    "fr": "Avec de l’eau.",
-    "en": "With water.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Food & drink",
-    "newGroup": false,
-    "fr": "Sans sucre.",
-    "en": "Without sugar.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Food & drink",
-    "newGroup": false,
-    "fr": "Sur place.",
-    "en": "Eat in.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Food & drink",
-    "newGroup": false,
-    "fr": "À emporter.",
-    "en": "To go.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Food & drink",
-    "newGroup": false,
-    "fr": "Pour ici.",
-    "en": "For here.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Food & drink",
-    "newGroup": false,
-    "fr": "Pour plus tard.",
-    "en": "For later.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Food & drink",
-    "newGroup": false,
-    "fr": "Bon appétit !",
-    "en": "Enjoy your meal!",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Opinions",
-    "newGroup": true,
-    "fr": "C’est bon.",
-    "en": "It’s good / OK.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Opinions",
-    "newGroup": false,
-    "fr": "C’est très bon.",
-    "en": "It’s very good.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Opinions",
-    "newGroup": false,
-    "fr": "C’est simple.",
-    "en": "It’s simple.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Opinions",
-    "newGroup": false,
-    "fr": "C’est pratique.",
-    "en": "It’s practical.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Opinions",
-    "newGroup": false,
-    "fr": "C’est possible.",
-    "en": "It’s possible.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Opinions",
-    "newGroup": false,
-    "fr": "C’est correct.",
-    "en": "It’s correct / fine.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Opinions",
-    "newGroup": false,
-    "fr": "C’est parfait.",
-    "en": "It’s perfect.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Opinions",
-    "newGroup": false,
-    "fr": "C’est trop cher.",
-    "en": "It’s too expensive.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Opinions",
-    "newGroup": false,
-    "fr": "C’est une bonne option.",
-    "en": "It’s a good option.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Opinions",
-    "newGroup": false,
-    "fr": "Pas de problème.",
-    "en": "No problem.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": true,
-    "fr": "C’est combien ?",
-    "en": "How much is it?",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": false,
-    "fr": "Le total, s’il vous plaît.",
-    "en": "The total, please.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": false,
-    "fr": "Par carte.",
-    "en": "By card.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": false,
-    "fr": "En espèces.",
-    "en": "In cash.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": false,
-    "fr": "Sans contact.",
-    "en": "Contactless.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": false,
-    "fr": "C’est payé.",
-    "en": "It’s paid.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": false,
-    "fr": "Gardez la monnaie.",
-    "en": "Keep the change.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": false,
-    "fr": "Le prix est correct.",
-    "en": "The price is fair.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": false,
-    "fr": "C’est trop cher pour moi.",
-    "en": "It’s too expensive for me.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": false,
-    "fr": "D’accord.",
-    "en": "OK / agreed.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": true,
-    "fr": "Un instant.",
-    "en": "One moment.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": false,
-    "fr": "Je regarde.",
-    "en": "I’m looking.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": false,
-    "fr": "Je vérifie.",
-    "en": "I’m checking.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": false,
-    "fr": "Je ne comprends pas.",
-    "en": "I don’t understand.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": false,
-    "fr": "Pardon ?",
-    "en": "Sorry? / Pardon?",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": false,
-    "fr": "Vous pouvez répéter ?",
-    "en": "Can you repeat?",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": false,
-    "fr": "Comme vous voulez.",
-    "en": "As you like.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": false,
-    "fr": "Si vous voulez.",
-    "en": "If you want.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": false,
-    "fr": "Bien sûr.",
-    "en": "Of course.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": false,
-    "fr": "Voilà.",
-    "en": "There you go.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": true,
-    "fr": "Je veux + nom + simple.",
-    "en": "I want + simple + noun.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": false,
-    "fr": "Je prends + nom + classique.",
-    "en": "I’ll take + classic + noun.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": false,
-    "fr": "Je cherche + nom + pratique.",
-    "en": "I’m looking for + practical + noun.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": false,
-    "fr": "C’est + adjectif.",
-    "en": "It’s + adjective.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": false,
-    "fr": "C’est trop + adjectif.",
-    "en": "It’s too + adjective.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": false,
-    "fr": "Très + adjectif.",
-    "en": "Very + adjective.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": false,
-    "fr": "Un peu + adjectif.",
-    "en": "A bit + adjective.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": false,
-    "fr": "Avec + nom.",
-    "en": "With + noun.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": false,
-    "fr": "Sans + nom.",
-    "en": "Without + noun.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": false,
-    "fr": "Pour + nom.",
-    "en": "For + noun.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": true,
-    "fr": "Je reste ici.",
-    "en": "I’m staying here.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": false,
-    "fr": "Je pars maintenant.",
-    "en": "I’m leaving now.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": false,
-    "fr": "À bientôt.",
-    "en": "See you soon.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": false,
-    "fr": "Bonne journée.",
-    "en": "Have a good day.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": false,
-    "fr": "Bonne soirée.",
-    "en": "Have a good evening.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": false,
-    "fr": "À la prochaine.",
-    "en": "See you next time.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": false,
-    "fr": "Merci beaucoup.",
-    "en": "Thanks a lot.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": false,
-    "fr": "Merci bien.",
-    "en": "Thanks very much.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": false,
-    "fr": "Merci, au revoir.",
-    "en": "Thanks, goodbye.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": false,
-    "fr": "Bonne continuation.",
-    "en": "All the best / take care.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": true,
-    "fr": "Je veux acheter un melon.",
-    "en": "I want to buy a melon.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": false,
-    "fr": "Je voudrais un café.",
-    "en": "I’d like a coffee.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": false,
-    "fr": "Je prends une banane.",
-    "en": "I’ll take a banana.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": false,
-    "fr": "Je cherche un produit simple.",
-    "en": "I’m looking for a simple product.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": false,
-    "fr": "C’est une option pratique.",
-    "en": "It’s a practical option.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": false,
-    "fr": "Un modèle classique.",
-    "en": "A classic model.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": false,
-    "fr": "Une solution simple.",
-    "en": "A simple solution.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": false,
-    "fr": "Une version standard.",
-    "en": "A standard version.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": false,
-    "fr": "Parfait comme ça.",
-    "en": "Perfect like that.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": false,
-    "fr": "Voilà, merci.",
-    "en": "There you go, thanks.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Polite power words",
-    "newGroup": true,
-    "fr": "S’il vous plaît.",
-    "en": "Please.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Polite power words",
-    "newGroup": false,
-    "fr": "Merci.",
-    "en": "Thanks.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Polite power words",
-    "newGroup": false,
-    "fr": "Merci beaucoup.",
-    "en": "Thanks a lot.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Polite power words",
-    "newGroup": false,
-    "fr": "Pas de problème.",
-    "en": "No problem.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Polite power words",
-    "newGroup": false,
-    "fr": "D’accord.",
-    "en": "OK.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Polite power words",
-    "newGroup": false,
-    "fr": "Bien sûr.",
-    "en": "Of course.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Polite power words",
-    "newGroup": false,
-    "fr": "Comme ça.",
-    "en": "Like that.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Polite power words",
-    "newGroup": false,
-    "fr": "Voilà.",
-    "en": "There you go.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Polite power words",
-    "newGroup": false,
-    "fr": "Très bien.",
-    "en": "Very good.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Polite power words",
-    "newGroup": false,
-    "fr": "C’est bon.",
-    "en": "That’s fine.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a melon.",
-    "fr": "Je prends un melon.",
-    "pos": "sentence"
-  },
-  {
-    "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a banana.",
-    "fr": "Je prends un banana.",
-    "pos": "sentence"
-  },
-  {
-    "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a salad.",
-    "fr": "Je prends un salad.",
-    "pos": "sentence"
-  },
-  {
-    "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a pizza.",
-    "fr": "Je prends un pizza.",
-    "pos": "sentence"
-  },
-  {
-    "type": "combo",
-    "group": "200 combos",
+    "group": "I take + noun",
     "en": "I will take a coffee.",
-    "fr": "Je prends un coffee.",
+    "fr": "Je prends un café.",
+    "pos": "sentence",
+    "newGroup": true
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take a tea.",
+    "fr": "Je prends un thé.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
+    "group": "I take + noun",
     "en": "I will take a beer.",
-    "fr": "Je prends un beer.",
+    "fr": "Je prends une bière.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I want a beer.",
-    "fr": "Je veux un beer.",
+    "group": "I take + noun",
+    "en": "I will take a glass of water.",
+    "fr": "Je prends un verre d’eau.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
+    "group": "I take + noun",
+    "en": "I will take a carafe of water.",
+    "fr": "Je prends une carafe d’eau.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take a pizza.",
+    "fr": "Je prends une pizza.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take a salad.",
+    "fr": "Je prends une salade.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take a sandwich.",
+    "fr": "Je prends un sandwich.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take a soup.",
+    "fr": "Je prends une soupe.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take the menu.",
+    "fr": "Je prends la carte.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take the bill.",
+    "fr": "Je prends l’addition.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take a ticket.",
+    "fr": "Je prends un ticket.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take two coffees.",
+    "fr": "Je prends deux cafés.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take two beers.",
+    "fr": "Je prends deux bières.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take a small pizza.",
+    "fr": "Je prends une petite pizza.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take a large beer.",
+    "fr": "Je prends une grande bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take a hot coffee.",
+    "fr": "Je prends un café chaud.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take a cold beer.",
+    "fr": "Je prends une bière fraîche.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take a dessert.",
+    "fr": "Je prends un dessert.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take the special.",
+    "fr": "Je prends le plat du jour.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take this one.",
+    "fr": "Je prends celui-ci.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take that one.",
+    "fr": "Je prends celui-là.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take a bag.",
+    "fr": "Je prends un sac.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take a receipt.",
+    "fr": "Je prends un ticket de caisse.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take a bottle of water.",
+    "fr": "Je prends une bouteille d’eau.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take sparkling water.",
+    "fr": "Je prends de l’eau pétillante.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take still water.",
+    "fr": "Je prends de l’eau plate.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take a draft beer.",
+    "fr": "Je prends une pression.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take a coffee to go.",
+    "fr": "Je prends un café à emporter.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take it.",
+    "fr": "Je le prends.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
     "en": "I want a coffee.",
-    "fr": "Je veux un coffee.",
+    "fr": "Je veux un café.",
+    "pos": "sentence",
+    "newGroup": true
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
+    "en": "I want a tea.",
+    "fr": "Je veux un thé.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I want a melon.",
-    "fr": "Je veux un melon.",
+    "group": "I want + noun",
+    "en": "I want a beer.",
+    "fr": "Je veux une bière.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I want a banana.",
-    "fr": "Je veux un banana.",
+    "group": "I want + noun",
+    "en": "I want water.",
+    "fr": "Je veux de l’eau.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I want a salad.",
-    "fr": "Je veux un salad.",
+    "group": "I want + noun",
+    "en": "I want sparkling water.",
+    "fr": "Je veux de l’eau pétillante.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
+    "group": "I want + noun",
+    "en": "I want still water.",
+    "fr": "Je veux de l’eau plate.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
     "en": "I want a pizza.",
-    "fr": "Je veux un pizza.",
+    "fr": "Je veux une pizza.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I would like a beer.",
-    "fr": "Je voudrais un beer.",
+    "group": "I want + noun",
+    "en": "I want a salad.",
+    "fr": "Je veux une salade.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
+    "group": "I want + noun",
+    "en": "I want a sandwich.",
+    "fr": "Je veux un sandwich.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
+    "en": "I want a dessert.",
+    "fr": "Je veux un dessert.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
+    "en": "I want the menu.",
+    "fr": "Je veux la carte.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
+    "en": "I want the bill.",
+    "fr": "Je veux l’addition.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
+    "en": "I want this one.",
+    "fr": "Je veux celui-ci.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
+    "en": "I want that one.",
+    "fr": "Je veux celui-là.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
+    "en": "I want a table.",
+    "fr": "Je veux une table.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
+    "en": "I want a table for two.",
+    "fr": "Je veux une table pour deux.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
+    "en": "I want to sit outside.",
+    "fr": "Je veux être en terrasse.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
+    "en": "I want to sit inside.",
+    "fr": "Je veux être à l’intérieur.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
+    "en": "I want a bag.",
+    "fr": "Je veux un sac.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
+    "en": "I want a receipt.",
+    "fr": "Je veux un ticket de caisse.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
+    "en": "I want it.",
+    "fr": "Je le veux.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
+    "en": "I want the special.",
+    "fr": "Je veux le plat du jour.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
+    "en": "I want bread.",
+    "fr": "Je veux du pain.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
+    "en": "I want another one.",
+    "fr": "J’en veux un autre.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
+    "en": "I want to pay.",
+    "fr": "Je veux payer.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
+    "en": "I want to order.",
+    "fr": "Je veux commander.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I would like + noun",
     "en": "I would like a coffee.",
-    "fr": "Je voudrais un coffee.",
+    "fr": "Je voudrais un café.",
+    "pos": "sentence",
+    "newGroup": true
+  },
+  {
+    "type": "combo",
+    "group": "I would like + noun",
+    "en": "I would like a tea.",
+    "fr": "Je voudrais un thé.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I would like a melon.",
-    "fr": "Je voudrais un melon.",
+    "group": "I would like + noun",
+    "en": "I would like a beer.",
+    "fr": "Je voudrais une bière.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
+    "group": "I would like + noun",
+    "en": "I would like a glass of water.",
+    "fr": "Je voudrais un verre d’eau.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I would like + noun",
+    "en": "I would like a carafe of water.",
+    "fr": "Je voudrais une carafe d’eau.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I would like + noun",
+    "en": "I would like sparkling water.",
+    "fr": "Je voudrais de l’eau pétillante.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I would like + noun",
+    "en": "I would like still water.",
+    "fr": "Je voudrais de l’eau plate.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I would like + noun",
     "en": "I would like a pizza.",
-    "fr": "Je voudrais un pizza.",
+    "fr": "Je voudrais une pizza.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "How to get to the bus station?",
-    "fr": "Pour aller à la bus station ?",
+    "group": "I would like + noun",
+    "en": "I would like a salad.",
+    "fr": "Je voudrais une salade.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "How to get to the train station?",
-    "fr": "Pour aller à la train station ?",
+    "group": "I would like + noun",
+    "en": "I would like a sandwich.",
+    "fr": "Je voudrais un sandwich.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "How to get to the hotel?",
-    "fr": "Pour aller à la hotel ?",
+    "group": "I would like + noun",
+    "en": "I would like the menu.",
+    "fr": "Je voudrais la carte.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "How to get to the restaurant?",
-    "fr": "Pour aller à la restaurant ?",
+    "group": "I would like + noun",
+    "en": "I would like the bill, please.",
+    "fr": "Je voudrais l’addition, s’il vous plaît.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I would like + noun",
+    "en": "I would like this one.",
+    "fr": "Je voudrais celui-ci.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I would like + noun",
+    "en": "I would like that one.",
+    "fr": "Je voudrais celui-là.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I would like + noun",
+    "en": "I would like a table for two.",
+    "fr": "Je voudrais une table pour deux.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I would like + noun",
+    "en": "I would like to sit outside.",
+    "fr": "Je voudrais être en terrasse.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I would like + noun",
+    "en": "I would like to pay.",
+    "fr": "Je voudrais payer.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I would like + noun",
+    "en": "I would like to order.",
+    "fr": "Je voudrais commander.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I would like + noun",
+    "en": "I would like a bag.",
+    "fr": "Je voudrais un sac.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I would like + noun",
+    "en": "I would like a receipt.",
+    "fr": "Je voudrais un ticket de caisse.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "How to get to + place",
+    "en": "How do I get to the station-service?",
+    "fr": "Pour aller à la station-service ?",
+    "pos": "sentence",
+    "newGroup": true
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the hotel?",
+    "fr": "Pour aller à l’hôtel ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the restaurant?",
+    "fr": "Pour aller à le restaurant ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the café?",
+    "fr": "Pour aller à le café ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the market?",
+    "fr": "Pour aller à le marché ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the centre?",
+    "fr": "Pour aller à le centre-ville ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the museum?",
+    "fr": "Pour aller à le musée ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the beach?",
+    "fr": "Pour aller à la plage ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the supermarket?",
+    "fr": "Pour aller à le supermarché ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the pharmacy?",
+    "fr": "Pour aller à la pharmacie ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the hospital?",
+    "fr": "Pour aller à l’hôpital ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the police station?",
+    "fr": "Pour aller à le commissariat ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the bus stop?",
+    "fr": "Pour aller à l’arrêt de bus ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the taxi rank?",
+    "fr": "Pour aller à la station de taxis ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the exit?",
+    "fr": "Pour aller à la sortie ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the entrance?",
+    "fr": "Pour aller à l’entrée ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the toilet?",
+    "fr": "Pour aller à les toilettes ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the ticket office?",
+    "fr": "Pour aller à le guichet ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the platform?",
+    "fr": "Pour aller à le quai ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the line?",
+    "fr": "Pour aller à la ligne ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the information desk?",
+    "fr": "Pour aller à l’accueil ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the reception?",
+    "fr": "Pour aller à la réception ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the car park?",
+    "fr": "Pour aller à le parking ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the bank?",
+    "fr": "Pour aller à la banque ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the post office?",
+    "fr": "Pour aller à la poste ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the city hall?",
+    "fr": "Pour aller à la mairie ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the street?",
+    "fr": "Pour aller à la rue ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the square?",
+    "fr": "Pour aller à la place ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the airport?",
+    "fr": "Pour aller à l’aéroport ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the metro?",
+    "fr": "Pour aller à le métro ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "Is there a café here?",
+    "fr": "Il y a un café ici ?",
+    "pos": "sentence",
+    "newGroup": true
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "Is there a restaurant nearby?",
+    "fr": "Il y a un restaurant près d’ici ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "Is there a supermarket around here?",
+    "fr": "Il y a un supermarché par ici ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "Is there a pharmacy nearby?",
+    "fr": "Il y a une pharmacie près d’ici ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "Is there a station-service nearby?",
+    "fr": "Il y a une station-service près d’ici ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "Is there a toilet here?",
+    "fr": "Il y a des toilettes ici ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "Is there an entrance?",
+    "fr": "Il y a une entrée ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "Is there an exit?",
+    "fr": "Il y a une sortie ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a problem.",
+    "fr": "Il y a un problème.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is time.",
+    "fr": "Il y a le temps.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is no time.",
+    "fr": "Il n’y a pas le temps.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a delay.",
+    "fr": "Il y a du retard.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a change.",
+    "fr": "Il y a un changement.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There are tickets.",
+    "fr": "Il y a des billets.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a table.",
+    "fr": "Il y a une table.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a menu.",
+    "fr": "Il y a une carte.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a special today.",
+    "fr": "Il y a un plat du jour aujourd’hui.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a promotion.",
+    "fr": "Il y a une promotion.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a queue.",
+    "fr": "Il y a une file d’attente.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "There is/are + noun",
+    "en": "There is a seat.",
+    "fr": "Il y a une place.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "There is/are + noun",
+    "en": "There is an announcement.",
+    "fr": "Il y a une annonce.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "There is/are + noun",
+    "en": "There is a meeting point.",
+    "fr": "Il y a un point de rendez-vous.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "There is/are + noun",
+    "en": "There is a bus.",
+    "fr": "Il y a un bus.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "There is/are + noun",
+    "en": "There is a taxi.",
+    "fr": "Il y a un taxi.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "There is/are + noun",
+    "en": "There is a train.",
+    "fr": "Il y a un train.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s open.",
+    "fr": "C’est ouvert.",
+    "pos": "sentence",
+    "newGroup": true
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s closed.",
+    "fr": "C’est fermé.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s possible.",
+    "fr": "C’est possible.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s impossible.",
+    "fr": "C’est impossible.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s free.",
+    "fr": "C’est gratuit.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s expensive.",
+    "fr": "C’est cher.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s cheap.",
+    "fr": "C’est bon marché.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s ready.",
+    "fr": "C’est prêt.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s finished.",
+    "fr": "C’est terminé.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s perfect.",
+    "fr": "C’est parfait.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s correct.",
+    "fr": "C’est correct.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s OK.",
+    "fr": "C’est OK.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s important.",
+    "fr": "C’est important.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s simple.",
+    "fr": "C’est simple.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s complicated.",
+    "fr": "C’est compliqué.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s urgent.",
+    "fr": "C’est urgent.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s late.",
+    "fr": "C’est tard.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s early.",
+    "fr": "C’est tôt.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s here.",
+    "fr": "C’est ici.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s there.",
+    "fr": "C’est là.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s on the left.",
+    "fr": "C’est à gauche.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s on the right.",
+    "fr": "C’est à droite.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s straight ahead.",
+    "fr": "C’est tout droit.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s this way.",
+    "fr": "C’est par ici.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s that way.",
+    "fr": "C’est par là.",
     "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must pay.",
+    "fr": "Je dois payer.",
+    "pos": "sentence",
+    "newGroup": true
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must order.",
+    "fr": "Je dois commander.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must leave.",
+    "fr": "Je dois partir.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must go.",
+    "fr": "Je dois y aller.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must hurry.",
+    "fr": "Je dois me dépêcher.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must wait.",
+    "fr": "Je dois attendre.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must check.",
+    "fr": "Je dois vérifier.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must confirm.",
+    "fr": "Je dois confirmer.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must change.",
+    "fr": "Je dois changer.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must cancel.",
+    "fr": "Je dois annuler.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must reserve.",
+    "fr": "Je dois réserver.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must call.",
+    "fr": "Je dois appeler.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must find it.",
+    "fr": "Je dois le trouver.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must sign.",
+    "fr": "Je dois signer.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must show my ticket.",
+    "fr": "Je dois montrer mon billet.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must validate my ticket.",
+    "fr": "Je dois valider mon billet.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must get off here.",
+    "fr": "Je dois descendre ici.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must get on here.",
+    "fr": "Je dois monter ici.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must take the metro.",
+    "fr": "Je dois prendre le métro.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must take a taxi.",
+    "fr": "Je dois prendre un taxi.",
     "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I need + noun",
+    "en": "I need help.",
+    "fr": "J’ai besoin d’aide.",
+    "pos": "sentence",
+    "newGroup": true
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I need + noun",
+    "en": "I need information.",
+    "fr": "J’ai besoin d’informations.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I need + noun",
+    "en": "I need a ticket.",
+    "fr": "J’ai besoin d’un billet.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I need + noun",
+    "en": "I need a receipt.",
+    "fr": "J’ai besoin d’un ticket de caisse.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I need + noun",
+    "en": "I need water.",
+    "fr": "J’ai besoin d’eau.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I need + noun",
+    "en": "I need a taxi.",
+    "fr": "J’ai besoin d’un taxi.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I need + noun",
+    "en": "I need a doctor.",
+    "fr": "J’ai besoin d’un médecin.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I need + noun",
+    "en": "I need a room.",
+    "fr": "J’ai besoin d’une chambre.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I need + noun",
+    "en": "I need a reservation.",
+    "fr": "J’ai besoin d’une réservation.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I need + noun",
+    "en": "I need a bag.",
+    "fr": "J’ai besoin d’un sac.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I need + noun",
+    "en": "I need a map.",
+    "fr": "J’ai besoin d’un plan.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I need + noun",
+    "en": "I need the address.",
+    "fr": "J’ai besoin de l’adresse.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I need + noun",
+    "en": "I need the code.",
+    "fr": "J’ai besoin du code.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I need + noun",
+    "en": "I need the password.",
+    "fr": "J’ai besoin du mot de passe.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I take + noun",
+    "en": "I will take a croissant.",
+    "fr": "Je prends un croissant.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I want + noun",
+    "en": "I want a croissant.",
+    "fr": "Je veux un croissant.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I would like + noun",
+    "en": "I would like a croissant.",
+    "fr": "Je voudrais un croissant.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "How to get to + place",
+    "en": "How do I get to the station-service from here?",
+    "fr": "Pour aller à la station-service d’ici ?",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "There is/are + noun",
+    "en": "Is there a station-service open now?",
+    "fr": "Il y a une station-service ouverte maintenant ?",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s too far.",
+    "fr": "C’est trop loin.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "It's + adjective",
+    "en": "It’s very close.",
+    "fr": "C’est tout près.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must change line.",
+    "fr": "Je dois changer de ligne.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I must + verb",
+    "en": "I must validate the ticket.",
+    "fr": "Je dois valider le ticket.",
     "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "200 combos",
-    "en": "I will take a beer.",
-    "fr": "Je prends une bière.",
+    "group": "I need + noun",
+    "en": "I need the menu.",
+    "fr": "J’ai besoin de la carte.",
     "pos": "sentence"
   }
 ];
@@ -6724,7 +6632,7 @@ export default function App() {
             >
               <option value="words120">120 Franglais Words</option>
               <option value="phrases100">100 Essential Phrases</option>
-              <option value="combos">Infinite Combos</option>
+              <option value="combos">200 Combos</option>
               <option value="words400">400+ Easy Words</option>
               {repeatSet.size > 0 ? <option value="repeat">Words to Repeat</option> : null}
             </select>
