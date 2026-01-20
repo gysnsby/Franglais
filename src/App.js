@@ -1,5 +1,27 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 
+
+// Global error trap (so a runtime crash doesn't show a blank screen)
+(function attachGlobalErrorOverlay() {
+  if (typeof window === "undefined" || typeof document === "undefined") return;
+  if (window.__DF_ERROR_OVERLAY__) return;
+  window.__DF_ERROR_OVERLAY__ = true;
+
+  const show = (title, err) => {
+    try {
+      const msg = (err && (err.stack || err.message)) ? (err.stack || err.message) : String(err);
+      const pre = document.createElement("pre");
+      pre.style.cssText =
+        "position:fixed;inset:0;z-index:999999;background:#111;color:#fff;padding:16px;overflow:auto;font:14px/1.4 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;white-space:pre-wrap;";
+      pre.textContent = title + "\n\n" + msg;
+      document.body.innerHTML = "";
+      document.body.appendChild(pre);
+    } catch {}
+  };
+
+  window.addEventListener("error", (e) => show("Runtime error", e.error || e.message));
+  window.addEventListener("unhandledrejection", (e) => show("Unhandled promise rejection", e.reason));
+})();
 const PRODUCT_NAME = "Dictionnaire Franglais";
 
 /**
