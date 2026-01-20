@@ -4230,7 +4230,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Restaurant & Café",
     "newGroup": false,
-    "en": "Tap water?",
+    "en": "A carafe of water?",
     "fr": "Une carafe d'eau ?",
     "pos": "phrase"
   },
@@ -4950,7 +4950,7 @@ const COMBO_CARDS = [
   {
     "type": "combo",
     "group": "I take + noun",
-    "en": "I will take the special.",
+    "en": "I will take the dish of the day.",
     "fr": "Je prends le plat du jour.",
     "pos": "sentence"
   },
@@ -5175,7 +5175,7 @@ const COMBO_CARDS = [
   {
     "type": "combo",
     "group": "I want + noun",
-    "en": "I want the special.",
+    "en": "I want the dish of the day.",
     "fr": "Je veux le plat du jour.",
     "pos": "sentence"
   },
@@ -5351,7 +5351,7 @@ const COMBO_CARDS = [
   {
     "type": "combo",
     "group": "How to get to + place",
-    "en": "How do I get to the station-service?",
+    "en": "How do I get to the service station?",
     "fr": "Pour aller à la station-service ?",
     "pos": "sentence",
     "newGroup": true
@@ -5591,7 +5591,7 @@ const COMBO_CARDS = [
   {
     "type": "combo",
     "group": "There is/are + noun",
-    "en": "Is there a station-service nearby?",
+    "en": "Is there a service station nearby?",
     "fr": "Il y a une station-service près d’ici ?",
     "pos": "sentence"
   },
@@ -5675,7 +5675,7 @@ const COMBO_CARDS = [
   {
     "type": "combo",
     "group": "There is/are + noun",
-    "en": "There is a special today.",
+    "en": "There is a dish of the day today.",
     "fr": "Il y a un plat du jour aujourd’hui.",
     "pos": "sentence"
   },
@@ -6175,14 +6175,14 @@ const COMBO_CARDS = [
   {
     "type": "combo",
     "group": "How to get to + place",
-    "en": "How do I get to the station-service from here?",
+    "en": "How do I get to the service station from here?",
     "fr": "Pour aller à la station-service d’ici ?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "There is/are + noun",
-    "en": "Is there a station-service open now?",
+    "en": "Is there a service station open now?",
     "fr": "Il y a une station-service ouverte maintenant ?",
     "pos": "sentence"
   },
