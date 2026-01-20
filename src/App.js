@@ -6512,11 +6512,30 @@ const COMBO_CARDS = [
 ];
 
 const STORAGE_KEYS = {
-  mode: "df_mode_v1",
-  wordsIndex: "df_words_index_v1",
-  phrasesIndex: "df_phrases_index_v1",
-  combosIndex: "df_combos_index_v1",
+  progress: "df_progress_v1",
+  repeatSet: "df_repeat_set_v1",
 };
+
+const DEFAULT_PROGRESS = {
+  mode: "words120",
+  words120: 0,
+  phrases100: 0,
+  combos: 0,
+  words400: 0,
+  repeat: 0,
+};
+
+function loadProgress() {
+  try {
+    const raw = window.localStorage.getItem(STORAGE_KEYS.progress);
+    if (!raw) return DEFAULT_PROGRESS;
+    const parsed = JSON.parse(raw);
+    return { ...DEFAULT_PROGRESS, ...(parsed || {}) };
+  } catch {
+    return DEFAULT_PROGRESS;
+  }
+}
+
 
 // --- TTS: force a real French voice when available (iOS-friendly) ---
 let __cachedVoices = null;
@@ -6567,6 +6586,13 @@ function pickFrenchVoicePreferFemale(voices) {
     if ((v.lang || "").toLowerCase() === "fr-fr") s += 2;
     return s;
   };
+
+  // Persist progress (all menus) under one key
+  useEffect(() => {
+    try {
+      window.localStorage.setItem(STORAGE_KEYS.progress, JSON.stringify(progress));
+    } catch {}
+  }, [progress]);
 
   fr.sort((a, b) => score(b) - score(a));
   return fr[0] || null;
@@ -6626,10 +6652,11 @@ function clamp(n, min, max) {
 }
 
 export default function App() {
-  const [mode, setMode] = useState(() => {
-    const saved = window.localStorage.getItem(STORAGE_KEYS.mode);
-    return saved === "words120" ? "words120" : saved === "phrases100" ? "phrases100" : saved === "combos" ? "combos" : saved === "words400" ? "words400" : saved === "repeat" ? "repeat" : "words120";
-  });
+  const [progress, setProgress] = useState(loadProgress);
+  const mode = progress.mode;
+  const setMode = (nextMode) => {
+    setProgress((p) => ({ ...p, mode: nextMode }));
+  };
 
   const [repeatSet, setRepeatSet] = useState(() => {
     try {
@@ -6699,47 +6726,44 @@ export default function App() {
     return WORD_CARDS.slice(0, 120);
   }, [mode, repeatSet]);
 
-  const [index, setIndex] = useState(0);
+  const index = Number.isFinite(Number(progress[mode])) ? Number(progress[mode]) : 0;
+  const setIndex = (updater) => {
+    setProgress((p) => {
+      const cur = Number.isFinite(Number(p[p.mode])) ? Number(p[p.mode]) : 0;
+      const next = typeof updater === "function" ? updater(cur) : updater;
+      return { ...p, [p.mode]: next };
+    });
+  };
   const [revealed, setRevealed] = useState(false);
   const [autoPlay, setAutoPlay] = useState(false);
 
   const autoTimersRef = useRef([]);
   const total = deck.length;
 
+  // Clamp saved index for the current menu when the deck changes
+  useEffect(() => {
+    if (total <= 0) return;
+    setProgress((p) => {
+      const curMode = p.mode;
+      const cur = Number.isFinite(Number(p[curMode])) ? Number(p[curMode]) : 0;
+      const clamped = clamp(cur, 0, total - 1);
+      if (clamped === cur) return p;
+      return { ...p, [curMode]: clamped };
+    });
+  }, [total]);
+
+  // Reset transient state on menu change
+  useEffect(() => {
+    clearAutoTimers();
+    setAutoPlay(false);
+    setRevealed(false);
+    setReplayedThisCard(false);
+  }, [mode]);
+
   // Prime voice list on mount (important on iOS)
   useEffect(() => {
     initVoiceCache();
   }, []);
-
-  // Load per-mode progress on mode change
-  useEffect(() => {
-    const key =
-      mode === "phrases100"
-        ? STORAGE_KEYS.phrases100Index
-        : mode === "combos"
-        ? STORAGE_KEYS.combosIndex
-        : mode === "words400"
-        ? STORAGE_KEYS.words400Index
-        : mode === "repeat"
-        ? STORAGE_KEYS.repeatIndex
-        : STORAGE_KEYS.words120Index;
-    const saved = parseInt(window.localStorage.getItem(key) || "0", 10);
-    const idx = Number.isFinite(saved) ? clamp(saved, 0, Math.max(0, total - 1)) : 0;
-    setIndex(idx);
-    setRevealed(false);
-    setReplayedThisCard(false);
-  }, [mode, total]);
-
-  // Persist mode choice
-  useEffect(() => {
-    window.localStorage.setItem(STORAGE_KEYS.mode, mode);
-  }, [mode]);
-
-  // Persist index per mode
-  useEffect(() => {
-    const key = mode === "phrases100" ? STORAGE_KEYS.phrasesIndex : mode === "combos" ? STORAGE_KEYS.combosIndex : STORAGE_KEYS.wordsIndex;
-    window.localStorage.setItem(key, String(index));
-  }, [index, mode]);
 
 
   const card = deck[index] || null;
@@ -6758,6 +6782,17 @@ export default function App() {
     if (mode === "repeat" && card && !replayedThisCard) {
       removeFromRepeat(card);
     }
+
+  function prevCard() {
+    if (mode === "repeat" && card && !replayedThisCard) {
+      removeFromRepeat(card);
+    }
+    clearAutoTimers();
+    setAutoPlay(false);
+    setRevealed(false);
+    setReplayedThisCard(false);
+    setIndex((i) => clamp(i - 1, 0, Math.max(0, total - 1)));
+  }
     clearAutoTimers();
     setRevealed(false);
     setIndex((i) => clamp(i + 1, 0, total - 1));
@@ -7064,12 +7099,3 @@ export default function App() {
     </div>
   );
 }
-
-  function prevCard() {
-    if (mode === "repeat" && card && !replayedThisCard) {
-      removeFromRepeat(card);
-    }
-    setAutoPlay(false);
-    setRevealed(false);
-    setIndex((i) => Math.max(0, i - 1));
-  }
