@@ -5612,6 +5612,706 @@ const COMBO_CARDS = [
     "fr": "C’est bon.",
     "en": "That’s fine.",
     "pos": "combo"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a melon.",
+    "fr": "Je prends un melon.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a banana.",
+    "fr": "Je prends un banana.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a salad.",
+    "fr": "Je prends un salad.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a pizza.",
+    "fr": "Je prends un pizza.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a coffee.",
+    "fr": "Je prends un coffee.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends un beer.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I want a beer.",
+    "fr": "Je veux un beer.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I want a coffee.",
+    "fr": "Je veux un coffee.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I want a melon.",
+    "fr": "Je veux un melon.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I want a banana.",
+    "fr": "Je veux un banana.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I want a salad.",
+    "fr": "Je veux un salad.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I want a pizza.",
+    "fr": "Je veux un pizza.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I would like a beer.",
+    "fr": "Je voudrais un beer.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I would like a coffee.",
+    "fr": "Je voudrais un coffee.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I would like a melon.",
+    "fr": "Je voudrais un melon.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I would like a pizza.",
+    "fr": "Je voudrais un pizza.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "How to get to the bus station?",
+    "fr": "Pour aller à la bus station ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "How to get to the train station?",
+    "fr": "Pour aller à la train station ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "How to get to the hotel?",
+    "fr": "Pour aller à la hotel ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "How to get to the restaurant?",
+    "fr": "Pour aller à la restaurant ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "200 combos",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
   }
 ];
 
