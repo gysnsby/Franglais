@@ -4014,7 +4014,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": true,
-    "en": "Hello, sir/ma'am",
+    "en": "Hello, sir/ma'am.",
     "fr": "Bonjour, monsieur / madame.",
     "pos": "phrase"
   },
@@ -4022,7 +4022,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": false,
-    "en": "Good evening, sir/ma'am",
+    "en": "Good evening.",
     "fr": "Bonsoir, monsieur / madame.",
     "pos": "phrase"
   },
@@ -4030,8 +4030,24 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": false,
-    "en": "Hello! (cheerful)",
-    "fr": "Bien le bonjour !",
+    "en": "Hi! (informal)",
+    "fr": "Salut !",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Greetings & Politeness",
+    "newGroup": false,
+    "en": "Welcome!",
+    "fr": "Bienvenue !",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Greetings & Politeness",
+    "newGroup": false,
+    "en": "Nice to meet you.",
+    "fr": "Enchanté(e).",
     "pos": "phrase"
   },
   {
@@ -4046,7 +4062,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": false,
-    "en": "How’s it going?",
+    "en": "How's it going?",
     "fr": "Ça va ?",
     "pos": "phrase"
   },
@@ -4054,55 +4070,31 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": false,
-    "en": "Nice to meet you",
-    "fr": "Enchanté(e).",
+    "en": "Please come in.",
+    "fr": "Entrez, je vous en prie.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": false,
-    "en": "Thanks a lot",
-    "fr": "Merci bien !",
+    "en": "One moment, please.",
+    "fr": "Un instant, s'il vous plaît.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": false,
-    "en": "Thanks very much",
-    "fr": "Merci beaucoup !",
+    "en": "Please follow me.",
+    "fr": "Suivez-moi, s'il vous plaît.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": false,
-    "en": "You’re welcome (formal)",
-    "fr": "Je vous en prie.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Greetings & Politeness",
-    "newGroup": false,
-    "en": "You’re welcome",
-    "fr": "De rien.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Greetings & Politeness",
-    "newGroup": false,
-    "en": "Please",
-    "fr": "S'il vous plaît.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Greetings & Politeness",
-    "newGroup": false,
-    "en": "Excuse me",
+    "en": "Excuse me.",
     "fr": "Excusez-moi.",
     "pos": "phrase"
   },
@@ -4118,8 +4110,24 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": false,
-    "en": "Do you mind?",
-    "fr": "Vous permettez ?",
+    "en": "I didn't catch that.",
+    "fr": "Je n'ai pas compris.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Greetings & Politeness",
+    "newGroup": false,
+    "en": "It's fine / No problem.",
+    "fr": "Ce n'est pas grave.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Greetings & Politeness",
+    "newGroup": false,
+    "en": "Sorry, it's not possible.",
+    "fr": "Désolé(e), ce n'est pas possible.",
     "pos": "phrase"
   },
   {
@@ -4128,6 +4136,22 @@ const PHRASE_CARDS = [
     "newGroup": false,
     "en": "After you!",
     "fr": "Après vous !",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Greetings & Politeness",
+    "newGroup": false,
+    "en": "Thank you!",
+    "fr": "Merci !",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Greetings & Politeness",
+    "newGroup": false,
+    "en": "You're welcome.",
+    "fr": "De rien.",
     "pos": "phrase"
   },
   {
@@ -4148,65 +4172,81 @@ const PHRASE_CARDS = [
   },
   {
     "type": "phrase",
-    "group": "Greetings & Politeness",
-    "newGroup": false,
-    "en": "Have a good evening!",
-    "fr": "Bonne soirée !",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Greetings & Politeness",
-    "newGroup": false,
-    "en": "See you soon!",
-    "fr": "À bientôt !",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Greetings & Politeness",
-    "newGroup": false,
-    "en": "See you in a while!",
-    "fr": "À tout à l'heure !",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Greetings & Politeness",
-    "newGroup": false,
-    "en": "See you next time!",
-    "fr": "À la prochaine !",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Greetings & Politeness",
-    "newGroup": false,
-    "en": "Thank you",
-    "fr": "Merci.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Greetings & Politeness",
-    "newGroup": false,
-    "en": "Hello",
-    "fr": "Bonjour.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Greetings & Politeness",
-    "newGroup": false,
-    "en": "Good evening",
-    "fr": "Bonsoir.",
+    "group": "Restaurant & Café",
+    "newGroup": true,
+    "en": "A table for two?",
+    "fr": "Une table pour deux ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Restaurant & Café",
-    "newGroup": true,
-    "en": "Go ahead / I’m listening",
+    "newGroup": false,
+    "en": "How many people?",
+    "fr": "Vous êtes combien ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "Inside or outside?",
+    "fr": "À l'intérieur ou en terrasse ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "This way, please.",
+    "fr": "Par ici, s'il vous plaît.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "Here is the menu.",
+    "fr": "Voici la carte.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "Would you like something to drink?",
+    "fr": "Vous voulez boire quelque chose ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "Still or sparkling?",
+    "fr": "Plate ou pétillante ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "Tap water?",
+    "fr": "Une carafe d'eau ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "Are you ready to order?",
+    "fr": "Vous êtes prêts à commander ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "Go ahead, I'm listening.",
     "fr": "Je vous écoute.",
     "pos": "phrase"
   },
@@ -4222,677 +4262,13 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Restaurant & Café",
     "newGroup": false,
-    "en": "What do you want?",
-    "fr": "Qu'est-ce que vous voulez ?",
+    "en": "What would you like?",
+    "fr": "Qu'est-ce que vous prenez ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Restaurant & Café",
-    "newGroup": false,
-    "en": "To drink?",
-    "fr": "Comme boisson ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Restaurant & Café",
-    "newGroup": false,
-    "en": "Any drinks?",
-    "fr": "Des boissons ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Restaurant & Café",
-    "newGroup": false,
-    "en": "Wine?",
-    "fr": "Du vin ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Restaurant & Café",
-    "newGroup": false,
-    "en": "A dessert?",
-    "fr": "Un dessert ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Restaurant & Café",
-    "newGroup": false,
-    "en": "What is today’s special?",
-    "fr": "Quel est le plat du jour ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Restaurant & Café",
-    "newGroup": false,
-    "en": "Have you finished?",
-    "fr": "Vous avez terminé ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Restaurant & Café",
-    "newGroup": false,
-    "en": "How was everything?",
-    "fr": "Ça a été ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Restaurant & Café",
-    "newGroup": false,
-    "en": "Enjoy your meal!",
-    "fr": "Bon appétit !",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Restaurant & Café",
-    "newGroup": false,
-    "en": "Enjoy your meal! (informal)",
-    "fr": "Bon app’ !",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Restaurant & Café",
-    "newGroup": false,
-    "en": "Cheers!",
-    "fr": "Santé !",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Restaurant & Café",
-    "newGroup": false,
-    "en": "Here you go",
-    "fr": "Voilà.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Restaurant & Café",
-    "newGroup": false,
-    "en": "Here is your coffee, sir",
-    "fr": "Voilà votre café, monsieur.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Restaurant & Café",
-    "newGroup": false,
-    "en": "The bill, please",
-    "fr": "L'addition, s'il vous plaît.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Restaurant & Café",
-    "newGroup": false,
-    "en": "The bill/check",
-    "fr": "La note.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Restaurant & Café",
-    "newGroup": false,
-    "en": "To go?",
-    "fr": "À emporter ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Restaurant & Café",
-    "newGroup": false,
-    "en": "No smoking",
-    "fr": "Défense de fumer.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Restaurant & Café",
-    "newGroup": false,
-    "en": "Have a seat",
-    "fr": "Installez-vous.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Restaurant & Café",
-    "newGroup": false,
-    "en": "Is everything okay?",
-    "fr": "Tout va bien ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Menu & Ordering",
-    "newGroup": true,
-    "en": "The menu",
-    "fr": "La carte.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Menu & Ordering",
-    "newGroup": false,
-    "en": "A pitcher of tap water",
-    "fr": "Une carafe d'eau.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Menu & Ordering",
-    "newGroup": false,
-    "en": "Still water",
-    "fr": "L'eau plate.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Menu & Ordering",
-    "newGroup": false,
-    "en": "Sparkling water",
-    "fr": "L'eau pétillante.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Menu & Ordering",
-    "newGroup": false,
-    "en": "An espresso with hot water",
-    "fr": "Un café allongé.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Menu & Ordering",
-    "newGroup": false,
-    "en": "An espresso with a dash of milk",
-    "fr": "Un café noisette.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Menu & Ordering",
-    "newGroup": false,
-    "en": "A draft beer?",
-    "fr": "Une pression ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Menu & Ordering",
-    "newGroup": false,
-    "en": "Well done",
-    "fr": "Bien cuit.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Menu & Ordering",
-    "newGroup": false,
-    "en": "Medium",
-    "fr": "À point.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Menu & Ordering",
-    "newGroup": false,
-    "en": "Rare",
-    "fr": "Saignant.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Menu & Ordering",
-    "newGroup": false,
-    "en": "A beer",
-    "fr": "Une bière.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": true,
-    "en": "May I help you?",
-    "fr": "Puis-je vous aider ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": false,
-    "en": "What can I do for you?",
-    "fr": "Que puis-je faire pour vous ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": false,
-    "en": "Do you have a reservation?",
-    "fr": "Vous avez une réservation ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": false,
-    "en": "In what name, please?",
-    "fr": "À quel nom, s'il vous plaît ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": false,
-    "en": "Can you spell your name?",
-    "fr": "Vous pouvez épeler votre nom ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": false,
-    "en": "One moment, please",
-    "fr": "Un instant, s'il vous plaît.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": false,
-    "en": "That’s correct",
-    "fr": "C'est correct.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": false,
-    "en": "Your room is on the top floor",
-    "fr": "Vous avez la chambre au dernier étage.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": false,
-    "en": "How many days are you staying?",
-    "fr": "Combien de jours vous restez ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": false,
-    "en": "What date and what time?",
-    "fr": "Quelle date et quelle heure ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": false,
-    "en": "Which class do you want to travel in?",
-    "fr": "Dans quelle classe voulez-vous voyager ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": false,
-    "en": "That’s your driver",
-    "fr": "C’est votre chauffeur.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": false,
-    "en": "Here is my business card",
-    "fr": "Voici ma carte de visite.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": false,
-    "en": "We remain at your disposal",
-    "fr": "Nous restons à votre disposition.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": false,
-    "en": "I don’t understand",
-    "fr": "Je ne comprends pas.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": false,
-    "en": "Do you speak English?",
-    "fr": "Vous parlez anglais ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": false,
-    "en": "Do you have a reservation?",
-    "fr": "Avez-vous une réservation ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": false,
-    "en": "At what name, please?",
-    "fr": "Au nom de qui, s'il vous plaît ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": false,
-    "en": "One moment, please!",
-    "fr": "Un instant, s'il vous plaît !",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Hotels, Shops & Service",
-    "newGroup": false,
-    "en": "Sorry, I didn’t catch that",
-    "fr": "Je n'ai pas compris.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Business & Formal",
-    "newGroup": true,
-    "en": "May I speak?",
-    "fr": "Puis-je intervenir ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Business & Formal",
-    "newGroup": false,
-    "en": "What is your point of view?",
-    "fr": "Quel est votre point de vue ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Business & Formal",
-    "newGroup": false,
-    "en": "Could you clarify your idea?",
-    "fr": "Pouvez-vous préciser votre idée ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Business & Formal",
-    "newGroup": false,
-    "en": "What are your goals?",
-    "fr": "Quels sont vos objectifs ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Business & Formal",
-    "newGroup": false,
-    "en": "Let’s move on to the agenda",
-    "fr": "Passons à l'ordre du jour.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Business & Formal",
-    "newGroup": false,
-    "en": "We need to find common ground",
-    "fr": "Il faut trouver un terrain d'entente.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Business & Formal",
-    "newGroup": false,
-    "en": "This exceeds our budget",
-    "fr": "Cela dépasse notre budget.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Fillers & Interjections",
-    "newGroup": true,
-    "en": "So… / Then…",
-    "fr": "Alors…",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Fillers & Interjections",
-    "newGroup": false,
-    "en": "Well… / Okay…",
-    "fr": "Bon…",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Fillers & Interjections",
-    "newGroup": false,
-    "en": "Of course",
-    "fr": "Bien sûr.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Fillers & Interjections",
-    "newGroup": false,
-    "en": "Okay / Agreed",
-    "fr": "D'accord.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Fillers & Interjections",
-    "newGroup": false,
-    "en": "Actually…",
-    "fr": "En fait…",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Fillers & Interjections",
-    "newGroup": false,
-    "en": "Well… / I mean…",
-    "fr": "Enfin…",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Fillers & Interjections",
-    "newGroup": false,
-    "en": "Come on!",
-    "fr": "Allez !",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Fillers & Interjections",
-    "newGroup": false,
-    "en": "Uh…",
-    "fr": "Euh…",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Fillers & Interjections",
-    "newGroup": false,
-    "en": "Well yes / Well no",
-    "fr": "Ben oui / Ben non.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Fillers & Interjections",
-    "newGroup": false,
-    "en": "Really! / Come on!",
-    "fr": "Quand même !",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Fillers & Interjections",
-    "newGroup": false,
-    "en": "You see",
-    "fr": "Tu vois.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Fillers & Interjections",
-    "newGroup": false,
-    "en": "No problem / It’s fine",
-    "fr": "C'est pas grave.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Travel & Emergencies",
-    "newGroup": true,
-    "en": "Watch out!",
-    "fr": "Attention !",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Travel & Emergencies",
-    "newGroup": false,
-    "en": "Stop!",
-    "fr": "Arrête !",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Travel & Emergencies",
-    "newGroup": false,
-    "en": "Help!",
-    "fr": "Au secours !",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Travel & Emergencies",
-    "newGroup": false,
-    "en": "My mistake",
-    "fr": "Au temps pour moi.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Travel & Emergencies",
-    "newGroup": false,
-    "en": "Where are the toilets?",
-    "fr": "Où sont les toilettes ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Travel & Emergencies",
-    "newGroup": false,
-    "en": "Bus stop",
-    "fr": "Arrêt de bus.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Travel & Emergencies",
-    "newGroup": false,
-    "en": "Train station",
-    "fr": "Gare.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Travel & Emergencies",
-    "newGroup": false,
-    "en": "Entrance / Exit",
-    "fr": "Entrée / Sortie.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Travel & Emergencies",
-    "newGroup": false,
-    "en": "Have a nice trip!",
-    "fr": "Bon voyage !",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Travel & Emergencies",
-    "newGroup": false,
-    "en": "Have a safe journey!",
-    "fr": "Bonne route !",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Shops & Markets",
-    "newGroup": true,
-    "en": "What is it for?",
-    "fr": "C’est pour quoi ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Shops & Markets",
-    "newGroup": false,
-    "en": "Can I help you?",
-    "fr": "Je peux vous aider ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Shops & Markets",
-    "newGroup": false,
-    "en": "Are you looking for something?",
-    "fr": "Vous cherchez quelque chose ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Shops & Markets",
-    "newGroup": false,
-    "en": "Here you go (for you)",
-    "fr": "Voilà pour vous.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Shops & Markets",
-    "newGroup": false,
-    "en": "Is that all?",
-    "fr": "C’est tout ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Shops & Markets",
     "newGroup": false,
     "en": "Anything else?",
     "fr": "Autre chose ?",
@@ -4900,79 +4276,159 @@ const PHRASE_CARDS = [
   },
   {
     "type": "phrase",
-    "group": "Shops & Markets",
+    "group": "Restaurant & Café",
     "newGroup": false,
-    "en": "With this?",
-    "fr": "Avec ceci ?",
+    "en": "Starter / main / dessert?",
+    "fr": "Entrée, plat, dessert ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "What would you like as a side?",
+    "fr": "Et comme accompagnement ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "Rare / medium / well done?",
+    "fr": "Saignant, à point ou bien cuit ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "Enjoy your meal!",
+    "fr": "Bon appétit !",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "Here you go.",
+    "fr": "Voilà.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "Would you like bread?",
+    "fr": "Vous voulez du pain ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "Would you like some more?",
+    "fr": "Vous en voulez encore ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "Everything okay?",
+    "fr": "Tout va bien ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "How was it?",
+    "fr": "Ça a été ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "Takeaway?",
+    "fr": "À emporter ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "Would you like coffee?",
+    "fr": "Un café ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Restaurant & Café",
+    "newGroup": false,
+    "en": "The bill?",
+    "fr": "L'addition ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Shops & Services",
     "newGroup": true,
-    "en": "How much is it?",
-    "fr": "Ça fera combien ?",
+    "en": "Can I help you?",
+    "fr": "Je peux vous aider ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Shops & Services",
     "newGroup": false,
-    "en": "How much is it?",
-    "fr": "Ça fait combien ?",
+    "en": "Are you looking for something?",
+    "fr": "Vous cherchez quelque chose ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Shops & Services",
     "newGroup": false,
-    "en": "It will be…",
-    "fr": "Ça fera…",
+    "en": "It's over there.",
+    "fr": "C'est par là.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Shops & Services",
     "newGroup": false,
-    "en": "Cash or card?",
-    "fr": "En espèces ou par carte ?",
+    "en": "Here you are.",
+    "fr": "Voilà.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Shops & Services",
     "newGroup": false,
-    "en": "Card or cash?",
-    "fr": "Carte ou liquide ?",
+    "en": "This one?",
+    "fr": "Celui-ci ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Shops & Services",
     "newGroup": false,
-    "en": "With or without a bag?",
-    "fr": "Avec ou sans sac ?",
+    "en": "What size?",
+    "fr": "Quelle taille ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Shops & Services",
     "newGroup": false,
-    "en": "A bag?",
-    "fr": "Un sac ?",
+    "en": "What colour?",
+    "fr": "Quelle couleur ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
-    "newGroup": false,
-    "en": "Receipt?",
-    "fr": "Ticket de caisse ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Shops & Services",
     "newGroup": false,
     "en": "Do you have a loyalty card?",
     "fr": "Vous avez la carte de fidélité ?",
@@ -4980,730 +4436,378 @@ const PHRASE_CARDS = [
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Shops & Services",
     "newGroup": false,
-    "en": "Is that okay for you?",
-    "fr": "C’est bon pour vous ?",
+    "en": "A bag?",
+    "fr": "Un sac ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Shops & Services",
     "newGroup": false,
-    "en": "Thank you, have a good day",
-    "fr": "Merci, bonne journée.",
+    "en": "Would you like a receipt?",
+    "fr": "Vous voulez un ticket ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Shops & Services",
     "newGroup": false,
-    "en": "By card",
-    "fr": "Par carte.",
+    "en": "That's all?",
+    "fr": "C'est tout ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Shops & Services",
     "newGroup": false,
-    "en": "In cash",
-    "fr": "En espèces.",
+    "en": "Cash or card?",
+    "fr": "En espèces ou par carte ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Shops & Services",
     "newGroup": false,
-    "en": "Contactless",
-    "fr": "Sans contact.",
+    "en": "Contactless?",
+    "fr": "Sans contact ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Shops & Services",
     "newGroup": false,
-    "en": "You can enter the code",
-    "fr": "Vous pouvez taper le code.",
+    "en": "Enter your PIN, please.",
+    "fr": "Composez votre code, s'il vous plaît.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Shops & Services",
     "newGroup": false,
-    "en": "It’s not going through",
-    "fr": "Ça ne passe pas.",
+    "en": "It's €…",
+    "fr": "Ça fait … euros.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Shops & Services",
     "newGroup": false,
-    "en": "Try again, please",
-    "fr": "Recommencez, s’il vous plaît.",
+    "en": "It's on special offer.",
+    "fr": "C'est en promotion.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Shops & Services",
     "newGroup": false,
-    "en": "It’s accepted",
-    "fr": "C’est accepté.",
+    "en": "Sorry, we're out of stock.",
+    "fr": "Désolé(e), il n'y en a plus.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Shops & Services",
     "newGroup": false,
-    "en": "It’s declined",
-    "fr": "C’est refusé.",
+    "en": "We close at …",
+    "fr": "On ferme à …",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Shops & Services",
     "newGroup": false,
-    "en": "Do you have exact change?",
-    "fr": "Vous avez l’appoint ?",
+    "en": "Next, please.",
+    "fr": "Suivant, s'il vous plaît.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
+    "group": "Shops & Services",
     "newGroup": false,
-    "en": "I don’t have change",
-    "fr": "Je n’ai pas la monnaie.",
+    "en": "Have a nice day!",
+    "fr": "Bonne journée !",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Payment & Checkout",
-    "newGroup": false,
-    "en": "Here’s your change",
-    "fr": "Voilà votre monnaie.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Payment & Checkout",
-    "newGroup": false,
-    "en": "Keep the change",
-    "fr": "Gardez la monnaie.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Payment & Checkout",
-    "newGroup": false,
-    "en": "It’s paid",
-    "fr": "C’est payé.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Payment & Checkout",
-    "newGroup": false,
-    "en": "All the best / take care",
-    "fr": "Bonne continuation.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Bakeries & Counters",
+    "group": "Transport & Travel",
     "newGroup": true,
-    "en": "Is that all?",
-    "fr": "Ce sera tout ?",
+    "en": "Tickets, please.",
+    "fr": "Vos billets, s'il vous plaît.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Bakeries & Counters",
+    "group": "Transport & Travel",
     "newGroup": false,
-    "en": "To go or eat in?",
-    "fr": "À emporter ou sur place ?",
+    "en": "Where are you going?",
+    "fr": "Vous allez où ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Bakeries & Counters",
+    "group": "Transport & Travel",
     "newGroup": false,
-    "en": "Eat in",
-    "fr": "Sur place.",
+    "en": "One-way or return?",
+    "fr": "Aller simple ou aller-retour ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Bakeries & Counters",
+    "group": "Transport & Travel",
     "newGroup": false,
-    "en": "To go",
-    "fr": "À emporter.",
+    "en": "Which line?",
+    "fr": "Quelle ligne ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Bakeries & Counters",
+    "group": "Transport & Travel",
     "newGroup": false,
-    "en": "It’ll be ready in a minute",
-    "fr": "Ce sera prêt dans une minute.",
+    "en": "Which platform?",
+    "fr": "Quel quai ?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Bakeries & Counters",
+    "group": "Transport & Travel",
     "newGroup": false,
-    "en": "It’s coming",
-    "fr": "Ça arrive.",
+    "en": "Next stop: …",
+    "fr": "Prochain arrêt : …",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Bakeries & Counters",
+    "group": "Transport & Travel",
     "newGroup": false,
-    "en": "Here’s your order",
-    "fr": "Voilà votre commande.",
+    "en": "Attention, doors closing.",
+    "fr": "Attention, fermeture des portes.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Bakeries & Counters",
+    "group": "Transport & Travel",
     "newGroup": false,
-    "en": "It’s hot",
-    "fr": "C’est chaud.",
+    "en": "Mind the gap.",
+    "fr": "Attention à la marche.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Bakeries & Counters",
+    "group": "Transport & Travel",
     "newGroup": false,
-    "en": "Careful, it’s hot",
-    "fr": "Attention, c’est chaud.",
+    "en": "This train is delayed.",
+    "fr": "Ce train a du retard.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Bakeries & Counters",
+    "group": "Transport & Travel",
     "newGroup": false,
-    "en": "Enjoy your meal",
-    "fr": "Bon appétit.",
+    "en": "This train is cancelled.",
+    "fr": "Ce train est annulé.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Clothes & Retail",
+    "group": "Transport & Travel",
+    "newGroup": false,
+    "en": "On time.",
+    "fr": "À l'heure.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Transport & Travel",
+    "newGroup": false,
+    "en": "Change at …",
+    "fr": "Correspondance à …",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Transport & Travel",
+    "newGroup": false,
+    "en": "Exit this way.",
+    "fr": "Sortie par ici.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Transport & Travel",
+    "newGroup": false,
+    "en": "Do you have a reservation?",
+    "fr": "Vous avez une réservation ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Transport & Travel",
+    "newGroup": false,
+    "en": "Your passport, please.",
+    "fr": "Votre passeport, s'il vous plaît.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Transport & Travel",
+    "newGroup": false,
+    "en": "Any bags to check in?",
+    "fr": "Des bagages à enregistrer ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Transport & Travel",
+    "newGroup": false,
+    "en": "Boarding gate …",
+    "fr": "Porte d'embarquement …",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Transport & Travel",
+    "newGroup": false,
+    "en": "Last call.",
+    "fr": "Dernier appel.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Transport & Travel",
+    "newGroup": false,
+    "en": "Window or aisle?",
+    "fr": "Hublot ou couloir ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Transport & Travel",
+    "newGroup": false,
+    "en": "Do you have anything to declare?",
+    "fr": "Vous avez quelque chose à déclarer ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Transport & Travel",
+    "newGroup": false,
+    "en": "Your seat is …",
+    "fr": "Votre place est …",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Transport & Travel",
+    "newGroup": false,
+    "en": "We have arrived.",
+    "fr": "Nous sommes arrivés.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Transport & Travel",
+    "newGroup": false,
+    "en": "Taxi?",
+    "fr": "Un taxi ?",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Transport & Travel",
+    "newGroup": false,
+    "en": "This is your stop.",
+    "fr": "C'est votre arrêt.",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Transport & Travel",
+    "newGroup": false,
+    "en": "Have a good trip!",
+    "fr": "Bon voyage !",
+    "pos": "phrase"
+  },
+  {
+    "type": "phrase",
+    "group": "Everyday Interjections",
     "newGroup": true,
-    "en": "What size is it?",
-    "fr": "C’est à quelle taille ?",
+    "en": "Okay / agreed.",
+    "fr": "D'accord.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Clothes & Retail",
+    "group": "Everyday Interjections",
     "newGroup": false,
-    "en": "What size are you?",
-    "fr": "Vous faites quelle taille ?",
+    "en": "Sure / of course.",
+    "fr": "Bien sûr.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Clothes & Retail",
+    "group": "Everyday Interjections",
     "newGroup": false,
-    "en": "Does it fit you?",
-    "fr": "Ça vous va ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Clothes & Retail",
-    "newGroup": false,
-    "en": "Too big",
-    "fr": "Trop grand.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Clothes & Retail",
-    "newGroup": false,
-    "en": "Too small",
-    "fr": "Trop petit.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Clothes & Retail",
-    "newGroup": false,
-    "en": "It’s too expensive",
-    "fr": "C’est trop cher.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Clothes & Retail",
-    "newGroup": false,
-    "en": "On sale",
-    "fr": "En solde.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Clothes & Retail",
-    "newGroup": false,
-    "en": "On special offer",
-    "fr": "En promotion.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Clothes & Retail",
-    "newGroup": false,
-    "en": "Out of stock",
-    "fr": "En rupture de stock.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Clothes & Retail",
-    "newGroup": false,
-    "en": "There aren’t any left",
-    "fr": "Il n’y en a plus.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Clothes & Retail",
-    "newGroup": false,
-    "en": "There’s one left",
-    "fr": "Il en reste un.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Clothes & Retail",
-    "newGroup": false,
-    "en": "The changing room is over there",
-    "fr": "La cabine est là-bas.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Supermarket & Directions",
-    "newGroup": true,
-    "en": "It’s on the shelf / aisle",
-    "fr": "C’est en rayon.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Supermarket & Directions",
-    "newGroup": false,
-    "en": "It’s at the back on the right",
-    "fr": "C’est au fond à droite.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Supermarket & Directions",
-    "newGroup": false,
-    "en": "Right there",
-    "fr": "Juste là.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Supermarket & Directions",
-    "newGroup": false,
-    "en": "Over there",
-    "fr": "Là-bas.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Supermarket & Directions",
-    "newGroup": false,
-    "en": "Next to",
-    "fr": "À côté.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Supermarket & Directions",
-    "newGroup": false,
-    "en": "Behind you",
-    "fr": "Derrière vous.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Supermarket & Directions",
-    "newGroup": false,
-    "en": "In front",
-    "fr": "Devant.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Supermarket & Directions",
-    "newGroup": false,
-    "en": "Opposite",
-    "fr": "En face.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Queues & Service",
-    "newGroup": true,
-    "en": "Are you waiting?",
-    "fr": "Vous attendez ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Queues & Service",
-    "newGroup": false,
-    "en": "Your turn",
-    "fr": "À vous.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Queues & Service",
-    "newGroup": false,
-    "en": "Next!",
-    "fr": "Suivant !",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Queues & Service",
-    "newGroup": false,
-    "en": "It’s closed",
-    "fr": "C’est fermé.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Queues & Service",
-    "newGroup": false,
-    "en": "It’s open",
-    "fr": "C’est ouvert.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Polite & Clarifying",
-    "newGroup": true,
-    "en": "Just a moment",
-    "fr": "Un petit instant.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Polite & Clarifying",
-    "newGroup": false,
-    "en": "I’m looking",
-    "fr": "Je regarde.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Polite & Clarifying",
-    "newGroup": false,
-    "en": "I’ll check",
-    "fr": "Je vérifie.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Polite & Clarifying",
-    "newGroup": false,
-    "en": "Sorry",
-    "fr": "Désolé(e).",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Polite & Clarifying",
-    "newGroup": false,
-    "en": "No problem",
-    "fr": "Pas de problème.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Polite & Clarifying",
-    "newGroup": false,
-    "en": "That’s not possible",
-    "fr": "C’est pas possible.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Polite & Clarifying",
-    "newGroup": false,
-    "en": "Unfortunately no",
-    "fr": "Malheureusement non.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Polite & Clarifying",
-    "newGroup": false,
-    "en": "Right away",
+    "en": "Right away.",
     "fr": "Tout de suite.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Polite & Clarifying",
+    "group": "Everyday Interjections",
     "newGroup": false,
-    "en": "As you like",
-    "fr": "Comme vous voulez.",
+    "en": "Actually / in fact…",
+    "fr": "En fait…",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Polite & Clarifying",
+    "group": "Everyday Interjections",
     "newGroup": false,
-    "en": "If you want",
-    "fr": "Si vous voulez.",
+    "en": "So… / well…",
+    "fr": "Alors…",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Market Stall",
-    "newGroup": true,
-    "en": "How much is it?",
-    "fr": "C’est combien ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Market Stall",
+    "group": "Everyday Interjections",
     "newGroup": false,
-    "en": "How much per kilo?",
-    "fr": "C’est combien le kilo ?",
+    "en": "Well…",
+    "fr": "Bon…",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Market Stall",
+    "group": "Everyday Interjections",
     "newGroup": false,
-    "en": "That one",
-    "fr": "Celui-là.",
+    "en": "Uh…",
+    "fr": "Euh…",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Market Stall",
+    "group": "Everyday Interjections",
     "newGroup": false,
-    "en": "Those ones",
-    "fr": "Ceux-là.",
+    "en": "No worries.",
+    "fr": "Pas de souci.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Market Stall",
+    "group": "Everyday Interjections",
     "newGroup": false,
-    "en": "Like that",
-    "fr": "Comme ça.",
+    "en": "Sorry, I can't.",
+    "fr": "Désolé(e), je ne peux pas.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
-    "group": "Market Stall",
+    "group": "Everyday Interjections",
     "newGroup": false,
-    "en": "A bit more",
-    "fr": "Un peu plus.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Market Stall",
-    "newGroup": false,
-    "en": "A bit less",
-    "fr": "Un peu moins.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Market Stall",
-    "newGroup": false,
-    "en": "That’s enough",
-    "fr": "Ça suffit.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Market Stall",
-    "newGroup": false,
-    "en": "Perfect like that",
-    "fr": "Parfait comme ça.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Market Stall",
-    "newGroup": false,
-    "en": "There you go, thanks",
-    "fr": "Voilà, merci.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Goodbyes",
-    "newGroup": true,
-    "en": "Have a good day (to you)",
-    "fr": "Bonne journée à vous.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Goodbyes",
-    "newGroup": false,
-    "en": "Have a good end of day",
-    "fr": "Bonne fin de journée.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Goodbyes",
-    "newGroup": false,
-    "en": "Have a good evening",
-    "fr": "Bonne soirée.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Goodbyes",
-    "newGroup": false,
-    "en": "See you soon",
-    "fr": "À bientôt.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Goodbyes",
-    "newGroup": false,
-    "en": "Thanks, goodbye",
-    "fr": "Merci, au revoir.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Goodbyes",
-    "newGroup": false,
-    "en": "See you next time",
-    "fr": "À la prochaine.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Goodbyes",
-    "newGroup": false,
-    "en": "Take care",
-    "fr": "Prenez soin de vous.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Customer requests (structures)",
-    "newGroup": true,
-    "en": "I’d like a coffee",
-    "fr": "Je voudrais un café.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Customer requests (structures)",
-    "newGroup": false,
-    "en": "I want to buy this",
-    "fr": "Je veux acheter ça.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Customer requests (structures)",
-    "newGroup": false,
-    "en": "I’ll take that one",
-    "fr": "Je prends celui-là.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Customer requests (structures)",
-    "newGroup": false,
-    "en": "I’m looking for something simple",
-    "fr": "Je cherche quelque chose de simple.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Customer requests (structures)",
-    "newGroup": false,
-    "en": "I’m looking for a practical option",
-    "fr": "Je cherche une option pratique.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Customer requests (structures)",
-    "newGroup": false,
-    "en": "Do you have a simple model?",
-    "fr": "Vous avez un modèle simple ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Customer requests (structures)",
-    "newGroup": false,
-    "en": "Is there a standard version?",
-    "fr": "Il y a une version standard ?",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Customer requests (structures)",
-    "newGroup": false,
-    "en": "That’s perfect",
-    "fr": "C’est parfait.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Customer requests (structures)",
-    "newGroup": false,
-    "en": "That’s fine",
-    "fr": "C’est bon.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Customer requests (structures)",
-    "newGroup": false,
-    "en": "One more, please",
-    "fr": "Encore un, s’il vous plaît.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Customer requests (structures)",
-    "newGroup": false,
-    "en": "A bit more, please",
-    "fr": "Un peu plus, s’il vous plaît.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Customer requests (structures)",
-    "newGroup": false,
-    "en": "A bit less, please",
-    "fr": "Un peu moins, s’il vous plaît.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Customer requests (structures)",
-    "newGroup": false,
-    "en": "Like that, please",
-    "fr": "Comme ça, s’il vous plaît.",
+    "en": "See you soon!",
+    "fr": "À bientôt !",
     "pos": "phrase"
   }
 ];
@@ -5711,812 +4815,1436 @@ const PHRASE_CARDS = [
 const COMBO_CARDS = [
   {
     "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": true,
-    "fr": "Je veux + nom",
-    "en": "I want + noun",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": false,
-    "fr": "Je voudrais + nom",
-    "en": "I’d like + noun",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": false,
-    "fr": "Je prends + nom",
-    "en": "I’ll take + noun",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": false,
-    "fr": "Je cherche + nom",
-    "en": "I’m looking for + noun",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": false,
-    "fr": "Je prends celui-là.",
-    "en": "I’ll take that one.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": false,
-    "fr": "Je prends les deux.",
-    "en": "I’ll take both.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": false,
-    "fr": "Je veux juste ça.",
-    "en": "I just want that.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": false,
-    "fr": "Je veux une option simple.",
-    "en": "I want a simple option.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": false,
-    "fr": "Je prends la version classique.",
-    "en": "I’ll take the classic version.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Wanting & choosing (templates)",
-    "newGroup": false,
-    "fr": "Je cherche quelque chose de pratique.",
-    "en": "I’m looking for something practical.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": true,
-    "fr": "Un peu plus.",
-    "en": "A bit more.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": false,
-    "fr": "Un peu moins.",
-    "en": "A bit less.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": false,
-    "fr": "Comme ça.",
-    "en": "Like that.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": false,
-    "fr": "Ça suffit.",
-    "en": "That’s enough.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": false,
-    "fr": "Parfait comme ça.",
-    "en": "Perfect like that.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": false,
-    "fr": "Encore un.",
-    "en": "One more.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": false,
-    "fr": "Juste un.",
-    "en": "Just one.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": false,
-    "fr": "Les deux.",
-    "en": "Both.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": false,
-    "fr": "Celui-ci.",
-    "en": "This one.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Quantity & adjustment",
-    "newGroup": false,
-    "fr": "Ceux-là.",
-    "en": "Those ones.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Food & drink",
-    "newGroup": true,
+    "group": "I take + noun",
+    "en": "I will take a coffee.",
     "fr": "Je prends un café.",
-    "en": "I’ll have a coffee.",
-    "pos": "combo"
+    "pos": "sentence",
+    "newGroup": true
   },
   {
     "type": "combo",
-    "group": "Food & drink",
-    "newGroup": false,
-    "fr": "Un café allongé.",
-    "en": "A long coffee (espresso + water).",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take a tea.",
+    "fr": "Je prends un thé.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Food & drink",
-    "newGroup": false,
-    "fr": "Un dessert aussi.",
-    "en": "A dessert as well.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take a beer.",
+    "fr": "Je prends une bière.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Food & drink",
-    "newGroup": false,
-    "fr": "Avec de l’eau.",
-    "en": "With water.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take a glass of water.",
+    "fr": "Je prends un verre d’eau.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Food & drink",
-    "newGroup": false,
-    "fr": "Sans sucre.",
-    "en": "Without sugar.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take a carafe of water.",
+    "fr": "Je prends une carafe d’eau.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Food & drink",
-    "newGroup": false,
-    "fr": "Sur place.",
-    "en": "Eat in.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take a pizza.",
+    "fr": "Je prends une pizza.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Food & drink",
-    "newGroup": false,
-    "fr": "À emporter.",
-    "en": "To go.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take a salad.",
+    "fr": "Je prends une salade.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Food & drink",
-    "newGroup": false,
-    "fr": "Pour ici.",
-    "en": "For here.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take a sandwich.",
+    "fr": "Je prends un sandwich.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Food & drink",
-    "newGroup": false,
-    "fr": "Pour plus tard.",
-    "en": "For later.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take a soup.",
+    "fr": "Je prends une soupe.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Food & drink",
-    "newGroup": false,
-    "fr": "Bon appétit !",
-    "en": "Enjoy your meal!",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take the menu.",
+    "fr": "Je prends la carte.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Opinions",
-    "newGroup": true,
-    "fr": "C’est bon.",
-    "en": "It’s good / OK.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take the bill.",
+    "fr": "Je prends l’addition.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Opinions",
-    "newGroup": false,
-    "fr": "C’est très bon.",
-    "en": "It’s very good.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take a ticket.",
+    "fr": "Je prends un ticket.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Opinions",
-    "newGroup": false,
-    "fr": "C’est simple.",
-    "en": "It’s simple.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take two coffees.",
+    "fr": "Je prends deux cafés.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Opinions",
-    "newGroup": false,
-    "fr": "C’est pratique.",
-    "en": "It’s practical.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take two beers.",
+    "fr": "Je prends deux bières.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Opinions",
-    "newGroup": false,
-    "fr": "C’est possible.",
-    "en": "It’s possible.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take a small pizza.",
+    "fr": "Je prends une petite pizza.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Opinions",
-    "newGroup": false,
-    "fr": "C’est correct.",
-    "en": "It’s correct / fine.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take a large beer.",
+    "fr": "Je prends une grande bière.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Opinions",
-    "newGroup": false,
-    "fr": "C’est parfait.",
-    "en": "It’s perfect.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take a hot coffee.",
+    "fr": "Je prends un café chaud.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Opinions",
-    "newGroup": false,
-    "fr": "C’est trop cher.",
-    "en": "It’s too expensive.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take a cold beer.",
+    "fr": "Je prends une bière fraîche.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Opinions",
-    "newGroup": false,
-    "fr": "C’est une bonne option.",
-    "en": "It’s a good option.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take a dessert.",
+    "fr": "Je prends un dessert.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Opinions",
-    "newGroup": false,
-    "fr": "Pas de problème.",
-    "en": "No problem.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take the special.",
+    "fr": "Je prends le plat du jour.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": true,
-    "fr": "C’est combien ?",
-    "en": "How much is it?",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take this one.",
+    "fr": "Je prends celui-ci.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": false,
-    "fr": "Le total, s’il vous plaît.",
-    "en": "The total, please.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take that one.",
+    "fr": "Je prends celui-là.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": false,
-    "fr": "Par carte.",
-    "en": "By card.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take a bag.",
+    "fr": "Je prends un sac.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": false,
-    "fr": "En espèces.",
-    "en": "In cash.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take a receipt.",
+    "fr": "Je prends un ticket de caisse.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": false,
-    "fr": "Sans contact.",
-    "en": "Contactless.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take a bottle of water.",
+    "fr": "Je prends une bouteille d’eau.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": false,
-    "fr": "C’est payé.",
-    "en": "It’s paid.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take sparkling water.",
+    "fr": "Je prends de l’eau pétillante.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": false,
-    "fr": "Gardez la monnaie.",
-    "en": "Keep the change.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take still water.",
+    "fr": "Je prends de l’eau plate.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": false,
-    "fr": "Le prix est correct.",
-    "en": "The price is fair.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take a draft beer.",
+    "fr": "Je prends une pression.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": false,
-    "fr": "C’est trop cher pour moi.",
-    "en": "It’s too expensive for me.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take a coffee to go.",
+    "fr": "Je prends un café à emporter.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Money & transaction",
-    "newGroup": false,
-    "fr": "D’accord.",
-    "en": "OK / agreed.",
-    "pos": "combo"
+    "group": "I take + noun",
+    "en": "I will take it.",
+    "fr": "Je le prends.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": true,
-    "fr": "Un instant.",
-    "en": "One moment.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want a coffee.",
+    "fr": "Je veux un café.",
+    "pos": "sentence",
+    "newGroup": true
   },
   {
     "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": false,
-    "fr": "Je regarde.",
-    "en": "I’m looking.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want a tea.",
+    "fr": "Je veux un thé.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": false,
-    "fr": "Je vérifie.",
-    "en": "I’m checking.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want a beer.",
+    "fr": "Je veux une bière.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": false,
-    "fr": "Je ne comprends pas.",
-    "en": "I don’t understand.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want water.",
+    "fr": "Je veux de l’eau.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": false,
-    "fr": "Pardon ?",
-    "en": "Sorry? / Pardon?",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want sparkling water.",
+    "fr": "Je veux de l’eau pétillante.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": false,
-    "fr": "Vous pouvez répéter ?",
-    "en": "Can you repeat?",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want still water.",
+    "fr": "Je veux de l’eau plate.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": false,
-    "fr": "Comme vous voulez.",
-    "en": "As you like.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want a pizza.",
+    "fr": "Je veux une pizza.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": false,
-    "fr": "Si vous voulez.",
-    "en": "If you want.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want a salad.",
+    "fr": "Je veux une salade.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": false,
-    "fr": "Bien sûr.",
-    "en": "Of course.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want a sandwich.",
+    "fr": "Je veux un sandwich.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Clarifying yourself",
-    "newGroup": false,
-    "fr": "Voilà.",
-    "en": "There you go.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want a dessert.",
+    "fr": "Je veux un dessert.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": true,
-    "fr": "Je veux + nom + simple.",
-    "en": "I want + simple + noun.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want the menu.",
+    "fr": "Je veux la carte.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": false,
-    "fr": "Je prends + nom + classique.",
-    "en": "I’ll take + classic + noun.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want the bill.",
+    "fr": "Je veux l’addition.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": false,
-    "fr": "Je cherche + nom + pratique.",
-    "en": "I’m looking for + practical + noun.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want this one.",
+    "fr": "Je veux celui-ci.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": false,
-    "fr": "C’est + adjectif.",
-    "en": "It’s + adjective.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want that one.",
+    "fr": "Je veux celui-là.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": false,
-    "fr": "C’est trop + adjectif.",
-    "en": "It’s too + adjective.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want a table.",
+    "fr": "Je veux une table.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": false,
-    "fr": "Très + adjectif.",
-    "en": "Very + adjective.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want a table for two.",
+    "fr": "Je veux une table pour deux.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": false,
-    "fr": "Un peu + adjectif.",
-    "en": "A bit + adjective.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want to sit outside.",
+    "fr": "Je veux être en terrasse.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": false,
-    "fr": "Avec + nom.",
-    "en": "With + noun.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want to sit inside.",
+    "fr": "Je veux être à l’intérieur.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": false,
-    "fr": "Sans + nom.",
-    "en": "Without + noun.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want a bag.",
+    "fr": "Je veux un sac.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Reusable frames",
-    "newGroup": false,
-    "fr": "Pour + nom.",
-    "en": "For + noun.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want a receipt.",
+    "fr": "Je veux un ticket de caisse.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": true,
-    "fr": "Je reste ici.",
-    "en": "I’m staying here.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want it.",
+    "fr": "Je le veux.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": false,
-    "fr": "Je pars maintenant.",
-    "en": "I’m leaving now.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want the special.",
+    "fr": "Je veux le plat du jour.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": false,
-    "fr": "À bientôt.",
-    "en": "See you soon.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want bread.",
+    "fr": "Je veux du pain.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": false,
-    "fr": "Bonne journée.",
-    "en": "Have a good day.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want another one.",
+    "fr": "J’en veux un autre.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": false,
-    "fr": "Bonne soirée.",
-    "en": "Have a good evening.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want to pay.",
+    "fr": "Je veux payer.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": false,
-    "fr": "À la prochaine.",
-    "en": "See you next time.",
-    "pos": "combo"
+    "group": "I want + noun",
+    "en": "I want to order.",
+    "fr": "Je veux commander.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": false,
-    "fr": "Merci beaucoup.",
-    "en": "Thanks a lot.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": false,
-    "fr": "Merci bien.",
-    "en": "Thanks very much.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": false,
-    "fr": "Merci, au revoir.",
-    "en": "Thanks, goodbye.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Movement & closings",
-    "newGroup": false,
-    "fr": "Bonne continuation.",
-    "en": "All the best / take care.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": true,
-    "fr": "Je veux acheter un melon.",
-    "en": "I want to buy a melon.",
-    "pos": "combo"
-  },
-  {
-    "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": false,
+    "group": "I would like + noun",
+    "en": "I would like a coffee.",
     "fr": "Je voudrais un café.",
-    "en": "I’d like a coffee.",
-    "pos": "combo"
+    "pos": "sentence",
+    "newGroup": true
   },
   {
     "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": false,
-    "fr": "Je prends une banane.",
-    "en": "I’ll take a banana.",
-    "pos": "combo"
+    "group": "I would like + noun",
+    "en": "I would like a tea.",
+    "fr": "Je voudrais un thé.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": false,
-    "fr": "Je cherche un produit simple.",
-    "en": "I’m looking for a simple product.",
-    "pos": "combo"
+    "group": "I would like + noun",
+    "en": "I would like a beer.",
+    "fr": "Je voudrais une bière.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": false,
-    "fr": "C’est une option pratique.",
-    "en": "It’s a practical option.",
-    "pos": "combo"
+    "group": "I would like + noun",
+    "en": "I would like a glass of water.",
+    "fr": "Je voudrais un verre d’eau.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": false,
-    "fr": "Un modèle classique.",
-    "en": "A classic model.",
-    "pos": "combo"
+    "group": "I would like + noun",
+    "en": "I would like a carafe of water.",
+    "fr": "Je voudrais une carafe d’eau.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": false,
-    "fr": "Une solution simple.",
-    "en": "A simple solution.",
-    "pos": "combo"
+    "group": "I would like + noun",
+    "en": "I would like sparkling water.",
+    "fr": "Je voudrais de l’eau pétillante.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": false,
-    "fr": "Une version standard.",
-    "en": "A standard version.",
-    "pos": "combo"
+    "group": "I would like + noun",
+    "en": "I would like still water.",
+    "fr": "Je voudrais de l’eau plate.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": false,
-    "fr": "Parfait comme ça.",
-    "en": "Perfect like that.",
-    "pos": "combo"
+    "group": "I would like + noun",
+    "en": "I would like a pizza.",
+    "fr": "Je voudrais une pizza.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Confidence builders",
-    "newGroup": false,
-    "fr": "Voilà, merci.",
-    "en": "There you go, thanks.",
-    "pos": "combo"
+    "group": "I would like + noun",
+    "en": "I would like a salad.",
+    "fr": "Je voudrais une salade.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Polite power words",
-    "newGroup": true,
-    "fr": "S’il vous plaît.",
-    "en": "Please.",
-    "pos": "combo"
+    "group": "I would like + noun",
+    "en": "I would like a sandwich.",
+    "fr": "Je voudrais un sandwich.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Polite power words",
-    "newGroup": false,
-    "fr": "Merci.",
-    "en": "Thanks.",
-    "pos": "combo"
+    "group": "I would like + noun",
+    "en": "I would like the menu.",
+    "fr": "Je voudrais la carte.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Polite power words",
-    "newGroup": false,
-    "fr": "Merci beaucoup.",
-    "en": "Thanks a lot.",
-    "pos": "combo"
+    "group": "I would like + noun",
+    "en": "I would like the bill, please.",
+    "fr": "Je voudrais l’addition, s’il vous plaît.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Polite power words",
-    "newGroup": false,
-    "fr": "Pas de problème.",
-    "en": "No problem.",
-    "pos": "combo"
+    "group": "I would like + noun",
+    "en": "I would like this one.",
+    "fr": "Je voudrais celui-ci.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Polite power words",
-    "newGroup": false,
-    "fr": "D’accord.",
-    "en": "OK.",
-    "pos": "combo"
+    "group": "I would like + noun",
+    "en": "I would like that one.",
+    "fr": "Je voudrais celui-là.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Polite power words",
-    "newGroup": false,
-    "fr": "Bien sûr.",
-    "en": "Of course.",
-    "pos": "combo"
+    "group": "I would like + noun",
+    "en": "I would like a table for two.",
+    "fr": "Je voudrais une table pour deux.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Polite power words",
-    "newGroup": false,
-    "fr": "Comme ça.",
-    "en": "Like that.",
-    "pos": "combo"
+    "group": "I would like + noun",
+    "en": "I would like to sit outside.",
+    "fr": "Je voudrais être en terrasse.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Polite power words",
-    "newGroup": false,
-    "fr": "Voilà.",
-    "en": "There you go.",
-    "pos": "combo"
+    "group": "I would like + noun",
+    "en": "I would like to pay.",
+    "fr": "Je voudrais payer.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Polite power words",
-    "newGroup": false,
-    "fr": "Très bien.",
-    "en": "Very good.",
-    "pos": "combo"
+    "group": "I would like + noun",
+    "en": "I would like to order.",
+    "fr": "Je voudrais commander.",
+    "pos": "sentence"
   },
   {
     "type": "combo",
-    "group": "Polite power words",
-    "newGroup": false,
-    "fr": "C’est bon.",
-    "en": "That’s fine.",
-    "pos": "combo"
+    "group": "I would like + noun",
+    "en": "I would like a bag.",
+    "fr": "Je voudrais un sac.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I would like + noun",
+    "en": "I would like a receipt.",
+    "fr": "Je voudrais un ticket de caisse.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the station-service?",
+    "fr": "Pour aller à la station-service ?",
+    "pos": "sentence",
+    "newGroup": true
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the hotel?",
+    "fr": "Pour aller à l’hôtel ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the restaurant?",
+    "fr": "Pour aller à le restaurant ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the café?",
+    "fr": "Pour aller à le café ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the market?",
+    "fr": "Pour aller à le marché ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the centre?",
+    "fr": "Pour aller à le centre-ville ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the museum?",
+    "fr": "Pour aller à le musée ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the beach?",
+    "fr": "Pour aller à la plage ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the supermarket?",
+    "fr": "Pour aller à le supermarché ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the pharmacy?",
+    "fr": "Pour aller à la pharmacie ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the hospital?",
+    "fr": "Pour aller à l’hôpital ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the police station?",
+    "fr": "Pour aller à le commissariat ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the bus stop?",
+    "fr": "Pour aller à l’arrêt de bus ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the taxi rank?",
+    "fr": "Pour aller à la station de taxis ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the exit?",
+    "fr": "Pour aller à la sortie ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the entrance?",
+    "fr": "Pour aller à l’entrée ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the toilet?",
+    "fr": "Pour aller à les toilettes ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the ticket office?",
+    "fr": "Pour aller à le guichet ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the platform?",
+    "fr": "Pour aller à le quai ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the line?",
+    "fr": "Pour aller à la ligne ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the information desk?",
+    "fr": "Pour aller à l’accueil ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the reception?",
+    "fr": "Pour aller à la réception ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the car park?",
+    "fr": "Pour aller à le parking ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the bank?",
+    "fr": "Pour aller à la banque ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the post office?",
+    "fr": "Pour aller à la poste ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the city hall?",
+    "fr": "Pour aller à la mairie ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the street?",
+    "fr": "Pour aller à la rue ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the square?",
+    "fr": "Pour aller à la place ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the airport?",
+    "fr": "Pour aller à l’aéroport ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the metro?",
+    "fr": "Pour aller à le métro ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "Is there a café here?",
+    "fr": "Il y a un café ici ?",
+    "pos": "sentence",
+    "newGroup": true
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "Is there a restaurant nearby?",
+    "fr": "Il y a un restaurant près d’ici ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "Is there a supermarket around here?",
+    "fr": "Il y a un supermarché par ici ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "Is there a pharmacy nearby?",
+    "fr": "Il y a une pharmacie près d’ici ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "Is there a station-service nearby?",
+    "fr": "Il y a une station-service près d’ici ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "Is there a toilet here?",
+    "fr": "Il y a des toilettes ici ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "Is there an entrance?",
+    "fr": "Il y a une entrée ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "Is there an exit?",
+    "fr": "Il y a une sortie ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a problem.",
+    "fr": "Il y a un problème.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is time.",
+    "fr": "Il y a le temps.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is no time.",
+    "fr": "Il n’y a pas le temps.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a delay.",
+    "fr": "Il y a du retard.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a change.",
+    "fr": "Il y a un changement.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There are tickets.",
+    "fr": "Il y a des billets.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a table.",
+    "fr": "Il y a une table.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a menu.",
+    "fr": "Il y a une carte.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a special today.",
+    "fr": "Il y a un plat du jour aujourd’hui.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a promotion.",
+    "fr": "Il y a une promotion.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a queue.",
+    "fr": "Il y a une file d’attente.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a seat.",
+    "fr": "Il y a une place.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is an announcement.",
+    "fr": "Il y a une annonce.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a meeting point.",
+    "fr": "Il y a un point de rendez-vous.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a bus.",
+    "fr": "Il y a un bus.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a taxi.",
+    "fr": "Il y a un taxi.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "There is a train.",
+    "fr": "Il y a un train.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s open.",
+    "fr": "C’est ouvert.",
+    "pos": "sentence",
+    "newGroup": true
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s closed.",
+    "fr": "C’est fermé.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s possible.",
+    "fr": "C’est possible.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s impossible.",
+    "fr": "C’est impossible.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s free.",
+    "fr": "C’est gratuit.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s expensive.",
+    "fr": "C’est cher.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s cheap.",
+    "fr": "C’est bon marché.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s ready.",
+    "fr": "C’est prêt.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s finished.",
+    "fr": "C’est terminé.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s perfect.",
+    "fr": "C’est parfait.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s correct.",
+    "fr": "C’est correct.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s OK.",
+    "fr": "C’est OK.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s important.",
+    "fr": "C’est important.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s simple.",
+    "fr": "C’est simple.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s complicated.",
+    "fr": "C’est compliqué.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s urgent.",
+    "fr": "C’est urgent.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s late.",
+    "fr": "C’est tard.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s early.",
+    "fr": "C’est tôt.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s here.",
+    "fr": "C’est ici.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s there.",
+    "fr": "C’est là.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s on the left.",
+    "fr": "C’est à gauche.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s on the right.",
+    "fr": "C’est à droite.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s straight ahead.",
+    "fr": "C’est tout droit.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s this way.",
+    "fr": "C’est par ici.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s that way.",
+    "fr": "C’est par là.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must pay.",
+    "fr": "Je dois payer.",
+    "pos": "sentence",
+    "newGroup": true
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must order.",
+    "fr": "Je dois commander.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must leave.",
+    "fr": "Je dois partir.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must go.",
+    "fr": "Je dois y aller.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must hurry.",
+    "fr": "Je dois me dépêcher.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must wait.",
+    "fr": "Je dois attendre.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must check.",
+    "fr": "Je dois vérifier.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must confirm.",
+    "fr": "Je dois confirmer.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must change.",
+    "fr": "Je dois changer.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must cancel.",
+    "fr": "Je dois annuler.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must reserve.",
+    "fr": "Je dois réserver.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must call.",
+    "fr": "Je dois appeler.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must find it.",
+    "fr": "Je dois le trouver.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must sign.",
+    "fr": "Je dois signer.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must show my ticket.",
+    "fr": "Je dois montrer mon billet.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must validate my ticket.",
+    "fr": "Je dois valider mon billet.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must get off here.",
+    "fr": "Je dois descendre ici.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must get on here.",
+    "fr": "Je dois monter ici.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must take the metro.",
+    "fr": "Je dois prendre le métro.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must take a taxi.",
+    "fr": "Je dois prendre un taxi.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I need + noun",
+    "en": "I need help.",
+    "fr": "J’ai besoin d’aide.",
+    "pos": "sentence",
+    "newGroup": true
+  },
+  {
+    "type": "combo",
+    "group": "I need + noun",
+    "en": "I need information.",
+    "fr": "J’ai besoin d’informations.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I need + noun",
+    "en": "I need a ticket.",
+    "fr": "J’ai besoin d’un billet.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I need + noun",
+    "en": "I need a receipt.",
+    "fr": "J’ai besoin d’un ticket de caisse.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I need + noun",
+    "en": "I need water.",
+    "fr": "J’ai besoin d’eau.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I need + noun",
+    "en": "I need a taxi.",
+    "fr": "J’ai besoin d’un taxi.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I need + noun",
+    "en": "I need a doctor.",
+    "fr": "J’ai besoin d’un médecin.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I need + noun",
+    "en": "I need a room.",
+    "fr": "J’ai besoin d’une chambre.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I need + noun",
+    "en": "I need a reservation.",
+    "fr": "J’ai besoin d’une réservation.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I need + noun",
+    "en": "I need a bag.",
+    "fr": "J’ai besoin d’un sac.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I need + noun",
+    "en": "I need a map.",
+    "fr": "J’ai besoin d’un plan.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I need + noun",
+    "en": "I need the address.",
+    "fr": "J’ai besoin de l’adresse.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I need + noun",
+    "en": "I need the code.",
+    "fr": "J’ai besoin du code.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I need + noun",
+    "en": "I need the password.",
+    "fr": "J’ai besoin du mot de passe.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I take + noun",
+    "en": "I will take a croissant.",
+    "fr": "Je prends un croissant.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I want + noun",
+    "en": "I want a croissant.",
+    "fr": "Je veux un croissant.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I would like + noun",
+    "en": "I would like a croissant.",
+    "fr": "Je voudrais un croissant.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "How to get to + place",
+    "en": "How do I get to the station-service from here?",
+    "fr": "Pour aller à la station-service d’ici ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "There is/are + noun",
+    "en": "Is there a station-service open now?",
+    "fr": "Il y a une station-service ouverte maintenant ?",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s too far.",
+    "fr": "C’est trop loin.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "It's + adjective",
+    "en": "It’s very close.",
+    "fr": "C’est tout près.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must change line.",
+    "fr": "Je dois changer de ligne.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I must + verb",
+    "en": "I must validate the ticket.",
+    "fr": "Je dois valider le ticket.",
+    "pos": "sentence"
+  },
+  {
+    "type": "combo",
+    "group": "I need + noun",
+    "en": "I need the menu.",
+    "fr": "J’ai besoin de la carte.",
+    "pos": "sentence"
   }
 ];
 
+// Persist everything we care about under ONE key (simple + robust).
+// Shape: { mode: string, index: number, repeat: string[] }
 const STORAGE_KEYS = {
-  mode: "df_mode_v1",
-  wordsIndex: "df_words_index_v1",
-  phrasesIndex: "df_phrases_index_v1",
-  combosIndex: "df_combos_index_v1",
+  state: "df_state_v1",
 };
+
+function loadPersistedState() {
+  try {
+    const raw = window.localStorage.getItem(STORAGE_KEYS.state);
+    const parsed = raw ? JSON.parse(raw) : null;
+    if (!parsed || typeof parsed !== "object") return null;
+    return parsed;
+  } catch {
+    return null;
+  }
+}
+
+function savePersistedState(next) {
+  try {
+    window.localStorage.setItem(STORAGE_KEYS.state, JSON.stringify(next));
+  } catch {}
+}
 
 // --- TTS: force a real French voice when available (iOS-friendly) ---
 let __cachedVoices = null;
@@ -6626,18 +6354,18 @@ function clamp(n, min, max) {
 }
 
 export default function App() {
-  const [mode, setMode] = useState("words120");
-    return saved === "words120" ? "words120" : saved === "phrases100" ? "phrases100" : saved === "combos" ? "combos" : saved === "words400" ? "words400" : saved === "repeat" ? "repeat" : "words120";
+  const [mode, setMode] = useState(() => {
+    const s = loadPersistedState();
+    const m = s?.mode;
+    return m === "words120" || m === "phrases100" || m === "combos" || m === "words400" || m === "repeat"
+      ? m
+      : "words120";
   });
 
   const [repeatSet, setRepeatSet] = useState(() => {
-    try {
-      const raw = window.localStorage.getItem(STORAGE_KEYS.repeatSet);
-      const arr = raw ? JSON.parse(raw) : [];
-      return new Set(Array.isArray(arr) ? arr : []);
-    } catch {
-      return new Set();
-    }
+    const s = loadPersistedState();
+    const arr = Array.isArray(s?.repeat) ? s.repeat : [];
+    return new Set(arr);
   });
   const [replayedThisCard, setReplayedThisCard] = useState(false);
 
@@ -6653,9 +6381,9 @@ export default function App() {
   };
 
   const persistRepeatSet = (nextSet) => {
-    try {
-      window.localStorage.setItem(STORAGE_KEYS.repeatSet, JSON.stringify(Array.from(nextSet)));
-    } catch {}
+    // Repeat list is persisted via the single state object (see effect below)
+    // Keeping this helper so the rest of the code stays minimal.
+    return nextSet;
   };
 
   const addToRepeat = (c) => {
@@ -6694,23 +6422,47 @@ export default function App() {
       return all.filter((c) => keep.has(cardKey(c)));
     }
     if (mode === "words400") return WORD_CARDS.slice(120);
-    return WORD_CARDS.slice(0, 120);
-    if (mode === "combos") return COMBO_CARDS;
-    if (mode === "repeat") {
-      const all = [
-        ...WORD_CARDS.map((c, i) => ({ ...c, __deck: i < 120 ? "words120" : "words400" })),
-        ...PHRASE_CARDS.slice(0, 100).map((c) => ({ ...c, __deck: "phrases100" })),
-        ...COMBO_CARDS.map((c) => ({ ...c, __deck: "combos" })),
-      ];
-      const keep = new Set(repeatSet);
-      return all.filter((c) => keep.has(cardKey(c)));
-    }
-    if (mode === "words400") return WORD_CARDS.slice(120);
     // default: first-pass words
     return WORD_CARDS.slice(0, 120);
   }, [mode, repeatSet]);
 
-  const [index, setIndex] = useState(0);
+  const DEFAULT_INDICES = {
+    words120: 0,
+    phrases100: 0,
+    combos: 0,
+    words400: 0,
+    repeat: 0,
+  };
+
+  const [indices, setIndices] = useState(() => {
+    const s = loadPersistedState();
+    const obj = s?.indices && typeof s.indices === "object" ? s.indices : null;
+    const merged = { ...DEFAULT_INDICES, ...(obj || {}) };
+
+    // Normalize to non-negative integers
+    for (const k of Object.keys(merged)) {
+      const v = Number(merged[k]);
+      merged[k] = Number.isFinite(v) ? Math.max(0, Math.trunc(v)) : 0;
+    }
+    return merged;
+  });
+
+  const index = Number.isFinite(Number(indices[mode]))
+    ? Math.max(0, Math.trunc(Number(indices[mode])))
+    : 0;
+
+  const setIndex = (updater) => {
+    setIndices((prev) => {
+      const cur = Number.isFinite(Number(prev[mode]))
+        ? Math.max(0, Math.trunc(Number(prev[mode])))
+        : 0;
+      const next = typeof updater === "function" ? updater(cur) : updater;
+      const nextInt = Number.isFinite(Number(next))
+        ? Math.max(0, Math.trunc(Number(next)))
+        : 0;
+      return { ...prev, [mode]: nextInt };
+    });
+  };
   const [revealed, setRevealed] = useState(false);
   const [autoPlay, setAutoPlay] = useState(false);
 
@@ -6722,33 +6474,21 @@ export default function App() {
     initVoiceCache();
   }, []);
 
-  // Load per-mode progress on mode change
+  // Keep index in range whenever the deck changes (or when switching modes)
   useEffect(() => {
-    const key =
-      mode === "phrases100"
-        ? STORAGE_KEYS.phrasesIndex
-        : mode === "combos"
-        ? STORAGE_KEYS.combosIndex
-        : mode === "repeat"
-        ? STORAGE_KEYS.repeatIndex
-        : STORAGE_KEYS.wordsIndex;
-    const saved = parseInt(window.localStorage.getItem(key) || "0", 10);
-    const idx = Number.isFinite(saved) ? clamp(saved, 0, Math.max(0, total - 1)) : 0;
-    setIndex(idx);
+    setIndex((i) => clamp(i, 0, Math.max(0, total - 1)));
     setRevealed(false);
     setReplayedThisCard(false);
   }, [mode, total]);
 
-  // Persist mode choice
+  // Persist EVERYTHING under one key.
   useEffect(() => {
-    window.localStorage.setItem(STORAGE_KEYS.mode, mode);
-  }, [mode]);
-
-  // Persist index per mode
-  useEffect(() => {
-    const key = mode === "phrases100" ? STORAGE_KEYS.phrasesIndex : mode === "combos" ? STORAGE_KEYS.combosIndex : STORAGE_KEYS.wordsIndex;
-    window.localStorage.setItem(key, String(index));
-  }, [index, mode]);
+    savePersistedState({
+      mode,
+      indices,
+      repeat: Array.from(repeatSet),
+    });
+  }, [mode, indices, repeatSet]);
 
 
   const card = deck[index] || null;
@@ -6767,27 +6507,22 @@ export default function App() {
     if (mode === "repeat" && card && !replayedThisCard) {
       removeFromRepeat(card);
     }
-
-  function prevCard() {
-    if (mode === "repeat" && card && !replayedThisCard) {
-      removeFromRepeat(card);
-    }
-
-    clearAutoTimers();
-    setAutoPlay(false);
-    setRevealed(false);
-    setReplayedThisCard(false);
-    setIndex((i) => clamp(i - 1, 0, total - 1));
-  }
     clearAutoTimers();
     setRevealed(false);
     setIndex((i) => clamp(i + 1, 0, total - 1));
   }
 
+  function prevCard() {
+    if (mode === "repeat" && card && !replayedThisCard) {
+      removeFromRepeat(card);
+    }
+    clearAutoTimers();
+    setRevealed(false);
+    setIndex((i) => clamp(i - 1, 0, total - 1));
+  }
+
   function resetProgress() {
     clearAutoTimers();
-    const key = mode === "phrases100" ? STORAGE_KEYS.phrasesIndex : mode === "combos" ? STORAGE_KEYS.combosIndex : STORAGE_KEYS.wordsIndex;
-    window.localStorage.removeItem(key);
     setIndex(0);
     setRevealed(false);
   }
@@ -6816,7 +6551,6 @@ export default function App() {
     }, 3600);
 
     return () => clearAutoTimers();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [autoPlay, index, mode]);
 
   // Build the prompt line
@@ -6898,7 +6632,7 @@ export default function App() {
             >
               <option value="words120">120 Franglais Words</option>
               <option value="phrases100">100 Essential Phrases</option>
-              <option value="combos">Infinite Combos</option>
+              <option value="combos">200 Combos</option>
               <option value="words400">400+ Easy Words</option>
               {repeatSet.size > 0 ? <option value="repeat">Words to Repeat</option> : null}
             </select>
@@ -7085,3 +6819,12 @@ export default function App() {
     </div>
   );
 }
+
+  function prevCard() {
+    if (mode === "repeat" && card && !replayedThisCard) {
+      removeFromRepeat(card);
+    }
+    setAutoPlay(false);
+    setRevealed(false);
+    setIndex((i) => Math.max(0, i - 1));
+  }
