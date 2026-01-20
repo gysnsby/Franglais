@@ -6714,11 +6714,43 @@ export default function App() {
     return WORD_CARDS.slice(0, 120);
   }, [mode, repeatSet]);
 
-  const [index, setIndex] = useState(() => {
+  const DEFAULT_INDICES = {
+    words120: 0,
+    phrases100: 0,
+    combos: 0,
+    words400: 0,
+    repeat: 0,
+  };
+
+  const [indices, setIndices] = useState(() => {
     const s = loadPersistedState();
-    const i = Number(s?.index);
-    return Number.isFinite(i) ? Math.max(0, Math.trunc(i)) : 0;
+    const obj = s?.indices && typeof s.indices === "object" ? s.indices : null;
+    const merged = { ...DEFAULT_INDICES, ...(obj || {}) };
+
+    // Normalize to non-negative integers
+    for (const k of Object.keys(merged)) {
+      const v = Number(merged[k]);
+      merged[k] = Number.isFinite(v) ? Math.max(0, Math.trunc(v)) : 0;
+    }
+    return merged;
   });
+
+  const index = Number.isFinite(Number(indices[mode]))
+    ? Math.max(0, Math.trunc(Number(indices[mode])))
+    : 0;
+
+  const setIndex = (updater) => {
+    setIndices((prev) => {
+      const cur = Number.isFinite(Number(prev[mode]))
+        ? Math.max(0, Math.trunc(Number(prev[mode])))
+        : 0;
+      const next = typeof updater === "function" ? updater(cur) : updater;
+      const nextInt = Number.isFinite(Number(next))
+        ? Math.max(0, Math.trunc(Number(next)))
+        : 0;
+      return { ...prev, [mode]: nextInt };
+    });
+  };
   const [revealed, setRevealed] = useState(false);
   const [autoPlay, setAutoPlay] = useState(false);
 
@@ -6741,10 +6773,10 @@ export default function App() {
   useEffect(() => {
     savePersistedState({
       mode,
-      index,
+      indices,
       repeat: Array.from(repeatSet),
     });
-  }, [mode, index, repeatSet]);
+  }, [mode, indices, repeatSet]);
 
 
   const card = deck[index] || null;
