@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 
 const PRODUCT_NAME = "Franglais";
 
-const TAGLINE = "IN A DAY...";
+const TAGLINE = "In a day...";
 
 // Put the hero image in: public/hero-franglais.png (GitHub: /public/hero-franglais.png)
 const HERO_IMAGE_URL = `${process.env.PUBLIC_URL}/hero-franglais.png`;
@@ -6611,8 +6611,8 @@ export default function App() {
                   }}
                   aria-label=""
                 >
-                  <option value="words120">120 Franglais Words</option>
-                  <option value="phrases100">100 Essential Phrases</option>
+                  <option value="words120">120 Franglais</option>
+                  <option value="phrases100">100 Key Phrases</option>
                   <option value="combos">200 Combos</option>
                   <option value="words400">400+ Easy Words</option>
                   {repeatSet.size > 0 ? <option value="repeat">Words to Repeat</option> : null}
