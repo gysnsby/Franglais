@@ -6594,7 +6594,7 @@ export default function App() {
   
   const modeSelector = (
     <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-                <div style={{ fontSize: 12, color: "#555" }}>Mode</div>
+                <div style={{ fontSize: 12, color: "#555" }}></div>
                 <select
                   value={mode}
                   onChange={(e) => setMode(e.target.value)}
