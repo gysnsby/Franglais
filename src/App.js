@@ -6642,7 +6642,6 @@ export default function App() {
             maxHeight: 320,
             borderRadius: 22,
             overflow: "hidden",
-            backgroundColor: "#F7C948",
             backgroundImage: `url(${HERO_IMAGE_URL})`,
             backgroundSize: "cover",
             backgroundPosition: "center bottom",
