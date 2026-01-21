@@ -6609,7 +6609,7 @@ export default function App() {
                     cursor: "pointer",
                     maxWidth: "100%",
                   }}
-                  aria-label="Mode"
+                  aria-label=""
                 >
                   <option value="words120">120 Franglais Words</option>
                   <option value="phrases100">100 Essential Phrases</option>
