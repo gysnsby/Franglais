@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 
 const PRODUCT_NAME = "Franglais";
 
-const TAGLINE = "Franglais made easy";
+const TAGLINE = "IN A DAY...";
 
 // Put the hero image in: public/hero-franglais.png (GitHub: /public/hero-franglais.png)
 const HERO_IMAGE_URL = `${process.env.PUBLIC_URL}/hero-franglais.png`;
