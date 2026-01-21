@@ -6596,7 +6596,7 @@ export default function App() {
     <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
                 <div style={{ fontSize: 12, color: "#555" }}>Mode</div>
                 <select
-                  value={}
+                  value={mode}
                   onChange={(e) => setMode(e.target.value)}
                   style={{
                     padding: 10,
