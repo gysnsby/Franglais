@@ -1,6 +1,11 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 
-const PRODUCT_NAME = "Dictionnaire Franglais";
+const PRODUCT_NAME = "Franglais";
+
+const TAGLINE = "Franglais made easy";
+
+// Put the hero image in: public/hero-franglais.png (GitHub: /public/hero-franglais.png)
+const HERO_IMAGE_URL = `${process.env.PUBLIC_URL}/hero-franglais.png`;
 
 /**
  * Decks
@@ -2765,7 +2770,7 @@ const WORD_CARDS = [
     "group": "Small spelling change",
     "newGroup": false,
     "en": "comment",
-    "fr": "comentaire",
+    "fr": "commentaire",
     "pos": "noun/adjective"
   },
   {
@@ -2780,9 +2785,9 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Small spelling change",
     "newGroup": false,
-    "en": "des",
-    "fr": "ert déserter",
-    "pos": "noun/adjective"
+    "en": "desert (to)",
+    "fr": "déserter",
+    "pos": "verb"
   },
   {
     "type": "word",
@@ -2805,7 +2810,7 @@ const WORD_CARDS = [
     "group": "Small spelling change",
     "newGroup": false,
     "en": "effective",
-    "fr": "efective",
+    "fr": "effective",
     "pos": "noun/adjective"
   },
   {
@@ -2901,8 +2906,8 @@ const WORD_CARDS = [
     "group": "Small spelling change",
     "newGroup": false,
     "en": "immediately",
-    "fr": "inmédiatement",
-    "pos": "noun/adjective"
+    "fr": "immédiatement",
+    "pos": "adverb"
   },
   {
     "type": "word",
@@ -3084,8 +3089,8 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Small spelling change",
     "newGroup": false,
-    "en": "To imp",
-    "fr": "lore implorer",
+    "en": "To implore",
+    "fr": "implorer",
     "pos": "verb"
   },
   {
@@ -3908,7 +3913,7 @@ const WORD_CARDS = [
     "type": "word",
     "group": "ty → fier",
     "newGroup": false,
-    "en": "To identity",
+    "en": "To identify",
     "fr": "identifier",
     "pos": "verb"
   },
@@ -5367,35 +5372,35 @@ const COMBO_CARDS = [
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the restaurant?",
-    "fr": "Pour aller à le restaurant ?",
+    "fr": "Pour aller au restaurant ?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the café?",
-    "fr": "Pour aller à le café ?",
+    "fr": "Pour aller au café ?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the market?",
-    "fr": "Pour aller à le marché ?",
+    "fr": "Pour aller au marché ?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the centre?",
-    "fr": "Pour aller à le centre-ville ?",
+    "fr": "Pour aller au centre-ville ?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the museum?",
-    "fr": "Pour aller à le musée ?",
+    "fr": "Pour aller au musée ?",
     "pos": "sentence"
   },
   {
@@ -5409,7 +5414,7 @@ const COMBO_CARDS = [
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the supermarket?",
-    "fr": "Pour aller à le supermarché ?",
+    "fr": "Pour aller au supermarché ?",
     "pos": "sentence"
   },
   {
@@ -5430,7 +5435,7 @@ const COMBO_CARDS = [
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the police station?",
-    "fr": "Pour aller à le commissariat ?",
+    "fr": "Pour aller au commissariat ?",
     "pos": "sentence"
   },
   {
@@ -5465,21 +5470,21 @@ const COMBO_CARDS = [
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the toilet?",
-    "fr": "Pour aller à les toilettes ?",
+    "fr": "Pour aller aux toilettes ?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the ticket office?",
-    "fr": "Pour aller à le guichet ?",
+    "fr": "Pour aller au guichet ?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the platform?",
-    "fr": "Pour aller à le quai ?",
+    "fr": "Pour aller au quai ?",
     "pos": "sentence"
   },
   {
@@ -5507,7 +5512,7 @@ const COMBO_CARDS = [
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the car park?",
-    "fr": "Pour aller à le parking ?",
+    "fr": "Pour aller au parking ?",
     "pos": "sentence"
   },
   {
@@ -5556,7 +5561,7 @@ const COMBO_CARDS = [
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the metro?",
-    "fr": "Pour aller à le métro ?",
+    "fr": "Pour aller au métro ?",
     "pos": "sentence"
   },
   {
@@ -6586,8 +6591,37 @@ export default function App() {
     );
   }
 
+  
+  const modeSelector = (
+    <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                <div style={{ fontSize: 12, color: "#555" }}>Mode</div>
+                <select
+                  value={mode}
+                  onChange={(e) => setMode(e.target.value)}
+                  style={{
+                    padding: 10,
+                    borderRadius: 12,
+                    border: "1px solid #111",
+                    background: "white",
+                    color: "#111",
+                    fontSize: 14,
+                    fontWeight: 700,
+                    cursor: "pointer",
+                    maxWidth: "100%",
+                  }}
+                  aria-label="Mode"
+                >
+                  <option value="words120">120 Franglais Words</option>
+                  <option value="phrases100">100 Essential Phrases</option>
+                  <option value="combos">200 Combos</option>
+                  <option value="words400">400+ Easy Words</option>
+                  {repeatSet.size > 0 ? <option value="repeat">Words to Repeat</option> : null}
+                </select>
+              </div>
+  );
+
   return (
-    <div style={{ background: "#f5f6f7", minHeight: "100vh" }}>
+    <div style={{ background: "#F7C948", minHeight: "100vh" }}>
       <div
         style={{
           maxWidth: 760,
@@ -6599,47 +6633,79 @@ export default function App() {
           color: "#111",
         }}
       >
-        {/* Top bar */}
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-          <div>
-            <div style={{ fontSize: 22, fontWeight: 800, lineHeight: 1.1 }}>{PRODUCT_NAME}</div>
-            <div style={{ marginTop: 4, color: "#555", fontSize: 13 }}>
-              {mode === "words"
-                ? "Franglais words grouped by rule (includes identical spelling)."
-                : mode === "phrases100"
-                ? "Everyday French you will HEAR in shops, cafés and day-to-day service."
-                : "High-leverage sentence patterns you can reuse to SPEAK."}
+        {/* Hero (top third) */}
+        <div
+          style={{
+            position: "relative",
+            height: "34vh",
+            minHeight: 220,
+            maxHeight: 320,
+            borderRadius: 22,
+            overflow: "hidden",
+            backgroundColor: "#F7C948",
+            backgroundImage: `url(${HERO_IMAGE_URL})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center bottom",
+            boxShadow: "0 10px 28px rgba(0,0,0,0.18)",
+            marginBottom: 12,
+          }}
+        >
+          <div
+            style={{
+              position: "absolute",
+              inset: 0,
+              background:
+                "linear-gradient(rgba(247,201,72,0.92), rgba(247,201,72,0.76))",
+            }}
+          />
+          <div
+            style={{
+              position: "relative",
+              height: "100%",
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "flex-start",
+              padding: 16,
+              gap: 12,
+            }}
+          >
+            <div style={{ maxWidth: "70%" }}>
+              <div style={{ fontSize: 34, fontWeight: 900, letterSpacing: -0.5, lineHeight: 1.05 }}>
+                {PRODUCT_NAME}
+              </div>
+              <div style={{ marginTop: 6, fontSize: 14, fontWeight: 800, color: "rgba(0,0,0,0.75)" }}>
+                {TAGLINE}
+              </div>
             </div>
-          </div>
 
-          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-            <div style={{ fontSize: 12, color: "#555" }}>Mode</div>
-            <select
-              value={mode}
-              onChange={(e) => setMode(e.target.value)}
+            <div
               style={{
-                padding: 10,
-                borderRadius: 12,
-                border: "1px solid #111",
-                background: "white",
-                color: "#111",
-                fontSize: 14,
-                fontWeight: 700,
-                cursor: "pointer",
-                maxWidth: "100%",
+                background: "rgba(255,255,255,0.92)",
+                borderRadius: 18,
+                padding: "8px 10px",
+                border: "1px solid rgba(0,0,0,0.10)",
+                boxShadow: "0 8px 18px rgba(0,0,0,0.12)",
+                backdropFilter: "blur(6px)",
+                minWidth: 230,
               }}
-              aria-label="Mode"
             >
-              <option value="words120">120 Franglais Words</option>
-              <option value="phrases100">100 Essential Phrases</option>
-              <option value="combos">200 Combos</option>
-              <option value="words400">400+ Easy Words</option>
-              {repeatSet.size > 0 ? <option value="repeat">Words to Repeat</option> : null}
-            </select>
+              {/* existing selector UI */}
+              {modeSelector}
+            </div>
           </div>
         </div>
 
-        {/* Progress */}
+        {/* Pale yellow outer + lighter inner content area */}
+        <div style={{ background: "rgba(255,255,255,0.35)", borderRadius: 24, padding: 12 }}>
+          <div
+            style={{
+              background: "#FFF7CC",
+              borderRadius: 20,
+              padding: 14,
+              boxShadow: "0 8px 18px rgba(0,0,0,0.10)",
+            }}
+          >
+{/* Progress */}
         <div style={{ marginTop: 10, display: "flex", justifyContent: "space-between", gap: 10 }}>
           <div style={{ fontSize: 13, color: "#555" }}>
             {index + 1} / {total}
@@ -6815,16 +6881,10 @@ export default function App() {
         <div style={{ marginTop: 10, fontSize: 12, color: "#777" }}>
           Tip: Use Next to move through cards. Tap the bar to hear the French again.
         </div>
+          </div>
+        </div>
+
       </div>
     </div>
   );
 }
-
-  function prevCard() {
-    if (mode === "repeat" && card && !replayedThisCard) {
-      removeFromRepeat(card);
-    }
-    setAutoPlay(false);
-    setRevealed(false);
-    setIndex((i) => Math.max(0, i - 1));
-  }
