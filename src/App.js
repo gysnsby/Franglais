@@ -6610,10 +6610,10 @@ export default function App() {
                   }}
                   aria-label="Mode"
                 >
-                  <option value="words120">120 Franglais Words</option>
-                  <option value="phrases100">100 Essential Phrases</option>
-                  <option value="combos">200 Combos</option>
-                  <option value="words400">400+ Easy Words</option>
+                  <option value="words120">Easy Words</option>
+                  <option value="phrases100">Listening Phrases</option>
+                  <option value="combos">Speaking Phrases</option>
+                  <option value="words400">400+ More Words</option>
                   {repeatSet.size > 0 ? <option value="repeat">Words to Repeat</option> : null}
                 </select>
               </div>
