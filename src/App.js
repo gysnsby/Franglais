@@ -6612,9 +6612,9 @@ export default function App() {
                 >
                   <option value="words120">Easy Words</option>
                   <option value="combos">Easy Phrases</option>
-                  <option value="phrases100">Comprehending</option>
+                  <option value="phrases100">Comprehension</option>
                   <option value="words400">400+ More Words</option>
-                  {repeatSet.size > 0 ? <option value="repeat">Repeat Words</option> : null}
+                  {repeatSet.size > 0 ? <option value="repeat">Your Repeat Words</option> : null}
                 </select>
               </div>
   );
