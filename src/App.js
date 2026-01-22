@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 
 const PRODUCT_NAME = "Franglais";
 
-const TAGLINE = "Franglais made easy";
+const TAGLINE = "Made easy";
 
 // Put the hero image in: public/hero-franglais.png (GitHub: /public/hero-franglais.png)
 const HERO_IMAGE_URL = `${process.env.PUBLIC_URL}/hero-franglais.png`;
@@ -6611,10 +6611,10 @@ export default function App() {
                   aria-label="Mode"
                 >
                   <option value="words120">Easy Words</option>
-                  <option value="phrases100">Listening Phrases</option>
-                  <option value="combos">Speaking Phrases</option>
+                  <option value="combos">Easy Phrases</option>
+                  <option value="phrases100">Comprehending</option>
                   <option value="words400">400+ More Words</option>
-                  {repeatSet.size > 0 ? <option value="repeat">Words to Repeat</option> : null}
+                  {repeatSet.size > 0 ? <option value="repeat">Repeat Words</option> : null}
                 </select>
               </div>
   );
