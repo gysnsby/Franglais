@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 
 const PRODUCT_NAME = "Franglais";
 
-const TAGLINE = "In a day...";
+const TAGLINE = "Franglais made easy";
 
 // Put the hero image in: public/hero-franglais.png (GitHub: /public/hero-franglais.png)
 const HERO_IMAGE_URL = `${process.env.PUBLIC_URL}/hero-franglais.png`;
@@ -6594,8 +6594,7 @@ export default function App() {
   
   const modeSelector = (
     <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-                <div style={{ fontSize: 12, color: "#555" }}>°</div>
-                <select
+<select
                   value={mode}
                   onChange={(e) => setMode(e.target.value)}
                   style={{
@@ -6609,10 +6608,10 @@ export default function App() {
                     cursor: "pointer",
                     maxWidth: "100%",
                   }}
-                  aria-label=""
+                  aria-label="Mode"
                 >
-                  <option value="words120">120 Franglais</option>
-                  <option value="phrases100">100 Key Phrases</option>
+                  <option value="words120">120 Franglais Words</option>
+                  <option value="phrases100">100 Essential Phrases</option>
                   <option value="combos">200 Combos</option>
                   <option value="words400">400+ Easy Words</option>
                   {repeatSet.size > 0 ? <option value="repeat">Words to Repeat</option> : null}
@@ -6637,27 +6636,38 @@ export default function App() {
         <div
           style={{
             position: "relative",
+            zIndex: 2,
             height: "34vh",
             minHeight: 220,
             maxHeight: 320,
             borderRadius: 22,
             overflow: "hidden",
-            backgroundImage: `url(${HERO_IMAGE_URL})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center bottom",
-            boxShadow: "0 10px 28px rgba(0,0,0,0.18)",
+                        boxShadow: "0 10px 28px rgba(0,0,0,0.18)",
             marginBottom: 12,
           }}
         >
           <div
+            aria-hidden="true"
+            style={{
+              position: "absolute",
+              inset: 0,
+              backgroundImage: `url(${HERO_IMAGE_URL})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center bottom",
+              opacity: 0.9,
+              zIndex: 0,
+            }}
+          />
+          <div
+            aria-hidden="true"
             style={{
               position: "absolute",
               inset: 0,
               background:
-                "linear-gradient(rgba(247,201,72,0.92), rgba(247,201,72,0.76))",
+                "linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 65%, rgba(247,201,72,0.12) 100%)",
+              zIndex: 1,
             }}
-          />
-          <div
+          /><div
             style={{
               position: "relative",
               height: "100%",
