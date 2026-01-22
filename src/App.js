@@ -6666,7 +6666,7 @@ export default function App() {
               inset: 0,
               background:
                 "linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 65%, rgba(247,201,72,0.12) 100%)",
-              zIndex: 1,
+              zIndex: 0,
             }}
           /><div
             style={{
