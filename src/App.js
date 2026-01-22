@@ -6656,6 +6656,7 @@ export default function App() {
               backgroundPosition: "center bottom",
               opacity: 0.9,
               zIndex: 0,
+              pointerEvents: "none", 
             }}
           />
           <div
