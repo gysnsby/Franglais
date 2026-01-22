@@ -6818,7 +6818,7 @@ export default function App() {
                 fontSize: 16,
                 fontWeight: 700,
                 cursor: "pointer",
-                minWidth: 80,
+                minWidth: 70,
                 whiteSpace: "nowrap",
                 opacity: index <= 0 ? 0.5 : 1,
               }}
@@ -6861,7 +6861,7 @@ export default function App() {
                 color: "#111",
                 cursor: "pointer",
                 fontWeight: 700,
-                minWidth: 80,
+                minWidth: 70,
                 whiteSpace: "nowrap",
               }}
               title="Toggle Auto Play"
@@ -6878,7 +6878,7 @@ export default function App() {
                 background: "white",
                 color: "#111",
                 cursor: "pointer",
-                minWidth: 80,
+                minWidth: 70,
                 whiteSpace: "nowrap",
               }}
               title="Reset progress"
@@ -6889,7 +6889,7 @@ export default function App() {
         </div>
 
         <div style={{ marginTop: 10, fontSize: 12, color: "#777" }}>
-          Tip: Use Next to move through cards. Tap the bar to hear the French again.
+          Tip: Use Next to move through cards. Click the Repeat bar to hear the French again. Repeats will appear in Your Repeat Words menu for more practice. 
         </div>
           </div>
         </div>
