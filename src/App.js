@@ -6818,7 +6818,7 @@ export default function App() {
                 fontSize: 16,
                 fontWeight: 700,
                 cursor: "pointer",
-                minWidth: 90,
+                minWidth: 80,
                 whiteSpace: "nowrap",
                 opacity: index <= 0 ? 0.5 : 1,
               }}
@@ -6861,7 +6861,7 @@ export default function App() {
                 color: "#111",
                 cursor: "pointer",
                 fontWeight: 700,
-                minWidth: 100,
+                minWidth: 80,
                 whiteSpace: "nowrap",
               }}
               title="Toggle Auto Play"
@@ -6878,7 +6878,7 @@ export default function App() {
                 background: "white",
                 color: "#111",
                 cursor: "pointer",
-                minWidth: 90,
+                minWidth: 80,
                 whiteSpace: "nowrap",
               }}
               title="Reset progress"
