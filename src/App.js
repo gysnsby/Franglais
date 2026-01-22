@@ -74,7 +74,7 @@ const WORD_CARDS = [
     "group": "Exact matches",
     "newGroup": false,
     "en": "different",
-    "fr": "Different",
+    "fr": "different",
     "pos": "noun/adjective"
   },
   {
@@ -115,14 +115,6 @@ const WORD_CARDS = [
     "newGroup": false,
     "en": "hamburger",
     "fr": "hamburger",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Exact matches",
-    "newGroup": false,
-    "en": "ignorant",
-    "fr": "ignorant",
     "pos": "noun/adjective"
   },
   {
@@ -305,14 +297,6 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Exact matches",
     "newGroup": false,
-    "en": "robot",
-    "fr": "robot",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Exact matches",
-    "newGroup": false,
     "en": "sandwich",
     "fr": "sandwich",
     "pos": "noun/adjective"
@@ -353,14 +337,6 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Exact matches",
     "newGroup": false,
-    "en": "special",
-    "fr": "special",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Exact matches",
-    "newGroup": false,
     "en": "station",
     "fr": "station",
     "pos": "noun/adjective"
@@ -395,14 +371,6 @@ const WORD_CARDS = [
     "newGroup": false,
     "en": "train",
     "fr": "train",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Exact matches",
-    "newGroup": false,
-    "en": "triumphant",
-    "fr": "triumphant",
     "pos": "noun/adjective"
   },
   {
@@ -577,16 +545,16 @@ const WORD_CARDS = [
     "type": "word",
     "group": "al → el",
     "newGroup": false,
-    "en": "Material",
-    "fr": "Matériel",
+    "en": "material",
+    "fr": "matériel",
     "pos": "noun/adjective"
   },
   {
     "type": "word",
     "group": "al → el",
     "newGroup": false,
-    "en": "Natural",
-    "fr": "Naturel",
+    "en": "natural",
+    "fr": "naturel",
     "pos": "noun/adjective"
   },
   {
@@ -610,7 +578,7 @@ const WORD_CARDS = [
     "group": "er → re",
     "newGroup": false,
     "en": "December",
-    "fr": "décembre",
+    "fr": "Décembre",
     "pos": "noun/adjective"
   },
   {
@@ -643,14 +611,6 @@ const WORD_CARDS = [
     "newGroup": true,
     "en": "actor",
     "fr": "acteur",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "or → eur",
-    "newGroup": false,
-    "en": "dictator",
-    "fr": "dictateur",
     "pos": "noun/adjective"
   },
   {
@@ -761,8 +721,8 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Drop: e",
     "newGroup": false,
-    "en": "Debate",
-    "fr": "Débat",
+    "en": "debate",
+    "fr": "débat",
     "pos": "noun/adjective"
   },
   {
@@ -785,8 +745,8 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Drop: e",
     "newGroup": false,
-    "en": "Universe",
-    "fr": "Univers",
+    "en": "universe",
+    "fr": "univers",
     "pos": "noun/adjective"
   },
   {
@@ -794,7 +754,7 @@ const WORD_CARDS = [
     "group": "ate → er",
     "newGroup": true,
     "en": "celebrate",
-    "fr": "Célébrer",
+    "fr": "célébrer",
     "pos": "noun/adjective"
   },
   {
@@ -802,7 +762,7 @@ const WORD_CARDS = [
     "group": "ate → er",
     "newGroup": false,
     "en": "fascinate",
-    "fr": "Fasciner",
+    "fr": "fasciner",
     "pos": "noun/adjective"
   },
   {
@@ -954,15 +914,7 @@ const WORD_CARDS = [
     "group": "y → ier",
     "newGroup": false,
     "en": "modify",
-    "fr": "Modifier",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "y → ier",
-    "newGroup": false,
-    "en": "qualify",
-    "fr": "Qualifier",
+    "fr": "modifier",
     "pos": "noun/adjective"
   },
   {
@@ -1057,8 +1009,8 @@ const WORD_CARDS = [
     "type": "word",
     "group": "ous → eux",
     "newGroup": false,
-    "en": "Dangerous",
-    "fr": "Dangereux",
+    "en": "dangerous",
+    "fr": "dangereux",
     "pos": "noun/adjective"
   },
   {
@@ -1073,8 +1025,8 @@ const WORD_CARDS = [
     "type": "word",
     "group": "ous → eux",
     "newGroup": false,
-    "en": "Fabulous",
-    "fr": "Fabuleux",
+    "en": "fabulous",
+    "fr": "fabuleux",
     "pos": "noun/adjective"
   },
   {
@@ -1097,8 +1049,8 @@ const WORD_CARDS = [
     "type": "word",
     "group": "ous → eux",
     "newGroup": false,
-    "en": "Generous",
-    "fr": "Généreux",
+    "en": "generous",
+    "fr": "généreux",
     "pos": "noun/adjective"
   },
   {
@@ -1129,8 +1081,8 @@ const WORD_CARDS = [
     "type": "word",
     "group": "ous → eux",
     "newGroup": false,
-    "en": "Nervous",
-    "fr": "Nerveux",
+    "en": "nervous",
+    "fr": "nerveux",
     "pos": "noun/adjective"
   },
   {
@@ -1201,8 +1153,8 @@ const WORD_CARDS = [
     "type": "word",
     "group": "y → e",
     "newGroup": false,
-    "en": "Liberty",
-    "fr": "Liberté",
+    "en": "liberty",
+    "fr": "liberté",
     "pos": "noun/adjective"
   },
   {
@@ -1257,8 +1209,8 @@ const WORD_CARDS = [
     "type": "word",
     "group": "y → e",
     "newGroup": false,
-    "en": "Quality",
-    "fr": "Qualité",
+    "en": "quality",
+    "fr": "qualité",
     "pos": "noun/adjective"
   },
   {
@@ -1537,16 +1489,8 @@ const WORD_CARDS = [
     "type": "word",
     "group": "ic → ique",
     "newGroup": false,
-    "en": "Basic",
-    "fr": "Basique",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "ic → ique",
-    "newGroup": false,
-    "en": "Catholic",
-    "fr": "Catholique",
+    "en": "basic",
+    "fr": "basique",
     "pos": "noun/adjective"
   },
   {
@@ -1569,8 +1513,8 @@ const WORD_CARDS = [
     "type": "word",
     "group": "ic → ique",
     "newGroup": false,
-    "en": "Dramatic",
-    "fr": "Dramatique",
+    "en": "dramatic",
+    "fr": "dramatique",
     "pos": "noun/adjective"
   },
   {
@@ -1649,8 +1593,8 @@ const WORD_CARDS = [
     "type": "word",
     "group": "ic → ique",
     "newGroup": false,
-    "en": "Romantic",
-    "fr": "Romantique",
+    "en": "romantic",
+    "fr": "romantique",
     "pos": "noun/adjective"
   },
   {
@@ -1681,73 +1625,73 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Add: er",
     "newGroup": true,
-    "en": "accept",
-    "fr": "Accepter",
-    "pos": "noun/adjective"
+    "en": "To accept",
+    "fr": "accepter",
+    "pos": "verb"
   },
   {
     "type": "word",
     "group": "Add: er",
     "newGroup": false,
-    "en": "comport",
+    "en": "To comport",
     "fr": "comporter",
-    "pos": "noun/adjective"
+    "pos": "verb"
   },
   {
     "type": "word",
     "group": "Add: er",
     "newGroup": false,
-    "en": "consult",
+    "en": "To consult",
     "fr": "consulter",
-    "pos": "noun/adjective"
+    "pos": "verb"
   },
   {
     "type": "word",
     "group": "Add: er",
     "newGroup": false,
-    "en": "contract",
+    "en": "To contract",
     "fr": "contracter",
-    "pos": "noun/adjective"
+    "pos": "verb"
   },
   {
     "type": "word",
     "group": "Add: er",
     "newGroup": false,
-    "en": "edit",
+    "en": "To edit",
     "fr": "Éditer",
-    "pos": "noun/adjective"
+    "pos": "verb"
   },
   {
     "type": "word",
     "group": "Add: er",
     "newGroup": false,
-    "en": "exalt",
+    "en": "To exalt",
     "fr": "exalter",
-    "pos": "noun/adjective"
+    "pos": "verb"
   },
   {
     "type": "word",
     "group": "Add: er",
     "newGroup": false,
-    "en": "limit",
-    "fr": "Limiter",
-    "pos": "noun/adjective"
+    "en": "To limit",
+    "fr": "limiter",
+    "pos": "verb"
   },
   {
     "type": "word",
     "group": "Add: er",
     "newGroup": false,
-    "en": "present",
+    "en": "To present",
     "fr": "Présenter",
-    "pos": "noun/adjective"
+    "pos": "verb"
   },
   {
     "type": "word",
     "group": "Add: er",
     "newGroup": false,
-    "en": "resist",
+    "en": "To resist",
     "fr": "Résister",
-    "pos": "noun/adjective"
+    "pos": "verb"
   },
   {
     "type": "word",
