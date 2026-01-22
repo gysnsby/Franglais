@@ -6866,7 +6866,7 @@ export default function App() {
               }}
               title="Toggle Auto Play"
             >
-              {autoPlay ? "Manual Play" : "Auto Play"}
+              {autoPlay ? "Manual" : "Auto Play"}
             </button>
 
             <button
