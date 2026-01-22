@@ -6655,7 +6655,7 @@ export default function App() {
               backgroundSize: "cover",
               backgroundPosition: "center top",
               opacity: 0.9,
-              zIndex: 1,
+              zIndex: 0,
               pointerEvents: "none", 
             }}
           />
