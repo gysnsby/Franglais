@@ -6653,9 +6653,9 @@ export default function App() {
               inset: 0,
               backgroundImage: `url(${HERO_IMAGE_URL})`,
               backgroundSize: "cover",
-              backgroundPosition: "center bottom",
+              backgroundPosition: "center top",
               opacity: 0.9,
-              zIndex: 0,
+              zIndex: 1,
               pointerEvents: "none", 
             }}
           />
