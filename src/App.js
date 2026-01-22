@@ -6861,7 +6861,7 @@ export default function App() {
                 color: "#111",
                 cursor: "pointer",
                 fontWeight: 700,
-                minWidth: 130,
+                minWidth: 100,
                 whiteSpace: "nowrap",
               }}
               title="Toggle Auto Play"
