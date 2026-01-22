@@ -6562,7 +6562,7 @@ export default function App() {
   const prompt = useMemo(() => {
     if (!card) return "";
     if (card.type === "phrase") {
-      return "Listen for the French phrase (try to repeat it).";
+      return "Try to recognise these French phrases, used in shops and restaurants.";
     }
     if (card.type === "combo") {
       return "Say the French sentence (or pattern).";
