@@ -74,7 +74,7 @@ const WORD_CARDS = [
     "group": "Exact matches",
     "newGroup": false,
     "en": "different",
-    "fr": "Different",
+    "fr": "different",
     "pos": "noun/adjective"
   },
   {
@@ -163,14 +163,6 @@ const WORD_CARDS = [
     "newGroup": false,
     "en": "magazine",
     "fr": "magazine",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Exact matches",
-    "newGroup": false,
-    "en": "menu",
-    "fr": "menu",
     "pos": "noun/adjective"
   },
   {
