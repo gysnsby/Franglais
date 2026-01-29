@@ -4099,8 +4099,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": false,
-    "en": "I didn't understand
-      that.",
+    "en": "I didn't understand that.",
     "fr": "Je n'ai pas compris.",
     "pos": "phrase"
   },
