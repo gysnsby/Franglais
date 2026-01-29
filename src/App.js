@@ -4011,7 +4011,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": false,
-    "en": "Good evening.",
+    "en": "Good evening, sir/ma'am.",
     "fr": "Bonsoir, monsieur / madame.",
     "pos": "phrase"
   },
@@ -4019,7 +4019,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": false,
-    "en": "Hi! (informal)",
+    "en": "Hi! (Salutations)",
     "fr": "Salut !",
     "pos": "phrase"
   },
@@ -4036,7 +4036,7 @@ const PHRASE_CARDS = [
     "group": "Greetings & Politeness",
     "newGroup": false,
     "en": "Nice to meet you.",
-    "fr": "Enchanté(e).",
+    "fr": "Enchanté de faire votre connaissance.",
     "pos": "phrase"
   },
   {
@@ -4051,7 +4051,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": false,
-    "en": "How's it going?",
+    "en": "How's it going? (informal)",
     "fr": "Ça va ?",
     "pos": "phrase"
   },
@@ -4059,7 +4059,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": false,
-    "en": "Please come in.",
+    "en": "Come in, please.",
     "fr": "Entrez, je vous en prie.",
     "pos": "phrase"
   },
@@ -4075,7 +4075,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": false,
-    "en": "Please follow me.",
+    "en": "Follow me, please.",
     "fr": "Suivez-moi, s'il vous plaît.",
     "pos": "phrase"
   },
@@ -4091,15 +4091,16 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": false,
-    "en": "Sorry? / Could you repeat?",
-    "fr": "Pardon ?",
+    "en": "Sorry? Could you repeat that?",
+    "fr": "Pardon, pouvez vous répéter cela?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": false,
-    "en": "I didn't catch that.",
+    "en": "I didn't understand
+      that.",
     "fr": "Je n'ai pas compris.",
     "pos": "phrase"
   },
@@ -4107,7 +4108,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": false,
-    "en": "It's fine / No problem.",
+    "en": "It's fine (It's not grave)).",
     "fr": "Ce n'est pas grave.",
     "pos": "phrase"
   },
@@ -4116,7 +4117,7 @@ const PHRASE_CARDS = [
     "group": "Greetings & Politeness",
     "newGroup": false,
     "en": "Sorry, it's not possible.",
-    "fr": "Désolé(e), ce n'est pas possible.",
+    "fr": "Désolé, ce n'est pas possible.",
     "pos": "phrase"
   },
   {
@@ -4132,15 +4133,15 @@ const PHRASE_CARDS = [
     "group": "Greetings & Politeness",
     "newGroup": false,
     "en": "Thank you!",
-    "fr": "Merci !",
+    "fr": "Merci!",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": false,
-    "en": "You're welcome.",
-    "fr": "De rien.",
+    "en": "Not at all. It's nothing.",
+    "fr": "De rien. Ce n'est pas rien",
     "pos": "phrase"
   },
   {
@@ -4164,7 +4165,7 @@ const PHRASE_CARDS = [
     "group": "Restaurant & Café",
     "newGroup": true,
     "en": "A table for two?",
-    "fr": "Une table pour deux ?",
+    "fr": "Une table pour deux?",
     "pos": "phrase"
   },
   {
@@ -4172,7 +4173,7 @@ const PHRASE_CARDS = [
     "group": "Restaurant & Café",
     "newGroup": false,
     "en": "How many people?",
-    "fr": "Vous êtes combien ?",
+    "fr": "Vous êtes combien?",
     "pos": "phrase"
   },
   {
@@ -4180,14 +4181,14 @@ const PHRASE_CARDS = [
     "group": "Restaurant & Café",
     "newGroup": false,
     "en": "Inside or outside?",
-    "fr": "À l'intérieur ou en terrasse ?",
+    "fr": "À l'intérieur ou en terrasse?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Restaurant & Café",
     "newGroup": false,
-    "en": "This way, please.",
+    "en": "Through here, please.",
     "fr": "Par ici, s'il vous plaît.",
     "pos": "phrase"
   },
@@ -4203,7 +4204,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Restaurant & Café",
     "newGroup": false,
-    "en": "Would you like something to drink?",
+    "en": "You would like something to drink?",
     "fr": "Vous voulez boire quelque chose ?",
     "pos": "phrase"
   },
@@ -4212,7 +4213,7 @@ const PHRASE_CARDS = [
     "group": "Restaurant & Café",
     "newGroup": false,
     "en": "Still or sparkling?",
-    "fr": "Plate ou pétillante ?",
+    "fr": "Plate ou pétillante?",
     "pos": "phrase"
   },
   {
@@ -4228,7 +4229,7 @@ const PHRASE_CARDS = [
     "group": "Restaurant & Café",
     "newGroup": false,
     "en": "Are you ready to order?",
-    "fr": "Vous êtes prêts à commander ?",
+    "fr": "Vous êtes prêts à commander?",
     "pos": "phrase"
   },
   {
@@ -4236,14 +4237,14 @@ const PHRASE_CARDS = [
     "group": "Restaurant & Café",
     "newGroup": false,
     "en": "Go ahead, I'm listening.",
-    "fr": "Je vous écoute.",
+    "fr": "Procédez. Je vous écoute.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Restaurant & Café",
     "newGroup": false,
-    "en": "Have you chosen?",
+    "en": "You have chosen?",
     "fr": "Vous avez choisi ?",
     "pos": "phrase"
   },
@@ -4259,8 +4260,8 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Restaurant & Café",
     "newGroup": false,
-    "en": "Anything else?",
-    "fr": "Autre chose ?",
+    "en": "Anything else? (another thing)",
+    "fr": "Autre chose?",
     "pos": "phrase"
   },
   {
@@ -4268,15 +4269,15 @@ const PHRASE_CARDS = [
     "group": "Restaurant & Café",
     "newGroup": false,
     "en": "Starter / main / dessert?",
-    "fr": "Entrée, plat, dessert ?",
+    "fr": "Entrée, plat, dessert?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Restaurant & Café",
     "newGroup": false,
-    "en": "What would you like as a side?",
-    "fr": "Et comme accompagnement ?",
+    "en": "And as a side dish?",
+    "fr": "Et comme accompagnement?",
     "pos": "phrase"
   },
   {
@@ -4284,14 +4285,14 @@ const PHRASE_CARDS = [
     "group": "Restaurant & Café",
     "newGroup": false,
     "en": "Rare / medium / well done?",
-    "fr": "Saignant, à point ou bien cuit ?",
+    "fr": "Saignant, à point ou bien cuit?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Restaurant & Café",
     "newGroup": false,
-    "en": "Enjoy your meal!",
+    "en": "Enjoy your meal (good appetite)!",
     "fr": "Bon appétit !",
     "pos": "phrase"
   },
@@ -4307,16 +4308,16 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Restaurant & Café",
     "newGroup": false,
-    "en": "Would you like bread?",
-    "fr": "Vous voulez du pain ?",
+    "en": "You would like bread?",
+    "fr": "Vous voulez du pain?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Restaurant & Café",
     "newGroup": false,
-    "en": "Would you like some more?",
-    "fr": "Vous en voulez encore ?",
+    "en": "You would like some more?",
+    "fr": "Vous en voulez encore?",
     "pos": "phrase"
   },
   {
@@ -4324,7 +4325,7 @@ const PHRASE_CARDS = [
     "group": "Restaurant & Café",
     "newGroup": false,
     "en": "Everything okay?",
-    "fr": "Tout va bien ?",
+    "fr": "Tout va bien?",
     "pos": "phrase"
   },
   {
@@ -4332,7 +4333,7 @@ const PHRASE_CARDS = [
     "group": "Restaurant & Café",
     "newGroup": false,
     "en": "How was it?",
-    "fr": "Ça a été ?",
+    "fr": "Ça a été?",
     "pos": "phrase"
   },
   {
@@ -4340,7 +4341,7 @@ const PHRASE_CARDS = [
     "group": "Restaurant & Café",
     "newGroup": false,
     "en": "Takeaway?",
-    "fr": "À emporter ?",
+    "fr": "À emporter?",
     "pos": "phrase"
   },
   {
@@ -4348,7 +4349,7 @@ const PHRASE_CARDS = [
     "group": "Restaurant & Café",
     "newGroup": false,
     "en": "Would you like coffee?",
-    "fr": "Un café ?",
+    "fr": "Voulez vous un café?",
     "pos": "phrase"
   },
   {
@@ -4356,7 +4357,7 @@ const PHRASE_CARDS = [
     "group": "Restaurant & Café",
     "newGroup": false,
     "en": "The bill?",
-    "fr": "L'addition ?",
+    "fr": "L'addition?",
     "pos": "phrase"
   },
   {
@@ -4371,15 +4372,15 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Shops & Services",
     "newGroup": false,
-    "en": "Are you looking for something?",
-    "fr": "Vous cherchez quelque chose ?",
+    "en": "You are looking for something?",
+    "fr": "Vous cherchez quelque chose?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Shops & Services",
     "newGroup": false,
-    "en": "It's over there.",
+    "en": "It's through there.",
     "fr": "C'est par là.",
     "pos": "phrase"
   },
@@ -4396,7 +4397,7 @@ const PHRASE_CARDS = [
     "group": "Shops & Services",
     "newGroup": false,
     "en": "This one?",
-    "fr": "Celui-ci ?",
+    "fr": "Celui-ci?",
     "pos": "phrase"
   },
   {
@@ -4404,7 +4405,7 @@ const PHRASE_CARDS = [
     "group": "Shops & Services",
     "newGroup": false,
     "en": "What size?",
-    "fr": "Quelle taille ?",
+    "fr": "Quelle taille?",
     "pos": "phrase"
   },
   {
@@ -4412,7 +4413,7 @@ const PHRASE_CARDS = [
     "group": "Shops & Services",
     "newGroup": false,
     "en": "What colour?",
-    "fr": "Quelle couleur ?",
+    "fr": "Quelle couleur?",
     "pos": "phrase"
   },
   {
@@ -4420,7 +4421,7 @@ const PHRASE_CARDS = [
     "group": "Shops & Services",
     "newGroup": false,
     "en": "Do you have a loyalty card?",
-    "fr": "Vous avez la carte de fidélité ?",
+    "fr": "Vous avez la carte de fidélité?",
     "pos": "phrase"
   },
   {
@@ -4428,7 +4429,7 @@ const PHRASE_CARDS = [
     "group": "Shops & Services",
     "newGroup": false,
     "en": "A bag?",
-    "fr": "Un sac ?",
+    "fr": "Un sac?",
     "pos": "phrase"
   },
   {
@@ -4436,7 +4437,7 @@ const PHRASE_CARDS = [
     "group": "Shops & Services",
     "newGroup": false,
     "en": "Would you like a receipt?",
-    "fr": "Vous voulez un ticket ?",
+    "fr": "Vous voulez un ticket de caisse?",
     "pos": "phrase"
   },
   {
@@ -4444,15 +4445,15 @@ const PHRASE_CARDS = [
     "group": "Shops & Services",
     "newGroup": false,
     "en": "That's all?",
-    "fr": "C'est tout ?",
+    "fr": "C'est tout?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Shops & Services",
     "newGroup": false,
-    "en": "Cash or card?",
-    "fr": "En espèces ou par carte ?",
+    "en": "Cash or through card?",
+    "fr": "En espèces ou par carte?",
     "pos": "phrase"
   },
   {
@@ -4460,14 +4461,14 @@ const PHRASE_CARDS = [
     "group": "Shops & Services",
     "newGroup": false,
     "en": "Contactless?",
-    "fr": "Sans contact ?",
+    "fr": "Sans contact?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Shops & Services",
     "newGroup": false,
-    "en": "Enter your PIN, please.",
+    "en": "Enter your PIN code, please.",
     "fr": "Composez votre code, s'il vous plaît.",
     "pos": "phrase"
   },
@@ -4475,8 +4476,8 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Shops & Services",
     "newGroup": false,
-    "en": "It's €…",
-    "fr": "Ça fait … euros.",
+    "en": "It's six €",
+    "fr": "Ça fait six euros.",
     "pos": "phrase"
   },
   {
@@ -4491,16 +4492,16 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Shops & Services",
     "newGroup": false,
-    "en": "Sorry, we're out of stock.",
-    "fr": "Désolé(e), il n'y en a plus.",
+    "en": "Sorry, there are no more.",
+    "fr": "Désolé, il n'y en a plus.",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Shops & Services",
     "newGroup": false,
-    "en": "We close at …",
-    "fr": "On ferme à …",
+    "en": "We close at six",
+    "fr": "On ferme à six",
     "pos": "phrase"
   },
   {
@@ -4516,7 +4517,7 @@ const PHRASE_CARDS = [
     "group": "Shops & Services",
     "newGroup": false,
     "en": "Have a nice day!",
-    "fr": "Bonne journée !",
+    "fr": "Bonne journée!",
     "pos": "phrase"
   },
   {
@@ -4532,7 +4533,7 @@ const PHRASE_CARDS = [
     "group": "Transport & Travel",
     "newGroup": false,
     "en": "Where are you going?",
-    "fr": "Vous allez où ?",
+    "fr": "Vous allez où?",
     "pos": "phrase"
   },
   {
@@ -4540,7 +4541,7 @@ const PHRASE_CARDS = [
     "group": "Transport & Travel",
     "newGroup": false,
     "en": "One-way or return?",
-    "fr": "Aller simple ou aller-retour ?",
+    "fr": "Aller simple ou aller-retour?",
     "pos": "phrase"
   },
   {
@@ -4548,7 +4549,7 @@ const PHRASE_CARDS = [
     "group": "Transport & Travel",
     "newGroup": false,
     "en": "Which line?",
-    "fr": "Quelle ligne ?",
+    "fr": "Quelle ligne?",
     "pos": "phrase"
   },
   {
@@ -4556,15 +4557,15 @@ const PHRASE_CARDS = [
     "group": "Transport & Travel",
     "newGroup": false,
     "en": "Which platform?",
-    "fr": "Quel quai ?",
+    "fr": "Quel quai?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Transport & Travel",
     "newGroup": false,
-    "en": "Next stop: …",
-    "fr": "Prochain arrêt : …",
+    "en": "Next stop: Paris",
+    "fr": "Prochain arrêt : Paris",
     "pos": "phrase"
   },
   {
@@ -4587,7 +4588,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Transport & Travel",
     "newGroup": false,
-    "en": "This train is delayed.",
+    "en": "This train has some delay.",
     "fr": "Ce train a du retard.",
     "pos": "phrase"
   },
@@ -4611,15 +4612,15 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Transport & Travel",
     "newGroup": false,
-    "en": "Change at …",
-    "fr": "Correspondance à …",
+    "en": "Change at Lille",
+    "fr": "Correspondance à Lille",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Transport & Travel",
     "newGroup": false,
-    "en": "Exit this way.",
+    "en": "Exit through here.",
     "fr": "Sortie par ici.",
     "pos": "phrase"
   },
@@ -4627,7 +4628,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Transport & Travel",
     "newGroup": false,
-    "en": "Do you have a reservation?",
+    "en": "You have a reservation?",
     "fr": "Vous avez une réservation ?",
     "pos": "phrase"
   },
@@ -4643,7 +4644,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Transport & Travel",
     "newGroup": false,
-    "en": "Any bags to check in?",
+    "en": "Some bags to check in?",
     "fr": "Des bagages à enregistrer ?",
     "pos": "phrase"
   },
@@ -4651,8 +4652,8 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Transport & Travel",
     "newGroup": false,
-    "en": "Boarding gate …",
-    "fr": "Porte d'embarquement …",
+    "en": "Boarding gate six",
+    "fr": "Porte d'embarquement six",
     "pos": "phrase"
   },
   {
@@ -4668,23 +4669,23 @@ const PHRASE_CARDS = [
     "group": "Transport & Travel",
     "newGroup": false,
     "en": "Window or aisle?",
-    "fr": "Hublot ou couloir ?",
+    "fr": "Hublot ou couloir?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Transport & Travel",
     "newGroup": false,
-    "en": "Do you have anything to declare?",
-    "fr": "Vous avez quelque chose à déclarer ?",
+    "en": "You have something to declare?",
+    "fr": "Vous avez quelque chose à déclarer?",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Transport & Travel",
     "newGroup": false,
-    "en": "Your seat is …",
-    "fr": "Votre place est …",
+    "en": "Your seat is six",
+    "fr": "Votre place est six",
     "pos": "phrase"
   },
   {
@@ -4699,7 +4700,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Transport & Travel",
     "newGroup": false,
-    "en": "Taxi?",
+    "en": "A Taxi?",
     "fr": "Un taxi ?",
     "pos": "phrase"
   },
@@ -4716,14 +4717,14 @@ const PHRASE_CARDS = [
     "group": "Transport & Travel",
     "newGroup": false,
     "en": "Have a good trip!",
-    "fr": "Bon voyage !",
+    "fr": "Bon voyage!",
     "pos": "phrase"
   },
   {
     "type": "phrase",
     "group": "Everyday Interjections",
     "newGroup": true,
-    "en": "Okay / agreed.",
+    "en": "Okay / of course.",
     "fr": "D'accord.",
     "pos": "phrase"
   },
@@ -4731,7 +4732,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Everyday Interjections",
     "newGroup": false,
-    "en": "Sure / of course.",
+    "en": "Sure.",
     "fr": "Bien sûr.",
     "pos": "phrase"
   },
@@ -4739,7 +4740,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Everyday Interjections",
     "newGroup": false,
-    "en": "Right away.",
+    "en": "Right away. (quickly)",
     "fr": "Tout de suite.",
     "pos": "phrase"
   },
@@ -4747,7 +4748,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Everyday Interjections",
     "newGroup": false,
-    "en": "Actually / in fact…",
+    "en": "In fact…",
     "fr": "En fait…",
     "pos": "phrase"
   },
@@ -4755,7 +4756,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Everyday Interjections",
     "newGroup": false,
-    "en": "So… / well…",
+    "en": "So… ",
     "fr": "Alors…",
     "pos": "phrase"
   },
@@ -4788,7 +4789,7 @@ const PHRASE_CARDS = [
     "group": "Everyday Interjections",
     "newGroup": false,
     "en": "Sorry, I can't.",
-    "fr": "Désolé(e), je ne peux pas.",
+    "fr": "Désolé, je ne peux pas.",
     "pos": "phrase"
   },
   {
@@ -4796,7 +4797,7 @@ const PHRASE_CARDS = [
     "group": "Everyday Interjections",
     "newGroup": false,
     "en": "See you soon!",
-    "fr": "À bientôt !",
+    "fr": "À bientôt!",
     "pos": "phrase"
   }
 ];
@@ -4827,8 +4828,8 @@ const COMBO_CARDS = [
   {
     "type": "combo",
     "group": "I take + noun",
-    "en": "I will take a glass of water.",
-    "fr": "Je prends un verre d’eau.",
+    "en": "I will take a bottle of water.",
+    "fr": "Je prends un bouteille d’eau.",
     "pos": "sentence"
   },
   {
@@ -4974,8 +4975,8 @@ const COMBO_CARDS = [
   {
     "type": "combo",
     "group": "I take + noun",
-    "en": "I will take a bottle of water.",
-    "fr": "Je prends une bouteille d’eau.",
+    "en": "I will take some water.",
+    "fr": "Je prends de l’eau.",
     "pos": "sentence"
   },
   {
@@ -5171,7 +5172,7 @@ const COMBO_CARDS = [
   {
     "type": "combo",
     "group": "I want + noun",
-    "en": "I want bread.",
+    "en": "I want some bread.",
     "fr": "Je veux du pain.",
     "pos": "sentence"
   },
@@ -5341,7 +5342,7 @@ const COMBO_CARDS = [
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the service station?",
-    "fr": "Pour aller à la station-service ?",
+    "fr": "Pour aller à la station-service?",
     "pos": "sentence",
     "newGroup": true
   },
@@ -5349,210 +5350,210 @@ const COMBO_CARDS = [
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the hotel?",
-    "fr": "Pour aller à l’hôtel ?",
+    "fr": "Pour aller à l’hôtel?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the restaurant?",
-    "fr": "Pour aller au restaurant ?",
+    "fr": "Pour aller au restaurant?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the café?",
-    "fr": "Pour aller au café ?",
+    "fr": "Pour aller au café?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the market?",
-    "fr": "Pour aller au marché ?",
+    "fr": "Pour aller au marché?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the centre?",
-    "fr": "Pour aller au centre-ville ?",
+    "fr": "Pour aller au centre-ville?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the museum?",
-    "fr": "Pour aller au musée ?",
+    "fr": "Pour aller au musée?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the beach?",
-    "fr": "Pour aller à la plage ?",
+    "fr": "Pour aller à la plage?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the supermarket?",
-    "fr": "Pour aller au supermarché ?",
+    "fr": "Pour aller au supermarché?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the pharmacy?",
-    "fr": "Pour aller à la pharmacie ?",
+    "fr": "Pour aller à la pharmacie?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the hospital?",
-    "fr": "Pour aller à l’hôpital ?",
+    "fr": "Pour aller à l’hôpital?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the police station?",
-    "fr": "Pour aller au commissariat ?",
+    "fr": "Pour aller au commissariat?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the bus stop?",
-    "fr": "Pour aller à l’arrêt de bus ?",
+    "fr": "Pour aller à l’arrêt de bus?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the taxi rank?",
-    "fr": "Pour aller à la station de taxis ?",
+    "fr": "Pour aller à la station de taxis?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the exit?",
-    "fr": "Pour aller à la sortie ?",
+    "fr": "Pour aller à la sortie?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the entrance?",
-    "fr": "Pour aller à l’entrée ?",
+    "fr": "Pour aller à l’entrée?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the toilet?",
-    "fr": "Pour aller aux toilettes ?",
+    "fr": "Pour aller aux toilettes?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the ticket office?",
-    "fr": "Pour aller au guichet ?",
+    "fr": "Pour aller au guichet?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the platform?",
-    "fr": "Pour aller au quai ?",
+    "fr": "Pour aller au quai?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the line?",
-    "fr": "Pour aller à la ligne ?",
+    "fr": "Pour aller à la ligne?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the information desk?",
-    "fr": "Pour aller à l’accueil ?",
+    "fr": "Pour aller à l’accueil?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the reception?",
-    "fr": "Pour aller à la réception ?",
+    "fr": "Pour aller à la réception?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the car park?",
-    "fr": "Pour aller au parking ?",
+    "fr": "Pour aller au parking?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the bank?",
-    "fr": "Pour aller à la banque ?",
+    "fr": "Pour aller à la banque?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the post office?",
-    "fr": "Pour aller à la poste ?",
+    "fr": "Pour aller à la poste?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the city hall?",
-    "fr": "Pour aller à la mairie ?",
+    "fr": "Pour aller à la mairie?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the street?",
-    "fr": "Pour aller à la rue ?",
+    "fr": "Pour aller à la rue?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the square?",
-    "fr": "Pour aller à la place ?",
+    "fr": "Pour aller à la place?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the airport?",
-    "fr": "Pour aller à l’aéroport ?",
+    "fr": "Pour aller à l’aéroport?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "How to get to + place",
     "en": "How do I get to the metro?",
-    "fr": "Pour aller au métro ?",
+    "fr": "Pour aller au métro?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "There is/are + noun",
     "en": "Is there a café here?",
-    "fr": "Il y a un café ici ?",
+    "fr": "Est-ce qu'il y a un café ici?",
     "pos": "sentence",
     "newGroup": true
   },
@@ -5574,35 +5575,35 @@ const COMBO_CARDS = [
     "type": "combo",
     "group": "There is/are + noun",
     "en": "Is there a pharmacy nearby?",
-    "fr": "Il y a une pharmacie près d’ici ?",
+    "fr": "Il y a une pharmacie près d’ici?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "There is/are + noun",
     "en": "Is there a service station nearby?",
-    "fr": "Il y a une station-service près d’ici ?",
+    "fr": "Il y a une station-service près d’ici?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "There is/are + noun",
     "en": "Is there a toilet here?",
-    "fr": "Il y a des toilettes ici ?",
+    "fr": "Il y a des toilettes ici?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "There is/are + noun",
     "en": "Is there an entrance?",
-    "fr": "Il y a une entrée ?",
+    "fr": "Il y a une entrée?",
     "pos": "sentence"
   },
   {
     "type": "combo",
     "group": "There is/are + noun",
     "en": "Is there an exit?",
-    "fr": "Il y a une sortie ?",
+    "fr": "Il y a une sortie?",
     "pos": "sentence"
   },
   {
@@ -5629,7 +5630,7 @@ const COMBO_CARDS = [
   {
     "type": "combo",
     "group": "There is/are + noun",
-    "en": "There is a delay.",
+    "en": "There is some delay.",
     "fr": "Il y a du retard.",
     "pos": "sentence"
   },
@@ -5777,8 +5778,8 @@ const COMBO_CARDS = [
   {
     "type": "combo",
     "group": "It's + adjective",
-    "en": "It’s ready.",
-    "fr": "C’est prêt.",
+    "en": "It’s ready, when you are.",
+    "fr": "C’est prêt, quand tu l'es.",
     "pos": "sentence"
   },
   {
@@ -5889,7 +5890,7 @@ const COMBO_CARDS = [
   {
     "type": "combo",
     "group": "It's + adjective",
-    "en": "It’s this way.",
+    "en": "It’s through here.",
     "fr": "C’est par ici.",
     "pos": "sentence"
   },
@@ -6044,7 +6045,7 @@ const COMBO_CARDS = [
   {
     "type": "combo",
     "group": "I need + noun",
-    "en": "I need help.",
+    "en": "I need help. (have need of aid).",
     "fr": "J’ai besoin d’aide.",
     "pos": "sentence",
     "newGroup": true
