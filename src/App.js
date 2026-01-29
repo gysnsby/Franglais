@@ -161,14 +161,6 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Exact matches",
     "newGroup": false,
-    "en": "menu",
-    "fr": "menu",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Exact matches",
-    "newGroup": false,
     "en": "minute",
     "fr": "minute",
     "pos": "noun/adjective"
