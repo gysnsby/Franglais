@@ -4,7 +4,6 @@ import {
   trackNext,
   trackAutoplayToggle
 } from "./analytics";
-
 const PRODUCT_NAME = "Franglais";
 
 const TAGLINE = "Made easy";
