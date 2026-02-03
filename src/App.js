@@ -6632,7 +6632,7 @@ export default function App() {
             position: "relative",
             zIndex: 2,
             height: "34vh",
-            minHeight: 220,
+            minHeight: 240,
             maxHeight: 320,
             borderRadius: 22,
             overflow: "hidden",
