@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect } from "react";
 import {
   trackReveal,
   trackNext,
@@ -6354,7 +6355,14 @@ export default function App() {
       ? m
       : "words120";
   });
-
+// 👇 PASTE THIS BLOCK EXACTLY HERE
+  useEffect(() => {
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {}
+  }, []);
+  // 👆 END
+  
   const [repeatSet, setRepeatSet] = useState(() => {
     const s = loadPersistedState();
     const arr = Array.isArray(s?.repeat) ? s.repeat : [];
@@ -6884,6 +6892,23 @@ export default function App() {
         <div style={{ marginTop: 10, fontSize: 12, color: "#777" }}>
           Tip: Use Next to move through cards. Click the Repeat bar to hear the French again. Repeats will appear in Your Repeat Words menu for more practice. 
         </div>
+            
+        {/* ↓↓↓ PASTE AD JSX HERE ↓↓↓ */}
+        <div style={{ maxWidth: 900, margin: "24px auto 0", padding: "0 16px" }}>
+          <div style={{ fontSize: 12, opacity: 0.6, marginBottom: 6 }}>
+            Sponsored
+          </div>
+
+          <ins
+            className="adsbygoogle"
+            style={{ display: "block", minHeight: 90 }}
+            data-ad-client="ca-pub-6876741427849723"
+            data-ad-slot="6694897987"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          />
+        </div>
+        {/* ↑↑↑ END AD JSX ↑↑↑ */}
           </div>
         </div>
 
