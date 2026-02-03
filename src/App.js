@@ -6797,7 +6797,7 @@ export default function App() {
         {/* Controls */}
         <div style={{ marginTop: 12 }}>
           <div style={{ display: "flex", gap: 10 }}>
-            <button
+              <button
               prevCard}
               style={{
                 padding: 12,
