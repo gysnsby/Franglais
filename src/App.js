@@ -1,4 +1,9 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
+import {
+  trackReveal,
+  trackNext,
+  trackAutoplayToggle
+} from "./analytics";
 
 const PRODUCT_NAME = "Franglais";
 
@@ -6739,6 +6744,7 @@ export default function App() {
           >
             <button
               onClick={() => {
+                trackReveal();
                 if (!revealed) {
                   revealAndSpeak();
                 } else {
@@ -6792,7 +6798,7 @@ export default function App() {
         <div style={{ marginTop: 12 }}>
           <div style={{ display: "flex", gap: 10 }}>
             <button
-              onClick={prevCard}
+              prevCard}
               style={{
                 padding: 12,
                 borderRadius: 14,
@@ -6813,7 +6819,10 @@ export default function App() {
             </button>
 
             <button
-              onClick={nextCard}
+              onClick={() => {
+              trackNext();
+              nextCard();
+              }}
               style={{
                 flex: 1,
                 padding: 12,
@@ -6832,11 +6841,12 @@ export default function App() {
             </button>
 
             <button
-              onClick={() => {
-                clearAutoTimers();
-                setRevealed(false);
-                setAutoPlay((v) => !v);
-              }}
+            onClick={() => {
+            trackAutoplayToggle(autoPlay ? "off" : "on");
+            clearAutoTimers();
+            setRevealed(false);
+            setAutoPlay((v) => !v);
+            }}
               style={{
                 padding: 12,
                 borderRadius: 14,
