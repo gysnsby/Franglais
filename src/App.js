@@ -1,5 +1,4 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import { useEffect } from "react";
 import {
   trackReveal,
   trackNext,
@@ -7,7 +6,7 @@ import {
 } from "./analytics";
 const PRODUCT_NAME = "Franglais";
 
-const TAGLINE = "Made easy";
+const TAGLINE = "In a day";
 
 // Put the hero image in: public/hero-franglais.png (GitHub: /public/hero-franglais.png)
 const HERO_IMAGE_URL = `${process.env.PUBLIC_URL}/hero-franglais.png`;
