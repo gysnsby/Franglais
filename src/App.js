@@ -6798,7 +6798,7 @@ export default function App() {
         <div style={{ marginTop: 12 }}>
           <div style={{ display: "flex", gap: 10 }}>
               <button
-              prevCard}
+              onClick={prevCard}
               style={{
                 padding: 12,
                 borderRadius: 14,
