@@ -5,7 +5,6 @@ import {
   trackAutoplayToggle
 } from "./analytics";
 const PRODUCT_NAME = "Franglais";
-
 const TAGLINE = "In a day";
 
 // Put the hero image in: public/hero-franglais.png (GitHub: /public/hero-franglais.png)
