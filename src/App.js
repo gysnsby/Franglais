@@ -4857,8 +4857,8 @@ const COMBO_CARDS = [
   {
     "type": "combo",
     "group": "I take + noun",
-    "en": "I will take a hot coffee.",
-    "fr": "Je prends un café chaud.",
+    "en": "I will take a large coffee.",
+    "fr": "Je prends un grand.",
     "pos": "sentence"
   },
   {
@@ -4955,8 +4955,8 @@ const COMBO_CARDS = [
   {
     "type": "combo",
     "group": "I want + noun",
-    "en": "I want a coffee.",
-    "fr": "Je veux un café.",
+    "en": "I want.",
+    "fr": "Je veux.",
     "pos": "sentence",
     "newGroup": true
   },
@@ -5138,8 +5138,8 @@ const COMBO_CARDS = [
   {
     "type": "combo",
     "group": "I would like + noun",
-    "en": "I would like a coffee.",
-    "fr": "Je voudrais un café.",
+    "en": "I would like.",
+    "fr": "Je voudrais.",
     "pos": "sentence",
     "newGroup": true
   },
@@ -5279,8 +5279,8 @@ const COMBO_CARDS = [
   {
     "type": "combo",
     "group": "How to get to + place",
-    "en": "How do I get to the service station?",
-    "fr": "Pour aller à la station-service?",
+    "en": "How do I get to..?",
+    "fr": "Pour aller à?",
     "pos": "sentence",
     "newGroup": true
   },
