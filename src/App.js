@@ -4,8 +4,8 @@ import {
   trackNext,
   trackAutoplayToggle
 } from "./analytics";
-const PRODUCT_NAME = "Franglais";
-const TAGLINE = "In a day";
+const PRODUCT_NAME = "";
+const TAGLINE = "";
 
 // Put the hero image in: public/hero-franglais.png (GitHub: /public/hero-franglais.png)
 const HERO_IMAGE_URL = `${process.env.PUBLIC_URL}/hero-franglais.png`;
@@ -6568,8 +6568,8 @@ export default function App() {
             position: "relative",
             zIndex: 2,
             height: "34vh",
-            minHeight: 260,
-            maxHeight: 300,
+            minHeight: 240,
+            maxHeight: 280,
             borderRadius: 22,
             overflow: "hidden",
                         boxShadow: "0 10px 28px rgba(0,0,0,0.18)",
@@ -6583,7 +6583,7 @@ export default function App() {
               inset: 0,
               backgroundImage: `url(${HERO_IMAGE_URL})`,
               backgroundSize: "cover",
-              backgroundPosition: "center center",
+              backgroundPosition: "center top",
               opacity: 0.9,
               zIndex: 0,
               pointerEvents: "none", 
