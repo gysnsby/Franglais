@@ -6828,13 +6828,18 @@ export default function App() {
           </div>
 
           <ins
-            className="adsbygoogle"
-            style={{ display: "block", minHeight: 90 }}
-            data-ad-client="ca-pub-6876741427849723"
-            data-ad-slot="6694897987"
-            data-ad-format="horizontal"
-            data-full-width-responsive="true"
-          />
+           className="adsbygoogle"
+          style={{
+          display: "block",
+          height: 90,        // FIXED height
+          maxHeight: 90,
+          overflow: "hidden",
+          }}
+  data-ad-client="ca-pub-6876741427849723"
+  data-ad-slot="6694897987"
+  data-ad-format="horizontal"
+  data-full-width-responsive="true"
+/>
         </div>
         {/* ↑↑↑ END AD JSX ↑↑↑ */}
 
