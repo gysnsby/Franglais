@@ -6572,7 +6572,7 @@ export default function App() {
             maxHeight: 180,
             borderRadius: 22,
             overflow: "hidden",
-                        boxShadow: "0 10px 28px rgba(0,0,0,0.18)",
+            boxShadow: "0 10px 28px rgba(0,0,0,0.18)",
             marginBottom: 12,
           }}
         >
@@ -6617,22 +6617,7 @@ export default function App() {
                 {TAGLINE}
               </div>
             </div>
-
-            
-          </div>
-        </div>
-
-        {/* Pale yellow outer + lighter inner content area */}
-        <div style={{ background: "rgba(255,255,255,0.35)", borderRadius: 24, padding: 12 }}>
-          <div
-            style={{
-              background: "#FFF7CC",
-              borderRadius: 20,
-              padding: 14,
-              boxShadow: "0 8px 18px rgba(0,0,0,0.10)",
-            }}
-          >
-<div
+ <div
   style={{
     position: "absolute",
     top: 12,
@@ -6649,6 +6634,21 @@ export default function App() {
 >
   {modeSelector}
 </div>
+            
+          </div>
+        </div>
+
+        {/* Pale yellow outer + lighter inner content area */}
+        <div style={{ background: "rgba(255,255,255,0.35)", borderRadius: 24, padding: 12 }}>
+          <div
+            style={{
+              background: "#FFF7CC",
+              borderRadius: 20,
+              padding: 14,
+              boxShadow: "0 8px 18px rgba(0,0,0,0.10)",
+            }}
+          >
+
 
 {/* Progress */}
         <div style={{ marginTop: 10, display: "flex", justifyContent: "space-between", gap: 10 }}>
