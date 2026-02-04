@@ -6569,7 +6569,7 @@ export default function App() {
             zIndex: 2,
             height: "34vh",
             minHeight: 240,
-            maxHeight: 320,
+            maxHeight: 300,
             borderRadius: 22,
             overflow: "hidden",
                         boxShadow: "0 10px 28px rgba(0,0,0,0.18)",
