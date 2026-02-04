@@ -6645,6 +6645,24 @@ export default function App() {
               boxShadow: "0 8px 18px rgba(0,0,0,0.10)",
             }}
           >
+<div
+  style={{
+    position: "absolute",
+    top: 12,
+    right: 12,
+    zIndex: 10,
+    background: "rgba(255,255,255,0.92)",
+    borderRadius: 18,
+    padding: "8px 10px",
+    border: "1px solid rgba(0,0,0,0.10)",
+    boxShadow: "0 8px 18px rgba(0,0,0,0.12)",
+    backdropFilter: "blur(6px)",
+    minWidth: 230,
+  }}
+>
+  {modeSelector}
+</div>
+
 {/* Progress */}
         <div style={{ marginTop: 10, display: "flex", justifyContent: "space-between", gap: 10 }}>
           <div style={{ fontSize: 13, color: "#555" }}>
