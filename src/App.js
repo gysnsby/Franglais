@@ -6567,7 +6567,7 @@ export default function App() {
           style={{
             position: "relative",
             zIndex: 2,
-            height: "clamp(160px, 26vh, 360px)",
+            height: "clamp(160px, 25vh, 360px)",
             borderRadius: 22,
             overflow: "hidden",
             boxShadow: "0 10px 28px rgba(0,0,0,0.18)",
