@@ -124,14 +124,6 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Exact matches",
     "newGroup": false,
-    "en": "ignorant",
-    "fr": "ignorant",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Exact matches",
-    "newGroup": false,
     "en": "important",
     "fr": "important",
     "pos": "noun/adjective"
@@ -220,14 +212,6 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Exact matches",
     "newGroup": false,
-    "en": "permanent",
-    "fr": "permanent",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Exact matches",
-    "newGroup": false,
     "en": "photo",
     "fr": "photo",
     "pos": "noun/adjective"
@@ -262,14 +246,6 @@ const WORD_CARDS = [
     "newGroup": false,
     "en": "possible",
     "fr": "possible",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Exact matches",
-    "newGroup": false,
-    "en": "prudent",
-    "fr": "prudent",
     "pos": "noun/adjective"
   },
   {
@@ -407,22 +383,6 @@ const WORD_CARDS = [
     "en": "type",
     "fr": "type",
     "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Exact matches",
-    "newGroup": false,
-    "en": "virus",
-    "fr": "virus",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Add final r",
-    "newGroup": true,
-    "en": "To civilise",
-    "fr": "civiliser",
-    "pos": "verb"
   },
   {
     "type": "word",
@@ -564,7 +524,7 @@ const WORD_CARDS = [
     "type": "word",
     "group": "al → el",
     "newGroup": false,
-    "en": "mMaterial",
+    "en": "material",
     "fr": "matériel",
     "pos": "noun/adjective"
   },
@@ -732,14 +692,6 @@ const WORD_CARDS = [
     "type": "word",
     "group": "Drop: e",
     "newGroup": false,
-    "en": "chimpanzee",
-    "fr": "chimpanzé",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Drop: e",
-    "newGroup": false,
     "en": "chocolate",
     "fr": "chocolat",
     "pos": "noun/adjective"
@@ -789,7 +741,7 @@ const WORD_CARDS = [
     "group": "ate → er",
     "newGroup": false,
     "en": "To fascinate",
-    "fr": "Fasciner",
+    "fr": "fasciner",
     "pos": "verb"
   },
   {
@@ -876,7 +828,7 @@ const WORD_CARDS = [
     "type": "word",
     "group": "ry → ire",
     "newGroup": false,
-    "en": "history",
+    "en": "story / history",
     "fr": "histoire",
     "pos": "noun/adjective"
   },
@@ -1701,7 +1653,7 @@ const WORD_CARDS = [
     "group": "Add: er",
     "newGroup": false,
     "en": "To edit",
-    "fr": "Éditer",
+    "fr": "éditer",
     "pos": "noun/adjective"
   },
   {
@@ -2149,7 +2101,7 @@ const WORD_CARDS = [
     "group": "Accent: é",
     "newGroup": false,
     "en": "emotion",
-    "fr": "Éémotion",
+    "fr": "émotion",
     "pos": "noun/adjective"
   },
   {
@@ -2694,14 +2646,6 @@ const WORD_CARDS = [
     "newGroup": false,
     "en": "area",
     "fr": "aire",
-    "pos": "noun/adjective"
-  },
-  {
-    "type": "word",
-    "group": "Small spelling change",
-    "newGroup": false,
-    "en": "August",
-    "fr": "Août",
     "pos": "noun/adjective"
   },
   {
