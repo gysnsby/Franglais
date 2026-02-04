@@ -6822,12 +6822,7 @@ export default function App() {
             </button>
           </div>
         </div>
-
-        <div style={{ marginTop: 10, fontSize: 12, color: "#777" }}>
-          Tip: Use Next to move through cards. Click the Repeat bar to hear the French again. Repeats will appear in Your Repeat Words menu for more practice. 
-        </div>
-            
-        {/* ↓↓↓ PASTE AD JSX HERE ↓↓↓ */}
+                        {/* ↓↓↓ PASTE AD JSX HERE ↓↓↓ */}
         <div style={{ maxWidth: 900, margin: "24px auto 0", padding: "0 16px" }}>
           <div style={{ fontSize: 12, opacity: 0.6, marginBottom: 6 }}>
             Sponsored
@@ -6843,6 +6838,12 @@ export default function App() {
           />
         </div>
         {/* ↑↑↑ END AD JSX ↑↑↑ */}
+
+        <div style={{ marginTop: 10, fontSize: 12, color: "#777" }}>
+          Tip: Use Next to move through cards. Click the Repeat bar to hear the French again. Repeats will appear in Your Repeat Words menu for more practice. 
+        </div>
+            
+
           </div>
         </div>
 
