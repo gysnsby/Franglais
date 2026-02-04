@@ -6822,25 +6822,26 @@ export default function App() {
           </div>
         </div>
                         {/* ↓↓↓ PASTE AD JSX HERE ↓↓↓ */}
-        <div style={{ maxWidth: 900, margin: "24px auto 0", padding: "0 16px" }}>
-          <div style={{ fontSize: 12, opacity: 0.6, marginBottom: 6 }}>
-            Sponsored
-          </div>
+<div style={{ maxWidth: 900, margin: "12px auto 0", padding: "0 16px" }}>
+  <div style={{ fontSize: 12, opacity: 0.6, marginBottom: 6 }}>
+    Sponsored
+  </div>
 
-          <ins
-           className="adsbygoogle"
-          style={{
-          display: "block",
-          height: 90,        // FIXED height
-          maxHeight: 90,
-          overflow: "hidden",
-          }}
-  data-ad-client="ca-pub-6876741427849723"
-  data-ad-slot="6694897987"
-  data-ad-format="horizontal"
-  data-full-width-responsive="true"
-/>
-        </div>
+  <ins
+    className="adsbygoogle"
+    style={{
+      display: "block",
+      height: 90,
+      maxHeight: 90,
+      overflow: "hidden",
+    }}
+    data-ad-client="ca-pub-6876741427849723"
+    data-ad-slot="6694897987"
+    data-ad-format="horizontal"
+    data-full-width-responsive="true"
+  />
+</div>
+
         {/* ↑↑↑ END AD JSX ↑↑↑ */}
 
         <div style={{ marginTop: 10, fontSize: 12, color: "#777" }}>
