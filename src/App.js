@@ -6572,6 +6572,7 @@ export default function App() {
             overflow: "hidden",
             boxShadow: "0 10px 28px rgba(0,0,0,0.18)",
             marginBottom: 12,
+            backgroundColor: "#F8D866",
           }}
         >
           <div
@@ -6831,7 +6832,7 @@ export default function App() {
             style={{ display: "block", minHeight: 90 }}
             data-ad-client="ca-pub-6876741427849723"
             data-ad-slot="6694897987"
-            data-ad-format="auto"
+            data-ad-format="horizontal"
             data-full-width-responsive="true"
           />
         </div>
