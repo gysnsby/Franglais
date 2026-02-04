@@ -3990,7 +3990,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Greetings & Politeness",
     "newGroup": false,
-    "en": "How are you? (formal)",
+    "en": "How are you? (polite)",
     "fr": "Comment allez-vous ?",
     "pos": "phrase"
   },
@@ -3999,7 +3999,7 @@ const PHRASE_CARDS = [
     "group": "Greetings & Politeness",
     "newGroup": false,
     "en": "How's it going? (informal)",
-    "fr": "Ça va ?",
+    "fr": "Ça va?",
     "pos": "phrase"
   },
   {
@@ -4198,7 +4198,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Restaurant & Café",
     "newGroup": false,
-    "en": "What would you like?",
+    "en": "What will you have (take)?",
     "fr": "Qu'est-ce que vous prenez ?",
     "pos": "phrase"
   },
@@ -4398,7 +4398,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Shops & Services",
     "newGroup": false,
-    "en": "Cash or through card?",
+    "en": "By cash or through card?",
     "fr": "En espèces ou par carte?",
     "pos": "phrase"
   },
@@ -4414,7 +4414,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Shops & Services",
     "newGroup": false,
-    "en": "Enter your PIN code, please.",
+    "en": "Enter (Compose) your code, please.",
     "fr": "Composez votre code, s'il vous plaît.",
     "pos": "phrase"
   },
@@ -4422,7 +4422,7 @@ const PHRASE_CARDS = [
     "type": "phrase",
     "group": "Shops & Services",
     "newGroup": false,
-    "en": "It's six €",
+    "en": "It's six euros",
     "fr": "Ça fait six euros.",
     "pos": "phrase"
   },
@@ -4520,14 +4520,6 @@ const PHRASE_CARDS = [
     "newGroup": false,
     "en": "Attention, doors closing.",
     "fr": "Attention, fermeture des portes.",
-    "pos": "phrase"
-  },
-  {
-    "type": "phrase",
-    "group": "Transport & Travel",
-    "newGroup": false,
-    "en": "Mind the gap.",
-    "fr": "Attention à la marche.",
     "pos": "phrase"
   },
   {
@@ -4752,8 +4744,8 @@ const COMBO_CARDS = [
   {
     "type": "combo",
     "group": "I take + noun",
-    "en": "I will take a coffee.",
-    "fr": "Je prends un café.",
+    "en": "I will take...",
+    "fr": "Je prends.",
     "pos": "sentence",
     "newGroup": true
   },
@@ -4774,9 +4766,9 @@ const COMBO_CARDS = [
   {
     "type": "combo",
     "group": "I take + noun",
-    "en": "I will take a bottle of water.",
-    "fr": "Je prends un bouteille d’eau.",
-    "pos": "sentence"
+    "en": "I will take a coffee.",
+    "fr": "Je prends un café.",
+    "pos": "sentence",
   },
   {
     "type": "combo",
