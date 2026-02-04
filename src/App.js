@@ -6567,7 +6567,7 @@ export default function App() {
           style={{
             position: "relative",
             zIndex: 2,
-            height: "clamp(180px, 34vh, 300px)",
+            height: "clamp(140px, 38vh, 300px)",
             borderRadius: 22,
             overflow: "hidden",
             boxShadow: "0 10px 28px rgba(0,0,0,0.18)",
@@ -6582,6 +6582,7 @@ export default function App() {
               backgroundImage: `url(${HERO_IMAGE_URL})`,
               backgroundSize: "contain",
               backgroundPosition: "center top",
+              backgroundRepeat: "no-repeat",
               opacity: 0.9,
               zIndex: 0,
               pointerEvents: "none", 
